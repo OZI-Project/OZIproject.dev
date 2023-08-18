@@ -44,11 +44,6 @@
     transition: .4s;
   }
 
-  input:checked + .slider:before + img[alt~="Logo"] {
-    -webkit-filter: invert(1);
-    filter: invert(100%);
-  }
-
   input:checked + .slider {
     background-color: #2196F3;
   }
@@ -61,6 +56,8 @@
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
+    -webkit-filter: invert(1);
+    filter: invert(100%);
   }
   
   /* Rounded sliders */
