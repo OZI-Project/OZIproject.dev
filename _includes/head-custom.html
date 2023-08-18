@@ -43,7 +43,12 @@
     -webkit-transition: .4s;
     transition: .4s;
   }
-  
+
+  input:checked + img[alt~="Logo"]:before {
+    -webkit-filter: invert(1);
+    filter: invert(100%);
+  }
+
   input:checked + .slider {
     background-color: #2196F3;
   }
