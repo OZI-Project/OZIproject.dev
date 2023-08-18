@@ -1,7 +1,7 @@
 <a>
   <label class="dark-mode-button">
+    <input type="checkbox" id="dark-mode-toggle">
     <span class="slider round"></span>
-    <input type="checkbox">
   </label>
 </a> 
 <style> /* The switch - the box around the slider */
@@ -68,7 +68,7 @@
   } </style>
 <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.44/darkreader.js"></script>
 <script>
-document.getElementsByClassName('dark-mode-button')[0].onclick = function() {
+document.getElementById("dark-mode-toggle").onclick = function() {
     darkmode()
 }
 
