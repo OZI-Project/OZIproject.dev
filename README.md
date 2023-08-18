@@ -1,6 +1,4 @@
-# OZIproject.dev
-
-Homepage for the OZI Project: A semantic approach to packaging Python projects with Meson.
+# Home
 
 ## Links
 

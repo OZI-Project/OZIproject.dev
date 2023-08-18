@@ -1,6 +1,5 @@
-title: OZI Project
-description: Packaging Python projects with Meson
-github:
+title: OZIproject.dev
+description: Homepage for the OZI Project: A semantic approach to packaging Python projects with Meson.
   repository_url: https://github.com/rjdbcm/OZI
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
