@@ -1,12 +1,16 @@
 # OZIproject.dev
 
-A semantic approach to packaging Python projects with Meson.
+Homepage for the OZI Project: A semantic approach to packaging Python projects with Meson.
+
+## Links
+
+[![Static Badge](https://img.shields.io/badge/Documentation-grey?style=for-the-badge&logo=readthedocs&link=docs.oziproject.dev)](https://docs.oziproject.dev)
 
 ## Maintainer Blog
 
 ### Personal Introduction and OZI in-the-large
 
-18-Aug-2023
+#### 18-Aug-2023
 
 I am Eden Rose, the maintainer of the OZI project.
 I am a freelance developer. Code is a way I express myself.
