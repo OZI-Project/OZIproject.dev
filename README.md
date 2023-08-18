@@ -4,7 +4,7 @@ A semantic approach to packaging Python projects with Meson.
 
 ## Links
 
-[![Static Badge](https://img.shields.io/badge/Documentation-grey?style=for-the-badge&logo=readthedocs&link=docs.oziproject.dev)](docs.oziproject.dev)
+[![Static Badge](https://img.shields.io/badge/Documentation-grey?style=for-the-badge&logo=readthedocs&link=docs.oziproject.dev)](https://docs.oziproject.dev)
 
 ## Maintainer Blog
 
