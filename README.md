@@ -26,3 +26,15 @@ Let's talk about about OZI in-the-large:
 * I want small boilerplate build scripts.
 * I want a standardized API.
 * I want checkpointing for the distribution, documentation, linting, and testing utility environment.
+
+### Pragmatic Deferall
+
+#### 18-Aug-2023
+
+In many cases coverage reports will indicate blocks of code that writing a test for would amount to
+implementing a sanity check of the principal and reimplementing their test cases.
+
+e.g. looping over simplicial types:
+```
+# pragma: defer to python
+```
