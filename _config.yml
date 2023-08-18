@@ -1,5 +1,6 @@
 title: OZI Project
 description: Packaging Python projects with Meson
+logo: https://raw.githubusercontent.com/rjdbcm/ozi.docs/main/api/assets/ozi_logo_master.png
 github:
   repository_url: https://github.com/rjdbcm/OZI
 remote_theme: pages-themes/minimal@v0.2.0
