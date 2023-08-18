@@ -2,6 +2,10 @@
 
 A semantic approach to packaging Python projects with Meson.
 
+## Links
+
+![Static Badge](https://img.shields.io/badge/Documentation-grey?style=for-the-badge&logo=readthedocs&link=https%3A%2F%2Fdocs.oziproject.dev)
+
 ## Maintainer Blog
 
 ### Personal Introduction and OZI in-the-large
