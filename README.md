@@ -6,6 +6,8 @@
 
 [![Static Badge](https://img.shields.io/badge/Repository-grey?style=for-the-badge&logo=git)](https://github.com/rjdbcm/ozi) [![Static Badge](https://img.shields.io/badge/Documentation-grey?style=for-the-badge&logo=readthedocs&link=docs.oziproject.dev)](https://docs.oziproject.dev)
 
+[![Static Badge](https://img.shields.io/badge/OPENSSF%20BEST%20PRACTICES-grey?style=for-the-badge&logo=openssf)](https://bestpractices.coreinfrastructure.org/projects/7515/badge)
+
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fozi.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fozi?ref=badge_large)
 
 ## Maintainer Blog
