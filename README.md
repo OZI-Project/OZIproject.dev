@@ -2,7 +2,7 @@
 
 ## Links
 
-[![Static Badge](https://img.shields.io/badge/Python%20Package%20Index-grey?style=for-the-badge&logo=pypi)](https://pypi.org/project/OZI/)
+[![Static Badge](https://img.shields.io/badge/Python%20Package%20Index-grey?style=for-the-badge&logo=pypi)](https://pypi.org/project/OZI/) ![PyPI - Status](https://img.shields.io/pypi/status/ozi?style=for-the-badge)
 
 [![Static Badge](https://img.shields.io/badge/Repository-grey?style=for-the-badge&logo=git)](https://github.com/rjdbcm/ozi)
 
