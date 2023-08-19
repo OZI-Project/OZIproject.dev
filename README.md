@@ -50,7 +50,7 @@ e.g. looping over simplicial types:
 # pragma: defer to python
 ```
 
-#### Post #0 19-Aug-2023
+#### Post #3 19-Aug-2023
 
 This is the standard snippet I have been using:
 
