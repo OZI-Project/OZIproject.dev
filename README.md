@@ -49,3 +49,16 @@ e.g. looping over simplicial types:
 ```python3
 # pragma: defer to python
 ```
+
+#### Post #0 19-Aug-2023
+
+This is the standard snippet I have been using:
+
+```toml
+[tool.coverage.report]
+exclude_lines = [
+    "#\\s*(pragma|PRAGMA)[:\\s]?\\s*(no|NO)\\s*(cover|COVER)",
+    "#\\s*(pragma|PRAGMA)[:\\s]?\\s*(defer|DEFER)\\s*(to|TO)\\s*[a-zA-Z0-9_]*",
+    ...
+]
+```
