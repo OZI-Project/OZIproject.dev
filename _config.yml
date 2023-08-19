@@ -1,6 +1,6 @@
 title: OZIproject.dev
 description: Homepage for the OZI Project - A semantic approach to packaging Python projects with Meson.
-logo: https://raw.githubusercontent.com/rjdbcm/ozi.docs/main/api/assets/ozi_logo_master.png
+logo: ozi_logo_invert_master.png
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
