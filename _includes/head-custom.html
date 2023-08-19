@@ -16,6 +16,15 @@
     bottom: 0;
   }
 
+  img[alt~="Logo"] {
+    filter: invert(0)
+  }
+
+  input:checked + img[alt~="Logo"]:before {
+    -webkit-filter: invert(1);
+    filter: invert(100%);
+  }
+
   .wrapper {
     caret-color: transparent;
   }
@@ -57,7 +66,7 @@
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #1a75c1;
   }
   
   input:checked + .slider:before {
