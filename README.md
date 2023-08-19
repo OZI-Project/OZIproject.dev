@@ -27,7 +27,7 @@ Let's talk about about OZI in-the-large:
 * I want a standardized API.
 * I want checkpointing for the distribution, documentation, linting, and testing utility environment.
 
-### Pragmatic Deferall
+### Pragmatic Deferal
 
 #### 18-Aug-2023
 
