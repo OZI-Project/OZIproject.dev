@@ -4,7 +4,9 @@
 
 [![Static Badge](https://img.shields.io/badge/Python%20Package%20Index-grey?style=for-the-badge&logo=pypi)](https://pypi.org/project/OZI/)[![PyPI - Status](https://img.shields.io/pypi/status/ozi?style=for-the-badge)](https://pypi.org/project/OZI/)[![PyPI](https://img.shields.io/pypi/v/OZI?style=for-the-badge&label=%20)](https://pypi.org/project/OZI/)
 
-[![Static Badge](https://img.shields.io/badge/Repository-grey?style=for-the-badge&logo=git)](https://github.com/rjdbcm/ozi) [![Static Badge](https://img.shields.io/badge/Documentation-grey?style=for-the-badge&logo=readthedocs&link=docs.oziproject.dev)](https://docs.oziproject.dev)
+[![Static Badge](https://img.shields.io/badge/Repository-grey?style=for-the-badge&logo=git)](https://github.com/rjdbcm/ozi)[![GitHub release (with filter)](https://img.shields.io/github/v/release/rjdbcm/ozi?style=for-the-badge)](https://github.com/rjdbcm/ozi)[![GitHub tag (with filter)](https://img.shields.io/github/v/tag/rjdbcm/ozi?style=for-the-badge)](https://github.com/rjdbcm/ozi)
+
+[![Static Badge](https://img.shields.io/badge/Documentation-grey?style=for-the-badge&logo=readthedocs&link=docs.oziproject.dev)](https://docs.oziproject.dev)
 
 [![Static Badge](https://img.shields.io/badge/OPENSSF%20BEST%20PRACTICES-grey?style=for-the-badge&logo=openssf)](https://bestpractices.coreinfrastructure.org/projects/7515/badge)
 
