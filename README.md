@@ -3,7 +3,7 @@
 <a name="readme-top"></a>
 
 * [Links](https://oziproject.dev//#links)
-* [blastpipe](https://oziproject.dev//#blastpipe---ozis-integration-test-suite)
+* [Monitoring](https://oziproject.dev//#monitoring)
 * [Maintainer Blog](https://oziproject.dev//#maintainer-blog)
 
 ## Links
