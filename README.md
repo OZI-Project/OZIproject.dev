@@ -1,5 +1,9 @@
 # Home
 
+* [Links](https://oziproject.dev/#links)
+  * [blastpipe](https://oziproject.dev/#blastpipe---ozis-integration-test-suite)
+* [Maintainer Blog](https://oziproject.dev/#maintainer-blog)
+
 ## Links
 
 [![Static Badge](https://img.shields.io/badge/Python%20Package%20Index-grey?style=for-the-badge&logo=pypi)](https://pypi.org/project/OZI/)[![PyPI - Status](https://img.shields.io/pypi/status/ozi?style=for-the-badge)](https://pypi.org/project/OZI/)[![PyPI](https://img.shields.io/pypi/v/OZI?style=for-the-badge&label=%20)](https://pypi.org/project/OZI/)
@@ -12,7 +16,7 @@
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fozi.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fozi?ref=badge_large)
 
-## blastpipe - OZI's Integration Test Suite
+### blastpipe - OZI's Integration Test Suite
 
 [![Static Badge](https://img.shields.io/badge/Python%20Package%20Index-grey?style=for-the-badge&logo=pypi)](https://pypi.org/project/OZI/)[![PyPI - Status](https://img.shields.io/pypi/status/blastpipe?style=for-the-badge)](https://pypi.org/project/blastpipe/)[![PyPI](https://img.shields.io/pypi/v/blastpipe?style=for-the-badge&label=%20)](https://pypi.org/project/blastpipe/)
 
