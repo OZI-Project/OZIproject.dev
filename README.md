@@ -14,8 +14,6 @@
 
 [![Static Badge](https://img.shields.io/badge/Repository-grey?style=for-the-badge&logo=git)](https://github.com/rjdbcm/blastpipe)[![GitHub release (with filter)](https://img.shields.io/github/v/release/rjdbcm/blastpipe?style=for-the-badge)](https://github.com/rjdbcm/blastpipe)[![GitHub tag (with filter)](https://img.shields.io/github/v/tag/rjdbcm/blastpipe?style=for-the-badge)](https://github.com/rjdbcm/blastpipe)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Also on This Site
 
 * [OZI Maintainer Blog](blog.md)
