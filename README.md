@@ -3,7 +3,7 @@
 <a name="readme-top"></a>
 
 * [Links](https://oziproject.dev//#links)
-* [Monitoring](https://oziproject.dev//#monitoring)
+* [Monitoring](monitoring.md)
 * [Maintainer Blog](https://oziproject.dev//#maintainer-blog)
 
 ## Links
@@ -19,32 +19,6 @@
 [![Static Badge](https://img.shields.io/badge/Python%20Package%20Index-grey?style=for-the-badge&logo=pypi)](https://pypi.org/project/OZI/)[![PyPI - Status](https://img.shields.io/pypi/status/blastpipe?style=for-the-badge)](https://pypi.org/project/blastpipe/)[![PyPI](https://img.shields.io/pypi/v/blastpipe?style=for-the-badge&label=%20)](https://pypi.org/project/blastpipe/)
 
 [![Static Badge](https://img.shields.io/badge/Repository-grey?style=for-the-badge&logo=git)](https://github.com/rjdbcm/blastpipe)[![GitHub release (with filter)](https://img.shields.io/github/v/release/rjdbcm/blastpipe?style=for-the-badge)](https://github.com/rjdbcm/blastpipe)[![GitHub tag (with filter)](https://img.shields.io/github/v/tag/rjdbcm/blastpipe?style=for-the-badge)](https://github.com/rjdbcm/blastpipe)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Monitoring
-
-### OZI
-
-[![wakatime](https://wakatime.com/badge/github/rjdbcm/ozi.svg)](https://wakatime.com/badge/github/rjdbcm/ozi)
-
-[![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/7515/badge)](https://bestpractices.coreinfrastructure.org/projects/7515)
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fozi.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fozi?ref=badge_large)
-
-### blastpipe
-
-[![wakatime](https://wakatime.com/badge/github/rjdbcm/blastpipe.svg)](https://wakatime.com/badge/github/rjdbcm/blastpipe)
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe?ref=badge_large)
-
-### docs.OZIproject.dev
-
-[![wakatime](https://wakatime.com/badge/github/rjdbcm/ozi.docs.svg)](https://wakatime.com/badge/github/rjdbcm/ozi.docs)
-
-### OZIproject.dev
-
-[![wakatime](https://wakatime.com/badge/github/rjdbcm/OZIproject.dev.svg)](https://wakatime.com/badge/github/rjdbcm/OZIproject.dev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
