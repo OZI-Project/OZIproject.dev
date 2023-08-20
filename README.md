@@ -34,6 +34,21 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### coverage and pragma: defer
+
+#### Post #3 19-Aug-2023
+
+This is the standard snippet I have been using:
+
+```toml
+[tool.coverage.report]
+exclude_lines = [
+    "#\\s*(pragma|PRAGMA)[:\\s]?\\s*(no|NO)\\s*(cover|COVER)",
+    "#\\s*(pragma|PRAGMA)[:\\s]?\\s*(defer|DEFER)\\s*(to|TO)\\s*[a-zA-Z0-9_]*",
+    ...
+]
+```
+
 ### Personal Introduction
 
 #### Post #2 18-Aug-2023
@@ -70,17 +85,4 @@ e.g. looping over simplicial types:
 
 ```python3
 # pragma: defer to python
-```
-
-#### Post #3 19-Aug-2023
-
-This is the standard snippet I have been using:
-
-```toml
-[tool.coverage.report]
-exclude_lines = [
-    "#\\s*(pragma|PRAGMA)[:\\s]?\\s*(no|NO)\\s*(cover|COVER)",
-    "#\\s*(pragma|PRAGMA)[:\\s]?\\s*(defer|DEFER)\\s*(to|TO)\\s*[a-zA-Z0-9_]*",
-    ...
-]
 ```
