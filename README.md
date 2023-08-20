@@ -1,8 +1,8 @@
 # Home
 
-* [Links](https://oziproject.dev/#links)
-  * [blastpipe](https://oziproject.dev/#blastpipe---ozis-integration-test-suite)
-* [Maintainer Blog](https://oziproject.dev/#maintainer-blog)
+* [Links](https://oziproject.dev//#links)
+  * [blastpipe](https://oziproject.dev//#blastpipe---ozis-integration-test-suite)
+* [Maintainer Blog](https://oziproject.dev//#maintainer-blog)
 
 ## Links
 
