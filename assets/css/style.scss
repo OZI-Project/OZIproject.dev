@@ -16,5 +16,8 @@ h3 {
 h4 {
   color:#e1e7ef !important;
 }
+img[alt~="Logo"] {
+  filter: invert(1) !important;
+}
 @import "{{ site.theme }}";
 
