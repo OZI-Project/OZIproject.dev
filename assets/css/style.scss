@@ -29,8 +29,8 @@ p:hover a > img[alt="Button"]{
   transition: .5s ease;
 }
 p a > img[alt="Button"] {
-  padding: 3px 0;
-	margin: 0 0 5px;
+  padding: 3px 0 !important;
+	margin: 0 0 5px !important;
 }
 
 @import "{{ site.theme }}";
