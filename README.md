@@ -16,6 +16,6 @@
 
 ## Also on This Site
 
-* [OZI Maintainer Blog](blog.md)
-* [OZI Resource Monitoring](monitoring.md)
-* [Media Resources](media.md)
+* [Blog](blog.md)
+* [Media](media.md)
+* [Monitoring](monitoring.md)
