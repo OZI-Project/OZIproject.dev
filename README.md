@@ -18,3 +18,4 @@
 
 * [OZI Maintainer Blog](blog.md)
 * [OZI Resource Monitoring](monitoring.md)
+* [Media Resources](media.md)
