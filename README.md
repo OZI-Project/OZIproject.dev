@@ -1,4 +1,4 @@
-# OZI Homepage
+# Homepage
 
 ## OZI
 
