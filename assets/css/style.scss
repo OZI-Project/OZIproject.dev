@@ -24,19 +24,9 @@ h4 {
 img[alt~="Logo"] {
   filter: invert(0.8) !important;
 }
-a img {
-  position: relative;
-}
-img[alt="Button"] {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-a img:hover .image-badge {
+a img[alt="Button"]:hover {
   opacity: 0.3;
+  transition: .5s ease;
 }
 @import "{{ site.theme }}";
 
