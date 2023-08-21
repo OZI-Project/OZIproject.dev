@@ -29,6 +29,7 @@ p:hover a > img[alt="Button"]{
   transition: .5s ease;
   transform-origin: bottom;
   animation-name: bounce;
+  animation-fill-mode: backwards;
   animation-duration: .2s;
   animation-timing-function: ease;
 }
