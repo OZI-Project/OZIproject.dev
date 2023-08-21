@@ -25,14 +25,14 @@ img[alt~="Logo"] {
   filter: invert(0.8) !important;
 }
 p:hover a > img[alt="Button"]{
-  opacity: 0.3;
+  box-shadow: 0px 0px 0px .5em rgba(85, 85, 85, .3);
   transition: .5s ease;
 }
 p a > img[alt="Button"] {
   border-radius: 1px;
   box-shadow: 0px 0px 0px .5em rgba(85, 85, 85, 1);
   padding: 0 0 !important;
-	margin: 0 0 -1em !important;
+	margin: 0 0 0 !important;
 }
 
 @import "{{ site.theme }}";
