@@ -1,6 +1,6 @@
 # Homepage
 
-## OZI
+## OZI - Python Project Packaging for Meson
 
 [![Button](https://img.shields.io/badge/Python%20Package%20Index-grey?style=for-the-badge&logo=pypi)](https://pypi.org/project/OZI/)[![Button](https://img.shields.io/pypi/status/ozi?style=for-the-badge)](https://pypi.org/project/OZI/)[![Button](https://img.shields.io/pypi/v/OZI?style=for-the-badge&label=%20)](https://pypi.org/project/OZI/)
 
