@@ -3,17 +3,17 @@
 
 ### OZI
 
-[![wakatime](https://wakatime.com/badge/github/rjdbcm/ozi.svg)](https://wakatime.com/badge/github/rjdbcm/ozi)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fozi.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fozi?ref=badge_shield)
 
 [![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/7515/badge)](https://bestpractices.coreinfrastructure.org/projects/7515)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fozi.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fozi?ref=badge_large)
+[![wakatime](https://wakatime.com/badge/github/rjdbcm/ozi.svg)](https://wakatime.com/badge/github/rjdbcm/ozi)
 
 ### blastpipe
 
-[![wakatime](https://wakatime.com/badge/github/rjdbcm/blastpipe.svg)](https://wakatime.com/badge/github/rjdbcm/blastpipe)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe?ref=badge_shield)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe?ref=badge_large)
+[![wakatime](https://wakatime.com/badge/github/rjdbcm/blastpipe.svg)](https://wakatime.com/badge/github/rjdbcm/blastpipe)
 
 ### docs.OZIproject.dev
 
