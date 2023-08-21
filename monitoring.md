@@ -17,6 +17,8 @@
 
 ### docs.OZIproject.dev
 
+[![Documentation Status](https://readthedocs.org/projects/ozi/badge/?version=latest)](https://docs.oziproject.dev/en/latest/?badge=latest)
+
 [![wakatime](https://wakatime.com/badge/github/rjdbcm/ozi.docs.svg)](https://wakatime.com/badge/github/rjdbcm/ozi.docs)
 
 ### OZIproject.dev
