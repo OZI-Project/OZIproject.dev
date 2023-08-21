@@ -25,7 +25,7 @@ img[alt~="Logo"] {
   filter: invert(0.8) !important;
 }
 
-p a > img[alt="Button"]:hover{
+p:hover a > img[alt="Button"]{
   opacity: 0.3;
   transition: .5s ease;
 }
