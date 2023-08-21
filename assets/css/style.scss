@@ -24,9 +24,11 @@ h4 {
 img[alt~="Logo"] {
   filter: invert(0.8) !important;
 }
-a, a img[alt="Button"]:hover {
-  opacity: 0.3;
-  transition: .5s ease;
+#live_grid {
+  a img[alt="Button"]:hover {
+    opacity: 0.3;
+    transition: .5s ease;
+  }
 }
 @import "{{ site.theme }}";
 
