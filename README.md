@@ -14,10 +14,6 @@
 
 [![Button](https://img.shields.io/badge/Repository-grey?style=for-the-badge&logo=git)](https://github.com/rjdbcm/blastpipe)[![Button](https://img.shields.io/github/v/release/rjdbcm/blastpipe?style=for-the-badge)](https://github.com/rjdbcm/blastpipe)[![Button](https://img.shields.io/github/v/tag/rjdbcm/blastpipe?style=for-the-badge)](https://github.com/rjdbcm/blastpipe)
 
-## Other OZI Links
-
-* [OZI.docs Repository](https://github.com/rjdbcm/ozi.docs)
-
 ## Also on This Site
 
 * [Blog](blog.md)
