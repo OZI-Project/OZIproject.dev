@@ -26,6 +26,8 @@ h4 {
 }
 a[href^="/"] {
   color: #e1e7ef;
+}
+a[href^="/"]:hover {
   text-decoration: underline;
 }
 img[alt~="Logo"] {
