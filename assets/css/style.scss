@@ -24,6 +24,10 @@ h3 {
 h4 {
   color:#e1e7ef !important;
 }
+a[href^="/"] {
+  color: #e1e7ef;
+  text-decoration: underline;
+}
 img[alt~="Logo"] {
   filter: invert(0.8) !important;
 }
