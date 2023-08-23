@@ -6,8 +6,6 @@
 
 [![Button](https://img.shields.io/badge/Repository-grey?style=for-the-badge&logo=git)](https://github.com/rjdbcm/ozi)[![Button](https://img.shields.io/github/v/release/rjdbcm/ozi?style=for-the-badge)](https://github.com/rjdbcm/ozi)[![Button](https://img.shields.io/github/v/tag/rjdbcm/ozi?style=for-the-badge)](https://github.com/rjdbcm/ozi)
 
-[![Button](https://img.shields.io/badge/Documentation-grey?style=for-the-badge&logo=readthedocs&link=docs.oziproject.dev)](https://docs.oziproject.dev)
-
 ## blastpipe &mdash; OZI's Integration Test Suite
 
 [![Button](https://img.shields.io/badge/Python%20Package%20Index-grey?style=for-the-badge&logo=pypi)](https://pypi.org/project/OZI/)[![Button](https://img.shields.io/pypi/status/blastpipe?style=for-the-badge)](https://pypi.org/project/blastpipe/)[![Button](https://img.shields.io/pypi/v/blastpipe?style=for-the-badge&label=%20)](https://pypi.org/project/blastpipe/)
