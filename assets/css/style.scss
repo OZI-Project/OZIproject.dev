@@ -126,6 +126,20 @@ p:hover::after a > img[alt="Button"]{
 .side-menu {
   display: none;
 } /* Hide checkbox */
+.side-menu:checked ~ nav{
+  max-height: 100%;
+}
+.side-menu:checked ~ .hamb .hamb-line {
+  background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before {
+  transform: rotate(-45deg);
+  top:0;
+}
+.side-menu:checked ~ .hamb .hamb-line::after {
+  transform: rotate(45deg);
+  top:0;
+}
 @media (min-width: 768px) {
   .nav{
       max-height: none;
