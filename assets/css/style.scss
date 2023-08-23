@@ -35,6 +35,13 @@ a[href^="/"]:hover {
   color: #e1e7ef;
   text-decoration: underline;
 }
+a[href^="https://docs.oziproject.dev/"] {
+  color: #e1e7ef;
+}
+a[href^="https://docs.oziproject.dev/"]:hover {
+  color: #e1e7ef;
+  text-decoration: underline;
+}
 img[alt~="Logo"] {
   filter: invert(0.8) !important;
 }
