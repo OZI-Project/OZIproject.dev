@@ -2,7 +2,10 @@ title: OZIproject.dev
 description: '<small>
   &dagger; Meson is a registered trademark of Jussi Pakkanen. The OZI
   project is not affiliated with or endorsed by the Meson development team or Jussi Pakkanen.
-  </small>'
+  </small>
+  <p><a href="/blog.html">Blog</a></p>
+  <p><a href="/media.md">Media</a></p>
+  <p><a href="/monitoring.md">Monitoring</a></p>'
 logo: ozi_social_logo.png
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
