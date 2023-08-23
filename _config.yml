@@ -1,11 +1,16 @@
 title: OZIproject.dev
-description: '<p>
-  <a href="https://docs.oziproject.dev/">docs.OZIproject.dev Documentation</a>
-  </p>
-  <hr>
-  <p><a href="/blog.html">Blog</a></p>
-  <p><a href="/media.html">Media</a></p>
-  <p><a href="/monitoring.html">Monitoring</a></p>
+description: '
+  <input class="side-menu" type="checkbox" id="side-menu"/>
+  <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+  <nav class="nav">
+    <ul class="menu">
+      <li><a href="https://docs.oziproject.dev/">docs.OZIproject.dev Documentation</a></li>
+      <hr>
+      <li><a href="/blog.html">Blog</a></li>
+      <li><a href="/media.html">Media</a></li>
+      <li><a href="/monitoring.html">Monitoring</a></li>
+    </ul>
+  </nav>
   <hr>
   <small>
   &dagger; Meson is a registered trademark of Jussi Pakkanen. The OZI
