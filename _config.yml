@@ -1,11 +1,12 @@
 title: OZIproject.dev
-description: '<small>
+description: '<p><a href="/blog.html">Blog</a></p>
+  <p><a href="/media.html">Media</a></p>
+  <p><a href="/monitoring.html">Monitoring</a></p>
+  <hr>
+  <small>
   &dagger; Meson is a registered trademark of Jussi Pakkanen. The OZI
   project is not affiliated with or endorsed by the Meson development team or Jussi Pakkanen.
-  </small>
-  <p><a href="/blog.html">Blog</a></p>
-  <p><a href="/media.html">Media</a></p>
-  <p><a href="/monitoring.html">Monitoring</a></p>'
+  </small>'
 logo: ozi_social_logo.png
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
