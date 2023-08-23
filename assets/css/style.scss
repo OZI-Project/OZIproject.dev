@@ -42,6 +42,9 @@ a[href^="https://docs.oziproject.dev/"]:hover {
   color: #e1e7ef;
   text-decoration: underline;
 }
+p.view {
+  display: none;
+}
 img[alt~="Logo"] {
   filter: invert(0.8) !important;
 }
