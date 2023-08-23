@@ -76,6 +76,9 @@ p:hover::after a > img[alt="Button"]{
   overflow: hidden;
 
 }
+.nav>.menu>ul {
+  list-style: none;
+}
 .menu a{
   display: block;
   padding: 30px;
