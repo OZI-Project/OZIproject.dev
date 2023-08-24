@@ -43,8 +43,11 @@ a[href^="https://docs.oziproject.dev/"]:hover {
 p.view {
   display: none;
 }
-header img[alt~="Logo"] {
+header img[alt^="Logo"] {
   display: none;
+}
+section img[alt^="Logo"] {
+  filter: invert(0.8);
 }
 p:hover a > img[alt="Button"]{
   box-shadow: 0px 0px 0px .5em rgba(82, 82, 82, 1);
