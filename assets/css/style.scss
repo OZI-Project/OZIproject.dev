@@ -138,10 +138,10 @@ p:hover::after a > img[alt="Button"]{
   top:0;
 }
 .mobile {
-  float: left;
+  display: inline-block;
 }
 .mobile h1 {
-  float: inherit;
+  float: left;
 }
 .mobile a img {
   float: left;
