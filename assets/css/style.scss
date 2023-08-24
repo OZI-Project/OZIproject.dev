@@ -8,9 +8,6 @@ body {
   caret-color: transparent;
   color: #d0ffff !important;
 }
-body > .wrapper {
-  width: 60rem !important;
-}
 small {
   font-family: "Noto Mono Serif HK";
 }
@@ -170,6 +167,9 @@ p:hover::after a > img[alt="Button"]{
   float: right;
 }
 @media (min-width: 960px) {
+  body > .wrapper {
+    width: 60rem;
+  }
   .mobile h1 {
     display: none;
   }
