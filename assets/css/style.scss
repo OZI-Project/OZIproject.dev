@@ -46,7 +46,7 @@ p.view {
   display: none;
 }
 img[alt~="Logo"] {
-  filter: invert(0.8) !important;
+  display: none;
 }
 p:hover a > img[alt="Button"]{
   box-shadow: 0px 0px 0px .5em rgba(82, 82, 82, 1);
@@ -161,6 +161,9 @@ p:hover::after a > img[alt="Button"]{
   }
   .hamb{
       display: none;
+  }
+  img[alt~="Logo"] {
+    filter: invert(0.8) !important;
   }
 }
 p a > img[alt="Button"] {
