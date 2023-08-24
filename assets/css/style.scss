@@ -142,11 +142,12 @@ p:hover::after a > img[alt="Button"]{
 }
 .mobile h1 {
   float: right;
+  padding: 7px 0 0 0;
 }
 .mobile a img {
   float: right;
   filter: invert(0.8);
-  padding: 2px 20px;
+  padding: 8px 20px;
 }
 .mobile small {
   float: right;
