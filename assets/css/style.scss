@@ -209,7 +209,7 @@ p:hover::after a > img[alt="Button"]{
   .hamb{
       display: none;
   }
-  img[alt~="Logo"] {
+  header img[alt~="Logo"] {
     display: block;
     filter: invert(0.8) !important;
   }
