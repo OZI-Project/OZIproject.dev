@@ -90,7 +90,7 @@ p:hover::after a > img[alt="Button"]{
 }
 .hamb{
   cursor: pointer;
-  float: right;
+  float: inherit;
   padding: 40px 20px;
 }/* Style label tag */
 
@@ -141,11 +141,15 @@ p:hover::after a > img[alt="Button"]{
   display: inline-block;
 }
 .mobile h1 {
-  float: left;
+  float: right;
 }
 .mobile a img {
-  float: left;
+  float: right;
   filter: invert(0.8);
+  padding: 40px 20px;
+}
+.mobile small {
+  float: right;
 }
 @media (min-width: 768px) {
   .mobile{
