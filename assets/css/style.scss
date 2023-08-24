@@ -157,12 +157,12 @@ p:hover::after a > img[alt="Button"]{
   .menu a:hover{
       background-color: transparent;
       color: rgba(85, 85, 85, 1);
-
   }
   .hamb{
       display: none;
   }
   img[alt~="Logo"] {
+    display: block;
     filter: invert(0.8) !important;
   }
 }
