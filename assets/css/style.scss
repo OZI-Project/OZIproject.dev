@@ -126,7 +126,7 @@ p:hover::after a > img[alt="Button"]{
 .side-menu {
   display: none;
 } /* Hide checkbox */
-.side-menu:checked + label > nav {
+.side-menu:checked ~ nav {
   max-height: 100%;
 }
 .side-menu:checked ~ .hamb .hamb-line {
