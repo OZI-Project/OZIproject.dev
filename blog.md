@@ -1,17 +1,17 @@
-## Blog
+# Blog
 
-### OZI Homepage Layout Changes
+## OZI Homepage Layout Changes
 
-#### Post #4 24-Aug-2023
+### Post #4 24-Aug-2023
 
 The project website is reasonably done style and mobile support wise.
 I strived to match the style of our [documentation](https://docs.oziproject.dev/) subdomain.
 I have kept the minimal theme code block styling for now until I want to figure out styling.
 Back to working on the actual codebase...
 
-### coverage and pragma: defer
+## coverage and pragma: defer
 
-#### Post #3 19-Aug-2023
+### Post #3 19-Aug-2023
 
 This is the standard snippet I have been using:
 
@@ -24,9 +24,9 @@ exclude_lines = [
 ]
 ```
 
-### Personal Introduction
+## Personal Introduction
 
-#### Post #2 18-Aug-2023
+### Post #2 18-Aug-2023
 
 I am Eden Rose, the maintainer of the OZI project.
 I am a freelance developer. Code is a way I express myself.
@@ -35,9 +35,9 @@ I enjoyed those very much but am wanting something less substantial but more com
 Python is the programming language I use the most.
 The Python community needs ways to reduce the packaging learning curve.
 
-### OZI in-the-large
+## OZI in-the-large
 
-#### Post #1 18-Aug-2023
+### Post #1 18-Aug-2023
 
 The OZI project focuses on packaging Python modules with Meson.
 
@@ -49,9 +49,9 @@ Let's talk about about OZI in-the-large:
 * I want a standardized API.
 * I want checkpointing for the distribution, documentation, linting, and testing utility environment.
 
-### Pragmatic Deferal
+## Pragmatic Deferal
 
-#### Post #0 18-Aug-2023
+### Post #0 18-Aug-2023
 
 In many cases coverage reports will indicate blocks of code that writing a test for would amount to
 implementing a sanity check of the principal and reimplementing their test cases.
