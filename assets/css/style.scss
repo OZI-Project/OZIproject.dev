@@ -2,9 +2,14 @@
 ---
 
 body {
+  padding-left: 2rem;
+  padding-right: 2rem;
   background-color:#030711 !important;
   caret-color: transparent;
   color: #d0ffff !important;
+}
+.wrapper {
+  width: 60rem;
 }
 small {
   font-family: "Noto Mono Serif HK";
