@@ -107,8 +107,8 @@ p:hover::after a > img[alt="Button"]{
 }
 .hamb{
   cursor: pointer;
-  float: inherit;
-  padding: 40px 20px;
+  float: initial;
+  padding: 30px 20px;
 }/* Style label tag */
 
 .hamb-line {
