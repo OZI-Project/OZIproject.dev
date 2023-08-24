@@ -15,12 +15,12 @@ description: '
         <li><a href="/monitoring.html">Monitoring</a></li>
       </ul>
     </nav>
-    <hr>
-    <small>
-    &dagger; Meson is a registered trademark of Jussi Pakkanen. The OZI
-    project is not affiliated with or endorsed by the Meson development team or Jussi Pakkanen.
-    </small>
   </div>'
+  <hr>
+  <small>
+    &dagger; Meson is a registered trademark of Jussi Pakkanen. The OZI project is not 
+    affiliated with or endorsed by the Meson development team or Jussi Pakkanen.
+  </small>
 logo: ozi_social_logo.png
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:

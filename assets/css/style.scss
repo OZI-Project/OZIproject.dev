@@ -150,6 +150,7 @@ p:hover::after a > img[alt="Button"]{
   padding: 8px 20px;
 }
 .mobile small {
+  display: inline;
   float: right;
 }
 @media (min-width: 768px) {
