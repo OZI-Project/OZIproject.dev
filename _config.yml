@@ -1,9 +1,9 @@
 title: OZIproject.dev
 description: '
   <div class="mobile">
-  <a href="https://www.oziproject.dev/"><img src="ozi_logo_v2.png" width="72"></a>
+  <a href="https://www.oziproject.dev/"><img src="ozi_logo_v2.png" width="28"></a>
   <h1>OZIproject.dev</h1>
-  <p>Python Packaging for Meson</p>
+  <small>Python Packaging for Meson &dagger;</small>
   </div>
   <div>
     <input class="side-menu" type="checkbox" id="side-menu"/>
