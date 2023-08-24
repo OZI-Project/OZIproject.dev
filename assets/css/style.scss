@@ -13,11 +13,7 @@ h1 {
   color:#e1e7ef !important;
 }
 h1 a[href="https://www.oziproject.dev/"] {
-  color:#e1e7ef !important;
-}
-h1 a[href="https://www.oziproject.dev/"]:hover {
-  color: #e1e7ef;
-  text-decoration: underline;
+  display: none;
 }
 h2 {
   color:#e1e7ef !important;
@@ -164,6 +160,13 @@ p:hover::after a > img[alt="Button"]{
   img[alt~="Logo"] {
     display: block;
     filter: invert(0.8) !important;
+  }
+  h1 a[href="https://www.oziproject.dev/"] {
+    color:#e1e7ef !important;
+  }
+  h1 a[href="https://www.oziproject.dev/"]:hover {
+    color: #e1e7ef;
+    text-decoration: underline;
   }
 }
 p a > img[alt="Button"] {
