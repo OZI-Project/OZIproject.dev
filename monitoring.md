@@ -3,7 +3,7 @@
 
 ### OZI
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fozi.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fozi?ref=badge_shield)[![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/7515/badge)](https://bestpractices.coreinfrastructure.org/projects/7515)[![wakatime](https://wakatime.com/badge/github/rjdbcm/ozi.svg)](https://wakatime.com/badge/github/rjdbcm/ozi)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fozi.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fozi?ref=badge_shield)[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/7515/badge)](https://www.bestpractices.dev/projects/7515)[![wakatime](https://wakatime.com/badge/github/rjdbcm/ozi.svg)](https://wakatime.com/badge/github/rjdbcm/ozi)
 
 ### blastpipe
 
