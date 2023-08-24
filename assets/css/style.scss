@@ -152,7 +152,13 @@ p:hover::after a > img[alt="Button"]{
   float: right;
 }
 @media (min-width: 768px) {
-  .mobile{
+  .mobile h1 {
+    display: none;
+  }
+  .mobile a img {
+    display: none;
+  }
+  .mobile small {
     display: none;
   }
   .nav{
