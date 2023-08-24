@@ -9,7 +9,6 @@ description: '
     <nav class="nav">
       <ul class="menu">
         <li><a href="https://docs.oziproject.dev/">docs.OZIproject.dev Documentation</a></li>
-        <hr>
         <li><a href="/blog.html">Blog</a></li>
         <li><a href="/media.html">Media</a></li>
         <li><a href="/monitoring.html">Monitoring</a></li>
@@ -18,8 +17,9 @@ description: '
   </div>
   <hr>
   <small>
-    &dagger; Meson is a registered trademark of Jussi Pakkanen. The OZI project is not 
-    affiliated with or endorsed by the Meson development team or Jussi Pakkanen.
+    &dagger; <a href="https://mesonbuild.com/">Meson</a> is a registered trademark of 
+    Jussi Pakkanen. The OZI project is not affiliated with or endorsed by the Meson 
+    development team or Jussi Pakkanen.
   </small>'
 logo: ozi_social_logo.png
 remote_theme: pages-themes/minimal@v0.2.0

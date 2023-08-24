@@ -12,6 +12,3 @@
 
 [![Button](https://img.shields.io/badge/Repository-grey?style=for-the-badge&logo=git)](https://github.com/rjdbcm/blastpipe)[![Button](https://img.shields.io/github/v/release/rjdbcm/blastpipe?style=for-the-badge)](https://github.com/rjdbcm/blastpipe)[![Button](https://img.shields.io/github/v/tag/rjdbcm/blastpipe?style=for-the-badge)](https://github.com/rjdbcm/blastpipe)
 
-## External Links
-
-* [Meson](https://mesonbuild.com/)
