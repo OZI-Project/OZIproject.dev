@@ -1,5 +1,13 @@
 ## Blog
 
+### OZI Homepage Layout Changes
+
+#### Post #4 24-Aug-2023
+
+The project website is reasonably done style and mobile support wise.
+I strived to match the style of our [documentation](https://docs.oziproject.dev/) subdomain.
+I have kept the minimal theme code block styling for now until I want to figure out styling.
+Back to working on the actual codebase...
 
 ### coverage and pragma: defer
 
