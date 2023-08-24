@@ -8,8 +8,8 @@ body {
   caret-color: transparent;
   color: #d0ffff !important;
 }
-.wrapper {
-  width: 60rem;
+body > .wrapper {
+  width: 60rem !important;
 }
 small {
   font-family: "Noto Mono Serif HK";
