@@ -1,20 +1,28 @@
 title: OZIproject.dev
-description: '<div><input class="side-menu" type="checkbox" id="side-menu"/>
-  <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
-  <nav class="nav">
-    <ul class="menu">
-      <li><a href="https://docs.oziproject.dev/">docs.OZIproject.dev Documentation</a></li>
-      <hr>
-      <li><a href="/blog.html">Blog</a></li>
-      <li><a href="/media.html">Media</a></li>
-      <li><a href="/monitoring.html">Monitoring</a></li>
-    </ul>
-  </nav>
-  <hr>
-  <small>
-  &dagger; Meson is a registered trademark of Jussi Pakkanen. The OZI
-  project is not affiliated with or endorsed by the Meson development team or Jussi Pakkanen.
-  </small></div>'
+description: '
+  <div class="mobile">
+  <a href="https://www.oziproject.dev/"><img src="ozi_logo_v2.png" width="72"></a>
+  <h1>OZIproject.dev</h1>
+  <p>Python Packaging for Meson</p>
+  </div>
+  <div>
+    <input class="side-menu" type="checkbox" id="side-menu"/>
+    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="https://docs.oziproject.dev/">docs.OZIproject.dev Documentation</a></li>
+        <hr>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/media.html">Media</a></li>
+        <li><a href="/monitoring.html">Monitoring</a></li>
+      </ul>
+    </nav>
+    <hr>
+    <small>
+    &dagger; Meson is a registered trademark of Jussi Pakkanen. The OZI
+    project is not affiliated with or endorsed by the Meson development team or Jussi Pakkanen.
+    </small>
+  </div>'
 logo: ozi_social_logo.png
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:

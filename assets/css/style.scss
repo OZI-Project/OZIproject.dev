@@ -138,6 +138,9 @@ p:hover::after a > img[alt="Button"]{
   top:0;
 }
 @media (min-width: 768px) {
+  .mobile{
+    display: none;
+  }
   .nav{
       max-height: none;
       top: 0;
