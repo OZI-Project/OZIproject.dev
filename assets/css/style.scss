@@ -196,6 +196,7 @@ p:hover::after a > img[alt="Button"]{
       float: left;
   }
   .menu a:hover{
+      overflow: visible;
       background-color: transparent;
       color: rgba(85, 85, 85, 1);
   }
