@@ -72,7 +72,7 @@ p:hover::after a > img[alt="Button"]{
   width: 100%;
   height: 100%;
   position: fixed;
-  background-color: var(--black);
+  background-color: #030711;
   overflow: hidden;
 
 }
@@ -82,10 +82,10 @@ p:hover::after a > img[alt="Button"]{
 .menu a{
   display: block;
   padding: 30px;
-  color: var(--white);
+  color: #e1e7ef;
 }
 .menu a:hover{
-  background-color: var(--gray);
+  background-color: rgba(85, 85, 85, 1);
 }
 .nav{
   max-height: 0;
@@ -98,7 +98,7 @@ p:hover::after a > img[alt="Button"]{
 }/* Style label tag */
 
 .hamb-line {
-  background: var(--white);
+  background: #e1e7ef;
   display: block;
   height: 2px;
   position: relative;
@@ -108,7 +108,7 @@ p:hover::after a > img[alt="Button"]{
 
 .hamb-line::before,
 .hamb-line::after{
-  background: var(--white);
+  background: #e1e7ef;
   content: '';
   display: block;
   height: 100%;
@@ -155,7 +155,7 @@ p:hover::after a > img[alt="Button"]{
   }
   .menu a:hover{
       background-color: transparent;
-      color: var(--gray);
+      color: rgba(85, 85, 85, 1);
 
   }
   .hamb{
