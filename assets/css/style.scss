@@ -137,6 +137,13 @@ p:hover::after a > img[alt="Button"]{
   transform: rotate(45deg);
   top:0;
 }
+.mobile h1 {
+  float: inherit;
+}
+.mobile img {
+  float: left;
+  filter: invert(0.8);
+}
 @media (min-width: 768px) {
   .mobile{
     display: none;
