@@ -74,6 +74,7 @@ p:hover::after a > img[alt="Button"]{
 }
 .nav > ul.menu {
   list-style: none;
+  position: inherit;
 }
 .menu a{
   display: block;
