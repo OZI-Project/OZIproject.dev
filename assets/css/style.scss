@@ -88,13 +88,13 @@ p:hover::after a > img[alt="Button"]{
   max-height: 0;
   transition: max-height .5s ease-out;
 }
-.hamb{
+.mobile .hamb{
   cursor: pointer;
   float: right;
   padding: 40px 20px;
 }/* Style label tag */
 
-.hamb-line {
+.mobile .hamb-line {
   background: #e1e7ef;
   display: block;
   height: 2px;
@@ -103,8 +103,8 @@ p:hover::after a > img[alt="Button"]{
 
 } /* Style span tag */
 
-.hamb-line::before,
-.hamb-line::after{
+.mobile .hamb-line::before,
+.mobile .hamb-line::after{
   background: #e1e7ef;
   content: '';
   display: block;
@@ -113,10 +113,10 @@ p:hover::after a > img[alt="Button"]{
   transition: all .2s ease-out;
   width: 100%;
 }
-.hamb-line::before{
+.mobile .hamb-line::before{
   top: 5px;
 }
-.hamb-line::after{
+.mobile .hamb-line::after{
   top: -5px;
 }
 
@@ -167,7 +167,7 @@ p:hover::after a > img[alt="Button"]{
       background-color: transparent;
       color: rgba(85, 85, 85, 1);
   }
-  .hamb{
+  .mobile .hamb{
       display: none;
   }
   img[alt~="Logo"] {
