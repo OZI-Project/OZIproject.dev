@@ -179,6 +179,7 @@ p:hover::after a > img[alt="Button"]{
     filter: invert(0.8) !important;
   }
   h1 a[href="https://www.oziproject.dev/"] {
+    display: block;
     color:#e1e7ef !important;
   }
   h1 a[href="https://www.oziproject.dev/"]:hover {
