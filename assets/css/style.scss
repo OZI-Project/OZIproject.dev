@@ -88,6 +88,7 @@ p:hover::after a > img[alt="Button"]{
   background-color: rgba(85, 85, 85, 1);
 }
 .nav{
+  position: sticky;
   max-height: 0;
   transition: max-height .5s ease-out;
 }
