@@ -27,7 +27,7 @@
 
 [![Static Badge](https://img.shields.io/badge/-ozi%20%F0%9F%94%97-grey?logo=readthedocs)](https://readthedocs.org/projects/ozi/) [![Documentation Status](https://readthedocs.org/projects/ozi/badge/?version=latest)](https://docs.oziproject.dev/en/latest/?badge=latest)
 
-![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade/docs.oziproject.dev?publish&logo=mozilla)
+![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade/docs.oziproject.dev?publish&logo=mozilla) ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fdocs.oziproject.dev)
 
 [![wakatime](https://wakatime.com/badge/github/rjdbcm/ozi.docs.svg)](https://wakatime.com/badge/github/rjdbcm/ozi.docs)
 
@@ -36,7 +36,7 @@
 [![Static Badge](https://img.shields.io/badge/-OZIproject.dev%20%F0%9F%94%97-grey?logo=github)](https://github.com/rjdbcm/OZIproject.dev/) ![GitHub language count](https://img.shields.io/github/languages/count/rjdbcm/OZIproject.dev)
  ![GitHub top language](https://img.shields.io/github/languages/top/rjdbcm/OZIproject.dev) ![GitHub deployments](https://img.shields.io/github/deployments/rjdbcm/OZIproject.dev/github-pages) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2FOZIproject.dev.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2FOZIproject.dev?ref=badge_shield)
 
-![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade/oziproject.dev?publish&logo=mozilla)
+![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade/oziproject.dev?publish&logo=mozilla) ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Foziproject.dev)
 
 [![wakatime](https://wakatime.com/badge/github/rjdbcm/OZIproject.dev.svg)](https://wakatime.com/badge/github/rjdbcm/OZIproject.dev)
 
