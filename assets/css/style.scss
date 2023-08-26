@@ -205,6 +205,9 @@ section img[alt^="Logo"] {
     display: block;
     filter: invert(0.8) !important;
   }
+  header>h1 {
+    display: block;
+  }
   h1 a[href="https://www.oziproject.dev/"] {
     display: block;
     color:#e1e7ef !important;
