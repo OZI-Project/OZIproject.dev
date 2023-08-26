@@ -191,6 +191,9 @@ section img[alt^="Logo"] {
   .menu li{
       float: left;
   }
+  .menu a {
+    text-decoration: none;
+  }
   .menu a:visited{
     background-color: rgba(85, 85, 85, 1);
   }
@@ -198,6 +201,7 @@ section img[alt^="Logo"] {
       overflow: visible;
       font-size: .850rem;
       background-color: transparent;
+      text-decoration: underline;
   }
   .hamb{
       display: none;
