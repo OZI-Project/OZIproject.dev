@@ -9,7 +9,7 @@ document.getElementById("hamb-menu-btn").addEventListener("keyup", function(even
         }
     }
 });
-document.getElementsByClassName("menu-item").array.forEach(menuLink => {
+document.getElementsByClassName("menu-item").forEach(menuLink => {
     menuLink.addEventListener("keyUp", function(event) {
         event.preventDefault();
         if (event.code === "Enter"){
