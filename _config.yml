@@ -7,7 +7,7 @@ description: '
     <h1 id="primary-navigation">OZIproject.dev</h1>
     <small>Python Packaging for Meson &dagger;</small>
     <input class="side-menu" type="checkbox" id="side-menu"/>
-    <label class="hamb" for="side-menu" tabindex=0">
+    <label class="hamb" for="side-menu" tabindex=0" id="hamb-menu-btn">
       <span class="hamb-line"></span>
     </label>
     <script src="/assets/js/accessibility.js"></script>
