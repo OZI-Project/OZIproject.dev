@@ -128,7 +128,7 @@ section img[alt^="Logo"] {
   top: -5px;
 }
 .side-menu {
-  opacity: 0;
+  display: none;
 } /* Hide checkbox */
 .side-menu:checked ~ nav {
   max-height: 100%;
