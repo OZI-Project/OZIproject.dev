@@ -13,7 +13,7 @@ document.getElementsByClassName("menu-item").forEach(menuLink => {
     menuLink.addEventListener("keyUp", function(event) {
         event.preventDefault();
         if (event.code === "Enter"){
-            menuLink.children[0].click();
+            menuLink.children[0].focus();
         }
     })
 });
