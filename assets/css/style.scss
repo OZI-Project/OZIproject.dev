@@ -14,6 +14,9 @@ small {
 h1 {
   color:#e1e7ef !important;
 }
+header>h1 {
+  display: none;
+}
 h1>a[href="https://www.oziproject.dev/"] {
   display: none;
 }
