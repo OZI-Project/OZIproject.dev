@@ -9,11 +9,12 @@ document.getElementById("hamb-menu-btn").addEventListener("keyup", function(even
         }
     }
 });
-document.getElementsByClassName("menu-item").forEach(menuLink => {
-    menuLink.addEventListener("keyUp", function(event) {
+let menuLinks =document.getElementsByClassName("menu-item")
+for(var i = 0; i < menuLinks.length; i++) {
+    menuLinks[i].addEventListener("keyUp", function(event){
         event.preventDefault();
         if (event.code === "Enter"){
-            menuLink.children[0].focus();
+            menuLinks[i].children[0].focus();
         }
-    })
-});
+    }
+)};
