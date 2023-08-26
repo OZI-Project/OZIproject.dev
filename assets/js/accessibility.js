@@ -9,12 +9,3 @@ document.getElementById("hamb-menu-btn").addEventListener("keyup", function(even
         }
     }
 });
-let menuLinks =document.getElementsByClassName("menu-item")
-for(var i = 0; i < menuLinks.length; i++) {
-    menuLinks[i].addEventListener("keyUp", function(event){
-        event.preventDefault();
-        if (event.code === "Enter"){
-            menuLinks[i].children[0].focus();
-        }
-    }
-)};
