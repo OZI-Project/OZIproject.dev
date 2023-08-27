@@ -39,7 +39,8 @@ h4 {
 }
 a:focus { outline:thin dotted; }
 a[href^="/"] { color: #e1e7ef; }
-a[href^="/"]:hover {
+a[href^="/"]:hover,
+a[href^="/"]:focus {
   color: #e1e7ef;
   text-decoration: underline;
 }
