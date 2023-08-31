@@ -4,28 +4,28 @@
 
 ### Post #5 30-Aug-2023
 
-This is what will need to happen before working on an Alpha version for PyPI.
-Update standard documentation snippets due to a major version change from semantic-version 7 to 8.
-Satisfy the following Best Practices silver attestations:
+This is what will need to happen before working on an Alpha version for PyPI:
+* Update standard documentation snippets due to a major version change from semantic-version 7 to 8.
+* Satisfy the following Best Practices silver attestations:
 
-* [dco]
-* [governance]
-* [roles_responsibilities]
-* [documentation_roadmap] - Need to write
-* [documentation_security] - Need to write
-* [documentation_quick_start]
-  * 1. Write create project script.
-  * 2. Write a guide for install and create project.
-* [accessibility_best_practices]
-* [internationalization]
-* [maintenance_or_update]
-* [vulnerability_response_process]
-* [automated_integration_testing] - should release a test log artifact
-* [regression_tests_added50]
-* [test_policy_mandated] - need to clarify policy in OZI.docs
-* [implement_secure_design]
-* [hardening]
-* [assurance_case](https://github.com/coreinfrastructure/best-practices-badge/blob/main/docs/security.md)
+  * [dco]
+  * [governance]
+  * [roles_responsibilities]
+  * [documentation_roadmap] - Need to write
+  * [documentation_security] - Need to write
+  * [documentation_quick_start]
+    * 1. Write create project script.
+    * 2. Write a guide for install and create project.
+  * [accessibility_best_practices]
+  * [internationalization]
+  * [maintenance_or_update]
+  * [vulnerability_response_process]
+  * [automated_integration_testing] - should release a test log artifact
+  * [regression_tests_added50]
+  * [test_policy_mandated] - need to clarify policy in OZI.docs
+  * [implement_secure_design]
+  * [hardening]
+  * [assurance_case](https://github.com/coreinfrastructure/best-practices-badge/blob/main/docs/security.md)
 
 ## OZI Homepage Layout Changes
 
