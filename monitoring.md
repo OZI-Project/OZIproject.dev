@@ -6,15 +6,14 @@
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/7515/badge)](https://www.bestpractices.dev/projects/7515)
 
 ### OZI
-
-![GitHub language count](https://img.shields.io/github/languages/count/rjdbcm/ozi)
+[![Semantic Release](https://github.com/rjdbcm/OZI/actions/workflows/dist-workflow.yml/badge.svg)](https://github.com/rjdbcm/OZI/actions/workflows/dist-workflow.yml) [![CodeQL](https://github.com/rjdbcm/OZI/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/rjdbcm/OZI/actions/workflows/github-code-scanning/codeql) ![GitHub language count](https://img.shields.io/github/languages/count/rjdbcm/ozi)
  ![GitHub top language](https://img.shields.io/github/languages/top/rjdbcm/ozi) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fozi.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fozi?ref=badge_shield)
 
 [![wakatime](https://wakatime.com/badge/github/rjdbcm/ozi.svg)](https://wakatime.com/badge/github/rjdbcm/ozi)
 
 ### blastpipe
 
-![GitHub language count](https://img.shields.io/github/languages/count/rjdbcm/blastpipe)
+[![Semantic Release](https://github.com/rjdbcm/blastpipe/actions/workflows/ozi.yml/badge.svg)](https://github.com/rjdbcm/blastpipe/actions/workflows/ozi.yml) ![GitHub language count](https://img.shields.io/github/languages/count/rjdbcm/blastpipe)
  ![GitHub top language](https://img.shields.io/github/languages/top/rjdbcm/blastpipe) 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fblastpipe?ref=badge_shield)
 
