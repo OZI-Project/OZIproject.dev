@@ -11,6 +11,11 @@ body {
 small {
   font-family: "Noto Mono Serif HK";
 }
+code, pre {
+  color: #d0ffff;
+  background-color: #0f1629;
+  border-radius: .25rem;
+}
 h1 {
   color:#e1e7ef !important;
 }
