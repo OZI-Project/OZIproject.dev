@@ -1,5 +1,24 @@
 # Blog
 
+## Alpha Progress and Project Relicensing
+
+### Post #6 16-Sept-2023
+
+As of 13-Sept-2023 I have switched the main repository license to Apache-2.0 WITH LLVM-Exception.
+This will reduce the burden of notice and attribution on projects published by OZI's end users using the ``ozi-new`` tool.
+
+Over the past week I have been working on making the publishing script ``ozi-new`` support PEP639's potential changes to PyPA classifiers. Until the Python Packaging Authority accepts or rejects PEP639
+we will warn users who select an ambiguous License classifier to clarify it with License-Expression and License-File keys. Currently these keys are slated for implementation in Metadata-Version 2.4. 
+
+Until then we are using a comment at the top of the PKG-INFO payload e.g.
+```php
+.. OZI
+  Classifier: License-Expression :: [SPDX-License-Expression]
+  Classifier: License-File :: LICENSE.txt
+```
+
+The majority of the Pre-Alpha work remaining will be documentation related.
+
 ## OZI Matriculation to Alpha
 
 ### Post #5 30-Aug-2023
