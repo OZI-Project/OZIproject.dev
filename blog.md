@@ -1,8 +1,14 @@
 # Blog
 
+## Progress Update
+
+### Post #7 25-Sep-2023
+
+So I am *very* pleased with the current state of OZI. I am confident an Alpha can start before year end. To that end I will need to update ``blastpipe`` to be created from the OZI publishing scripts, ``ozi-new`` and ``ozi-fix``. It is likely that we will need to rethink the mechanics of integration into the OZI release process. Currently it gets very confused about the path if you run ``blastpipe`` as a subproject. That is, it attempts to run from the toplevel project directory.
+
 ## Alpha Progress and Project Relicensing
 
-### Post #6 16-Sept-2023
+### Post #6 16-Sep-2023
 
 As of 13-Sept-2023 I have switched the main repository license to Apache-2.0 WITH LLVM-Exception.
 This will reduce the burden of notice and attribution on projects published by OZI's end users using the ``ozi-new`` tool.
