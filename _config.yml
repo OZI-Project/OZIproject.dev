@@ -15,6 +15,7 @@ description: '
       <ul class="menu">
         <li tabindex=0 class="menu-item"><a href="https://docs.oziproject.dev/">docs.OZIproject.dev Documentation</a></li>
         <li tabindex=0 class="menu-item"><a href="/blog.html">Blog</a></li>
+        <li tabindex=0 class="menu-item"><a href="/CHANGELOG.md">Changelog</a></li>
         <li tabindex=0 class="menu-item"><a href="/media.html">Media</a></li>
         <li tabindex=0 class="menu-item"><a href="/monitoring.html">Monitoring</a></li>
       </ul>
