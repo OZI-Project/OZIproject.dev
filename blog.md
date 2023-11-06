@@ -1,5 +1,11 @@
 # Blog
 
+## Triage and Tweaks
+
+### Post #8 06-Nov-2023
+
+So over the next few weeks I will be creating issues for enhancements I would like to get done before the Alpha release in January. I will also be reconstructing blastpipe with the ``ozi-new`` tool as the slice demonstration test it originally was intended to be.
+
 ## Progress Update
 
 ### Post #7 25-Sep-2023
