@@ -11,7 +11,7 @@
 
 [![wakatime](https://wakatime.com/badge/github/rjdbcm/ozi.svg)](https://wakatime.com/badge/github/rjdbcm/ozi)
 
-[![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.oziproject.dev%2Fapi.json&query=%24.spec.version&logo=json&label=JSON%20API&link=https%3A%2F%2Fwww.oziproject.dev%2Fapi.json)(https://www.oziproject.dev/api.json)]
+[![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.oziproject.dev%2Fapi.json&query=%24.spec.version&logo=json&label=JSON%20API&link=https%3A%2F%2Fwww.oziproject.dev%2Fapi.json)](https://www.oziproject.dev/api.json)
 
 ### blastpipe
 
