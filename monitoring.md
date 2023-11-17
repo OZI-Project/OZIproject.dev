@@ -11,6 +11,8 @@
 
 [![wakatime](https://wakatime.com/badge/github/rjdbcm/ozi.svg)](https://wakatime.com/badge/github/rjdbcm/ozi)
 
+[JSON API](https://oziproject.dev/api.json)
+
 ### blastpipe
 
 [![Semantic Release](https://github.com/rjdbcm/blastpipe/actions/workflows/ozi.yml/badge.svg)](https://github.com/rjdbcm/blastpipe/actions/workflows/ozi.yml) [![CodeQL](https://github.com/rjdbcm/blastpipe/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/rjdbcm/blastpipe/actions/workflows/github-code-scanning/codeql) ![GitHub language count](https://img.shields.io/github/languages/count/rjdbcm/blastpipe)
