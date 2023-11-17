@@ -1,0 +1,141 @@
+{
+    "ozi": {
+      "version": "0.0.201"
+    },
+    "spec": {
+      "version": "0.1",
+      "python": {
+        "build": {
+          "backend": "mesonpep517.buildapi",
+          "requires": {
+            "mesonpep517": "mesonpep517",
+            "meson": "meson>=1.1.0",
+            "ninja": "ninja",
+            "pip-tools": "pip-tools",
+            "setuptools": "setuptools>=64",
+            "setuptools_scm": "setuptools_scm[toml]>=6.2",
+            "tomli": "tomli>=2.0.0"
+          }
+        },
+        "ci": {
+          "backend": "tox",
+          "checkpoint": {
+            "suites": [
+              "dist",
+              "lint",
+              "test"
+            ]
+          },
+          "publish": {
+            "include": [
+              "*.tar.gz",
+              "*.whl",
+              "sig/*"
+            ]
+          },
+          "providers": [
+            "github"
+          ]
+        },
+        "format": {
+          "date": "%Y-%m-%d %H:%M:%S",
+          "line_end": "LF",
+          "log": "%(asctime)s [%(levelname)8s] %(name)s: %(message)s (%(filename)s:%(lineno)s)",
+          "max_line_length": "93",
+          "version_placeholder": "{version}"
+        },
+        "support": {
+          "implementations": [
+            "CPython"
+          ],
+          "metadata_version": "2.1",
+          "major": "3",
+          "prerelease": "3.13",
+          "bugfix1": "3.12",
+          "bugfix2": "3.11",
+          "security": "3.10",
+          "deprecation_schedule": {
+            "8": "2024-10-01",
+            "9": "2025-10-01",
+            "10": "2026-10-01",
+            "11": "2027-10-01",
+            "12": "2028-10-01",
+            "13": "2029-10-01"
+          }
+        },
+        "dist": {
+          "exclude": [],
+          "module": [
+            "pyc_wheel",
+            "python-semantic-release",
+            "sigstore"
+          ],
+          "plugin": {},
+          "utility": {
+            "pyc_wheel": "pyc_wheel",
+            "python-semantic-release": "python-semantic-release",
+            "sigstore": "sigstore"
+          }
+        },
+        "lint": {
+          "exclude": [
+            "venv",
+            "meson-private"
+          ],
+          "module": [
+            "bandit",
+            "black",
+            "flake8",
+            "isort",
+            "mypy",
+            "pyright"
+          ],
+          "plugin": {
+            "Flake8-pyproject": "Flake8-pyproject",
+            "flake8-annotations": "flake8-annotations",
+            "flake8-broken-line": "flake8-broken-line",
+            "flake8-bugbear": "flake8-bugbear",
+            "flake8-comprehensions": "flake8-comprehensions",
+            "flake8-datetimez": "flake8-datetimez",
+            "flake8-docstring-checker": "flake8-docstring-checker",
+            "flake8-eradicate": "flake8-eradicate",
+            "flake8-fixme": "flake8-fixme",
+            "flake8-leading-blank-lines": "flake8-leading-blank-lines",
+            "flake8-no-pep420": "flake8-no-pep420",
+            "flake8-pyi": "flake8-pyi",
+            "flake8-pytest-style": "flake8-pytest-style",
+            "flake8-quotes": "flake8-quotes",
+            "flake8-tidy-imports": "flake8-tidy-imports",
+            "flake8-type-checking": "flake8-type-checking"
+          },
+          "utility": {
+            "bandit": "bandit[toml]",
+            "black": "black",
+            "flake8": "flake8",
+            "isort": "isort",
+            "mypy": "mypy",
+            "pyright": "pyright"
+          }
+        },
+        "test": {
+          "exclude": [],
+          "module": [
+            "coverage",
+            "pytest"
+          ],
+          "plugin": {
+            "hypothesis": "hypothesis[all]",
+            "pytest-asyncio": "pytest-asyncio",
+            "pytest-cov": "pytest-cov",
+            "pytest-randomly": "pytest-randomly",
+            "pytest-tcpclient": "pytest-tcpclient",
+            "pytest-xdist": "pytest-xdist"
+          },
+          "utility": {
+            "coverage": "coverage[toml]",
+            "pytest": "pytest"
+          }
+        }
+      }
+    }
+  }
