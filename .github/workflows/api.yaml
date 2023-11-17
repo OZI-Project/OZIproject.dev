@@ -1,0 +1,20 @@
+on:
+    schedule:
+      - cron: '0 0 * * 0,1,2,3,4,5,6'
+
+jobs:
+    update:
+        runs-on: ubuntu-latest
+        steps:
+
+            - name: Set up Python 3.12
+              uses: actions/setup-python@61a6322f88396a6271a6ee3565807d608ecaddd1
+              with:
+               cache: 'pip'
+               python-version: '3.12'
+
+            - name: Update OZI API metadata
+              run: |
+                python -m pip install --upgrade pip
+                python -m pip install OZI
+                python -c 'import json;from ozi import metadata;f=open('api.json', 'w');json.dump(metadata, f, indent=2);f.close()'
