@@ -7,7 +7,7 @@
 
 ### OZI
 [![Semantic Release](https://github.com/rjdbcm/OZI/actions/workflows/dist-workflow.yml/badge.svg)](https://github.com/rjdbcm/OZI/actions/workflows/dist-workflow.yml) [![CodeQL](https://github.com/rjdbcm/OZI/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/rjdbcm/OZI/actions/workflows/github-code-scanning/codeql) ![GitHub language count](https://img.shields.io/github/languages/count/rjdbcm/ozi)
- ![GitHub top language](https://img.shields.io/github/languages/top/rjdbcm/ozi) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fozi.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fozi?ref=badge_shield)
+ ![GitHub top language](https://img.shields.io/github/languages/top/rjdbcm/ozi) [![OSSF-Scorecard Score](https://img.shields.io/ossf-scorecard/github.com/OZI-Project/OZI)](https://securityscorecards.dev/viewer/?uri=github.com%2FOZI-Project%2FOZI) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frjdbcm%2Fozi.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Frjdbcm%2Fozi?ref=badge_shield)
 
 [![wakatime](https://wakatime.com/badge/github/rjdbcm/ozi.svg)](https://wakatime.com/badge/github/rjdbcm/ozi)
 
