@@ -34,3 +34,5 @@ plugins:
 show_downloads: true
 github:
   repository_url: https://github.com/OZI-Project/OZI
+  tar_url: https://github.com/OZI-Project/OZI/tarball/main
+  zip_url: https://github.com/OZI-Project/OZI/zipball/main
