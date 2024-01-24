@@ -52,7 +52,7 @@ h4 {
 a:hover,
 a:focus {
 color:#069;
-font-weight:normal
+font-weight:normal !important;
 }
 a:focus { outline:thin dotted; }
 a[href^="/"] { color: #e1e7ef; }
