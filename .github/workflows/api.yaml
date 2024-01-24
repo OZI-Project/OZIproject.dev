@@ -2,10 +2,18 @@ on:
     schedule:
       - cron: '0 0 * * 0,1,2,3,4,5,6'
 
+permissions:
+  contents: read
+
 jobs:
     update:
         runs-on: ubuntu-latest
         steps:
+
+            - name: Harden Runner
+              uses: step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895 # v2.6.1
+              with:
+                egress-policy: audit
 
             - name: Set up Python 3.12
               uses: actions/setup-python@61a6322f88396a6271a6ee3565807d608ecaddd1
