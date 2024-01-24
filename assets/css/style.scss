@@ -49,6 +49,11 @@ h4 {
   color: #d0ffff;
   text-decoration: none;
 }
+a:hover,
+a:focus {
+color:#069;
+font-weight:normal
+}
 a:focus { outline:thin dotted; }
 a[href^="/"] { color: #e1e7ef; }
 a[href^="/"]:hover,
