@@ -4,7 +4,7 @@ The goal of OZI is to make Python package publishing easier.
 
 This project is under active development but *unstable*.
 
-OZI is expected to be in Alpha release status by January 2024.
+OZI is expected to be in Alpha release status by ~January 2024~ Q1 2024.
 
 ## OZI &mdash; Python Project Packaging for Meson
 
