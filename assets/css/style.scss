@@ -1,6 +1,9 @@
 ---
 ---
-
+a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
+  font-family: 'FontAwesome';
+  content: " \f08e";
+}
 body {
   padding-left: 2rem;
   padding-right: 2rem;
