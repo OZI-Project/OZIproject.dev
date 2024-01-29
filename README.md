@@ -1,6 +1,6 @@
 # Homepage
 
-The goal of OZI is to make Python package publishing easier.
+OZI is a set of free (and open source) tools to make Python package publishing easier.
 
 This project is under active development but *unstable*.
 
