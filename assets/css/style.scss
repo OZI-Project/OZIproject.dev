@@ -8,6 +8,10 @@ a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
 font-family:'FontAwesome';
 content:" \f08e"
 }
+.downloads li a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
+font-family:'FontAwesome';
+content:""
+}
 body {
   padding-left: 2rem;
   padding-right: 2rem;
