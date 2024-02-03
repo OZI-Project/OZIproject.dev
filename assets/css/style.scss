@@ -226,7 +226,7 @@ p > a:not([href*=\'oziproject.dev\']):not([href^=\'#\']):not([href^=\'/\']):afte
 	font-family:\'FontAwesome\';
 }
 
-@media min-width 960px {
+@media (min-width 960px) {
 	body > .wrapper
 	{
 		width:60rem;
