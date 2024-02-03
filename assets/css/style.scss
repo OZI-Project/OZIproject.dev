@@ -52,6 +52,16 @@ h3 {
 h4 {
   color:#e1e7ef !important;
 }
+.downloads a strong {
+  font-size: 14px;
+  display: inline-block !important;
+  color: #222;
+}
+.downloads a strong:hover {
+  font-size: 14px;
+  display: block;
+  color: #222;
+}
 .downloads li:not(:last-child) a:before {
 font-family:'FontAwesome';
 content:" \f019"
