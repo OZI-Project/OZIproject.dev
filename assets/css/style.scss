@@ -1,347 +1,306 @@
 ---
 ---
-100%
-{
-	box-shadow:0 0 0 .5em rgba(85,85,85,1);
+p > a:not([href*=\'oziproject.dev\']):not([href^=\'#\']):not([href^=\'/\']):after {
+font-family:\'FontAwesome\';
+content:\"\"
+}
+a:not([href*=\'oziproject.dev\']):not([href^=\'#\']):not([href^=\'/\']):after {
+font-family:\'FontAwesome\';
+content:\" \\f08e\"
+}
+.downloads li a:not([href*=\'oziproject.dev\']):not([href^=\'#\']):not([href^=\'/\']):after {
+font-family:\'FontAwesome\';
+content:\"\"
+}
+body {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color:#030711 !important;
+  caret-color: transparent;
+  color: #d0ffff !important;
+}
+small {
+  font-family: \"Noto Mono Serif HK\";
+}
+code, pre {
+  color: #d0ffff !important;
+  background-color: #0f1629;
+  border-radius: .25rem;
+}
+pre {
+  background: #0f1629 !important;
+  border-radius: .25rem !important;
+}
+.highlight {
+  background-color: #0f1629 !important;
+}
+h1 {
+  color:#e1e7ef !important;
+}
+header>h1 {
+  display: none;
+}
+h1>a[href=\"https://www.oziproject.dev/\"] {
+  display: none;
+}
+h2 {
+  color:#e1e7ef !important;
+}
+h3 {
+  color:#e1e7ef !important;
+}
+h4 {
+  color:#e1e7ef !important;
+}
+.downloads a strong {
+  font-size: 14px;
+  display: inline-block !important;
+  color: #222;
+}
+.downloads a strong:hover {
+  font-size: 14px;
+  display: block;
+  color: #222;
+}
+.downloads li:not(:last-child) a:before {
+font-family:\'FontAwesome\';
+content:\" \\f019\"
+}
+.downloads li:last-child a strong:before {
+font-family:\'FontAwesome\';
+content:\"\\f09b  \"
+}
+.downloads a {
+  line-height: 1;
+  font-size: 11px;
+  color: #676767;
+  display: block;
+  text-align: center;
+  padding-top: 6px;
+  height: 34px;
+  text-decoration: none;
+}
+.wrapper a {
+  color: #e1e7ef;
+  text-decoration: underline;
+}
+.wrapper a:hover {
+  color: #d0ffff;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+color:#069;
+font-weight:normal !important;
+}
+a:focus { outline:thin dotted; }
+a[href^=\"/\"] { color: #e1e7ef; }
+a[href^=\"/\"]:hover,
+a[href^=\"/\"]:focus {
+  color: #e1e7ef;
+  text-decoration: underline;
+}
+a[href^=\"https://docs.oziproject.dev/\"] {
+  color: #e1e7ef;
+}
+a[href^=\"https://docs.oziproject.dev/\"]:hover {
+  color: #e1e7ef;
+  text-decoration: underline;
+}
+p.view {
+  display: none;
+}
+header img[alt^=\"Logo\"] {
+  display: none;
+}
+section img[alt^=\"Logo\"] {
+  filter: invert(0.8);
+}
+@keyframes pulse {
+  0%   { box-shadow: 0px 0px 0px .5em rgba(80, 80, 80, 1);}
+  50%  { box-shadow: 0px 0px 0px .5em rgba(82, 82, 82, 1);}
+  100% { box-shadow: 0px 0px 0px .5em rgba(85, 85, 85, 1); }
+}
+.nav{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #030711;
+  overflow: hidden;
+}
+.nav > ul.menu {
+  padding-left: 0px;
+  list-style: none;
+  position: inherit;
+  display: grid;
+  font-size: .875rem;
+  grid-auto-flow: row;
+  grid-auto-rows: max-content;
+  line-height: 1.25rem;
+  overflow: hidden;
+  transform: translate3d(var(--tw-translate-x),var(--tw-translate-y),0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+.menu a{
+  display: block;
+  padding: 5px;
+  color: #e1e7ef;
+  text-decoration: none;
+}
+.menu a:hover{
+  background-color: rgba(85, 85, 85, 1);
+}
+.nav{
+  position: sticky;
+  max-height: 0;
+  transition: max-height .5s ease-out;
+}
+.hamb{
+  cursor: pointer;
+  float: initial;
+  padding: 30px 20px;
+  margin: 1rem;
+}/* Style label tag */
+.hamb-line {
+  background: #e1e7ef;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 24px;
+} /* Style span tag */
+.hamb-line::before,
+.hamb-line::after{
+  background: #e1e7ef;
+  content: \'\';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+.hamb-line::before{
+  top: 5px;
+}
+.hamb-line::after{
+  top: -5px;
+}
+.side-menu {
+  display: none;
+} /* Hide checkbox */
+.side-menu:checked ~ nav {
+  max-height: 100%;
+}
+.side-menu:checked ~ .hamb .hamb-line {
+  background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before {
+  transform: rotate(-45deg);
+  top:0;
+}
+.side-menu:checked ~ .hamb .hamb-line::after {
+  transform: rotate(45deg);
+  top:0;
+}
+.mobile {
+  display: inline-block;
+}
+.mobile h1 {
+  float: right;
+  padding: 7px 0 0 0;
+}
+.mobile a img {
+  float: right;
+  filter: invert(0.8);
+  padding: 8px 20px;
+}
+.mobile small {
+  display: inline;
+  float: right;
+}
+@media (min-width: 960px) {
+  body > .wrapper {
+    width: 60rem;
+  }
+  .wrapper section {
+    width: 600px;
+  }
+  .mobile h1 {
+    display: none;
+  }
+  .mobile a img {
+    display: none;
+  }
+  .mobile small {
+    display: none;
+  }
+  .nav{
+      max-height: none;
+      top: 0;
+      position: relative;
+      float: right;
+      width: -moz-fit-content;
+      width: fit-content;
+      background-color: transparent;
+  }
+  .menu li{
+      float: left;
+  }
+  .menu a {
+    text-decoration: none;
+  }
+  .menu a:visited{
+    background-color: rgba(85, 85, 85, 1);
+  }
+  .menu a:hover{
+      overflow: visible;
+      font-size: .850rem;
+      background-color: transparent;
+      text-decoration: underline;
+  }
+  .hamb{
+      display: none;
+  }
+  header img[alt~=\"Logo\"] {
+    display: block;
+    filter: invert(0.8) !important;
+  }
+  header>h1 {
+    display: block;
+  }
+  h1 a[href=\"https://www.oziproject.dev/\"] {
+    display: block;
+    color:#e1e7ef !important;
+    text-decoration: none;
+  }
+  h1 a[href=\"https://www.oziproject.dev/\"]:hover {
+    color: #e1e7ef;
+    text-decoration: underline;
+  }
+  p a > img[alt=\"Button\"] {
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px .4em rgba(85, 85, 85, 1);
+    padding: 0 0 !important;
+    margin: 0 0 0 !important;
+  }
+  p:hover a > img[alt=\"Button\"]{
+    box-shadow: 0px 0px 0px .5em rgba(82, 82, 82, 1);
+    transition: .1s linear;
+    transform-origin: bottom;
+    animation-name: pulse;
+    animation-fill-mode: backwards;
+    animation-delay: .1s;
+    animation-duration: .4s;
+    animation-timing-function: ease;
+  }
+  p:hover::after a > img[alt=\"Button\"]{
+    box-shadow: 0px 0px 0px .4em rgba(82, 82, 82, 1);
+    transition: .4s linear;
+    transform-origin: bottom;
+  }
 }
 
-50%
-{
-	box-shadow:0 0 0 .5em rgba(82,82,82,1);
-}
 
-.downloads a strong
-{
-	color:#222;
-	display:inline-block!important;
-	font-size:14px;
-}
-
-.downloads a strong:hover
-{
-	color:#222;
-	display:block;
-	font-size:14px;
-}
-
-.downloads a
-{
-	color:#676767;
-	display:block;
-	font-size:11px;
-	height:34px;
-	line-height:1;
-	padding-top:6px;
-	text-align:center;
-	text-decoration:none;
-}
-
-.downloads li:last-child a strong:before
-{
-	content:\"\\f09b \";
-	font-family:\'FontAwesome\';
-}
-
-.downloads li:not(:last-child) a:before
-{
-	content:\" \\f019\";
-	font-family:\'FontAwesome\';
-}
-
-.hamb-line
-{
-	background:#e1e7ef;
-	display:block;
-	height:2px;
-	position:relative;
-	width:24px;
-}
-
-.hamb-line::after
-{
-	top:-5px;
-}
-
-.hamb-line::before,.hamb-line::after
-{
-	background:#e1e7ef;
-	content:\'\';
-	display:block;
-	height:100%;
-	position:absolute;
-	transition:all .2s ease-out;
-	width:100%;
-}
-
-.hamb-line::before
-{
-	top:5px;
-}
-
-.hamb
-{
-	cursor:pointer;
-	display:none;
-	float:initial;
-	margin:1rem;
-	padding:30px 20px;
-}
-
-.highlight
-{
-	background-color:#0f1629!important;
-}
-
-.menu a
-{
-	color:#e1e7ef;
-	display:block;
-	padding:5px;
-	text-decoration:none;
-}
-
-.menu a:hover
-{
-	background-color:rgba(85,85,85,1);
-	font-size:.850rem;
-	overflow:visible;
-	text-decoration:underline;
-}
-
-.menu a:visited
-{
-	background-color:rgba(85,85,85,1);
-}
-
-.menu li
-{
-	float:left;
-}
-
-.mobile a img
-{
-	display:none;
-	filter:invert(0.8);
-	float:right;
-	padding:8px 20px;
-}
-
-.mobile h1
-{
-	display:none;
-	float:right;
-	padding:7px 0 0;
-}
-
-.mobile small
-{
-	display:inline;
-	float:right;
-}
-
-.mobile
-{
-	display:inline-block;
-}
-
-.nav > ul.menu
-{
-	display:grid;
-	font-size:.875rem;
-	grid-auto-flow:row;
-	grid-auto-rows:max-content;
-	line-height:1.25rem;
-	list-style:none;
-	overflow:hidden;
-	padding-left:0;
-	position:inherit;
-	transform:translate3d(var(--tw-translate-x),var(--tw-translate-y),0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-	transition-duration:.3s;
-	transition-property:all;
-	transition-timing-function:cubic-bezier(.4,0,.2,1);
-}
-
-.nav
-{
-	background-color:#030711;
-	float:right;
-	height:100%;
-	max-height:0;
-	overflow:hidden;
-	position:fixed;
-	top:0;
-	transition:max-height .5s ease-out;
-	width:100%;
-}
-
-.side-menu
-{
-	display:none;
-}
-
-.side-menu:checked ~ .hamb .hamb-line
-{
-	background:transparent;
-}
-
-.side-menu:checked ~ .hamb .hamb-line::after
-{
-	top:0;
-	transform:rotate(45deg);
-}
-
-.side-menu:checked ~ .hamb .hamb-line::before
-{
-	top:0;
-	transform:rotate(-45deg);
-}
-
-.side-menu:checked ~ nav
-{
-	max-height:100%;
-}
-
-.wrapper a
-{
-	color:#e1e7ef;
-	text-decoration:underline;
-}
-
-.wrapper a:hover
-{
-	color:#d0ffff;
-	text-decoration:none;
-}
-
-.wrapper section
-{
-	width:600px;
-}
-
----
----
-p > a:not([href*=\'oziproject.dev\']):not([href^=\'#\']):not([href^=\'/\']):after,.downloads li a:not([href*=\'oziproject.dev\']):not([href^=\'#\']):not([href^=\'/\']):after
-{
-	content:\"\";
-	font-family:\'FontAwesome\';
-}
-
-@media (min-width 960px) {
-	body > .wrapper
-	{
-		width:60rem;
-	}
-	
-	a:focus
-	{
-		outline:thin dotted;
-	}
-	
-	a:hover,a:focus
-	{
-		color:#069;
-		font-weight:400!important;
-	}
-	
-	a:not([href*=\'oziproject.dev\']):not([href^=\'#\']):not([href^=\'/\']):after
-	{
-		content:\" \\f08e\";
-		font-family:\'FontAwesome\';
-	}
-	
-	body
-	{
-		background-color:#030711!important;
-		caret-color:transparent;
-		color:#d0ffff!important;
-		padding-left:2rem;
-		padding-right:2rem;
-	}
-	
-	code,pre
-	{
-		background-color:#0f1629;
-		border-radius:.25rem;
-		color:#d0ffff!important;
-	}
-	
-	h1 a[href=\"https://www.oziproject.dev/\"]
-	{
-		color:#e1e7ef!important;
-		display:block;
-		text-decoration:none;
-	}
-	
-	header img[alt~=\"Logo\"]
-	{
-		display:block;
-		filter:invert(0.8)!important;
-	}
-	
-	p a > img[alt=\"Button\"]
-	{
-		border-radius:1px;
-		box-shadow:0 0 0 .4em rgba(85,85,85,1);
-		margin:0!important;
-		padding:0!important;
-	}
-	
-	p:hover a > img[alt=\"Button\"]
-	{
-		animation-delay:.1s;
-		animation-duration:.4s;
-		animation-fill-mode:backwards;
-		animation-name:pulse;
-		animation-timing-function:ease;
-		box-shadow:0 0 0 .5em rgba(82,82,82,1);
-		transform-origin:bottom;
-		transition:.1s linear;
-	}
-	
-	p:hover::after a > img[alt=\"Button\"]
-	{
-		box-shadow:0 0 0 .4em rgba(82,82,82,1);
-		transform-origin:bottom;
-		transition:.4s linear;
-	}
-	
-	pre
-	{
-		background:#0f1629!important;
-		border-radius:.25rem!important;
-	}
-	
-	section img[alt^=\"Logo\"]
-	{
-		filter:invert(0.8);
-	}
-	
-	small
-	{
-		font-family:\"Noto Mono Serif HK\";
-	}
-	
-	a[href^=\"/\"],a[href^=\"https://docs.oziproject.dev/\"]
-	{
-		color:#e1e7ef;
-	}
-	
-	a[href^=\"/\"]:hover,a[href^=\"/\"]:focus,a[href^=\"https://docs.oziproject.dev/\"]:hover,h1 a[href=\"https://www.oziproject.dev/\"]:hover
-	{
-		color:#e1e7ef;
-		text-decoration:underline;
-	}
-	
-	h1,h2,h3,h4
-	{
-		color:#e1e7ef!important;
-	}
-	
-	h1>a[href=\"https://www.oziproject.dev/\"],header img[alt^=\"Logo\"],header>h1,p.view
-	{
-		display:none;
-	}
-}
-
-@import "{{ site.theme }}";
+@import \"{{ site.theme }}\";
 
