@@ -1,16 +1,16 @@
 ---
 ---
-p > a:not([href*=\'oziproject.dev\']):not([href^=\'#\']):not([href^=\'/\']):after {
-font-family:\'FontAwesome\';
-content:\"\"
+p > a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
+font-family:'FontAwesome';
+content:""
 }
-a:not([href*=\'oziproject.dev\']):not([href^=\'#\']):not([href^=\'/\']):after {
-font-family:\'FontAwesome\';
-content:\" \\f08e\"
+a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
+font-family:'FontAwesome';
+content:" \f08e"
 }
-.downloads li a:not([href*=\'oziproject.dev\']):not([href^=\'#\']):not([href^=\'/\']):after {
-font-family:\'FontAwesome\';
-content:\"\"
+.downloads li a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
+font-family:'FontAwesome';
+content:""
 }
 body {
   padding-left: 2rem;
@@ -20,7 +20,7 @@ body {
   color: #d0ffff !important;
 }
 small {
-  font-family: \"Noto Mono Serif HK\";
+  font-family: "Noto Mono Serif HK";
 }
 code, pre {
   color: #d0ffff !important;
@@ -40,7 +40,7 @@ h1 {
 header>h1 {
   display: none;
 }
-h1>a[href=\"https://www.oziproject.dev/\"] {
+h1>a[href="https://www.oziproject.dev/"] {
   display: none;
 }
 h2 {
@@ -63,12 +63,12 @@ h4 {
   color: #222;
 }
 .downloads li:not(:last-child) a:before {
-font-family:\'FontAwesome\';
-content:\" \\f019\"
+font-family:'FontAwesome';
+content:" \f019"
 }
 .downloads li:last-child a strong:before {
-font-family:\'FontAwesome\';
-content:\"\\f09b  \"
+font-family:'FontAwesome';
+content:"\f09b  "
 }
 .downloads a {
   line-height: 1;
@@ -94,26 +94,26 @@ color:#069;
 font-weight:normal !important;
 }
 a:focus { outline:thin dotted; }
-a[href^=\"/\"] { color: #e1e7ef; }
-a[href^=\"/\"]:hover,
-a[href^=\"/\"]:focus {
+a[href^="/"] { color: #e1e7ef; }
+a[href^="/"]:hover,
+a[href^="/"]:focus {
   color: #e1e7ef;
   text-decoration: underline;
 }
-a[href^=\"https://docs.oziproject.dev/\"] {
+a[href^="https://docs.oziproject.dev/"] {
   color: #e1e7ef;
 }
-a[href^=\"https://docs.oziproject.dev/\"]:hover {
+a[href^="https://docs.oziproject.dev/"]:hover {
   color: #e1e7ef;
   text-decoration: underline;
 }
 p.view {
   display: none;
 }
-header img[alt^=\"Logo\"] {
+header img[alt^="Logo"] {
   display: none;
 }
-section img[alt^=\"Logo\"] {
+section img[alt^="Logo"] {
   filter: invert(0.8);
 }
 @keyframes pulse {
@@ -173,7 +173,7 @@ section img[alt^=\"Logo\"] {
 .hamb-line::before,
 .hamb-line::after{
   background: #e1e7ef;
-  content: \'\';
+  content: '';
   display: block;
   height: 100%;
   position: absolute;
@@ -262,29 +262,29 @@ section img[alt^=\"Logo\"] {
   .hamb{
       display: none;
   }
-  header img[alt~=\"Logo\"] {
+  header img[alt~="Logo"] {
     display: block;
     filter: invert(0.8) !important;
   }
   header>h1 {
     display: block;
   }
-  h1 a[href=\"https://www.oziproject.dev/\"] {
+  h1 a[href="https://www.oziproject.dev/"] {
     display: block;
     color:#e1e7ef !important;
     text-decoration: none;
   }
-  h1 a[href=\"https://www.oziproject.dev/\"]:hover {
+  h1 a[href="https://www.oziproject.dev/"]:hover {
     color: #e1e7ef;
     text-decoration: underline;
   }
-  p a > img[alt=\"Button\"] {
+  p a > img[alt="Button"] {
     border-radius: 1px;
     box-shadow: 0px 0px 0px .4em rgba(85, 85, 85, 1);
     padding: 0 0 !important;
     margin: 0 0 0 !important;
   }
-  p:hover a > img[alt=\"Button\"]{
+  p:hover a > img[alt="Button"]{
     box-shadow: 0px 0px 0px .5em rgba(82, 82, 82, 1);
     transition: .1s linear;
     transform-origin: bottom;
@@ -294,7 +294,7 @@ section img[alt^=\"Logo\"] {
     animation-duration: .4s;
     animation-timing-function: ease;
   }
-  p:hover::after a > img[alt=\"Button\"]{
+  p:hover::after a > img[alt="Button"]{
     box-shadow: 0px 0px 0px .4em rgba(82, 82, 82, 1);
     transition: .4s linear;
     transform-origin: bottom;
@@ -302,5 +302,5 @@ section img[alt^=\"Logo\"] {
 }
 
 
-@import \"{{ site.theme }}\";
+@import "{{ site.theme }}";
 
