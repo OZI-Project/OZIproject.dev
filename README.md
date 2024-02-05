@@ -6,6 +6,8 @@ This project is under active development but *unstable*.
 
 OZI is expected to be in Alpha release status by <s>January 2024</s> Q1 2024.
 
+[![Logo](https://raw.githubusercontent.com/OZI-Project/.github/main/github-metrics-ozi-project.svg)]
+
 ## OZI &mdash; Python Project Packaging for Meson
 
 [![Button](https://img.shields.io/badge/Python%20Package%20Index-grey?style=for-the-badge&logo=pypi)](https://pypi.org/project/OZI/)[![Button](https://img.shields.io/pypi/status/ozi?style=for-the-badge)](https://pypi.org/project/OZI/)[![Button](https://img.shields.io/pypi/v/OZI?style=for-the-badge&label=%20)](https://pypi.org/project/OZI/)
