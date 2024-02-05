@@ -13,7 +13,6 @@ description: '
     <script src="/assets/js/accessibility.js"></script>
     <nav class="nav">
       <ul class="menu">
-        <li tabindex=0 class="menu-item"><a href="/blog.html">Blog</a></li>
         <li tabindex=0 class="menu-item"><a href="https://github.com/orgs/OZI-Project/discussions">Community</a></li>
         <li tabindex=0 class="menu-item"><a href="https://docs.oziproject.dev/">Documentation</a></li>
         <li tabindex=0 class="menu-item"><a href="/funding.html">Funding</a></li>
