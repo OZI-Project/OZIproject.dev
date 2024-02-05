@@ -145,7 +145,10 @@ section img[alt^="Logo"] {
   text-decoration: none;
 }
 .menu a:hover{
-  background-color: rgba(85, 85, 85, 1);
+    overflow: visible;
+    font-size: .850rem;
+    background-color: rgba(85, 85, 85, 1);
+    text-decoration: underline;
 }
 .nav{
   position: sticky;
@@ -239,6 +242,7 @@ section img[alt^="Logo"] {
       width: fit-content;
       background-color: transparent;
   }
+  
   .menu li{
       float: left;
   }
@@ -251,7 +255,7 @@ section img[alt^="Logo"] {
   .menu a:hover{
       overflow: visible;
       font-size: .850rem;
-      background-color: transparent;
+      background-color: rgba(85, 85, 85, 1);
       text-decoration: underline;
   }
   .hamb{
