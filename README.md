@@ -1,6 +1,6 @@
 # Homepage
 
-[![Logo](https://raw.githubusercontent.com/OZI-Project/.github/main/github-metrics-ozi-project.svg)](https://github.com/OZI-Project)
+[![Button](https://raw.githubusercontent.com/OZI-Project/.github/main/github-metrics-ozi-project.svg)](https://github.com/OZI-Project)
 
 ## OZI &mdash; Python Project Packaging for Meson
 
