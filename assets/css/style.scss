@@ -173,6 +173,10 @@ section img[alt^="Logo"] {
     font-size: 1.175rem;
     background-color: rgba(85, 85, 85, 1);
     text-decoration: underline;
+    transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transition-duration:.3s;
+    transition-property:all;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
 }
 .nav{
   position: sticky;
@@ -286,6 +290,10 @@ section img[alt^="Logo"] {
       font-size: 1.175rem;
       background-color: rgba(85, 85, 85, 1);
       text-decoration: underline;
+      transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+      transition-duration:.3s;
+      transition-property:all;
+      transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
   }
   .hamb{
       display: none;
