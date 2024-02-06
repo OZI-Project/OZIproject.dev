@@ -14,9 +14,9 @@ font-size: 1.7rem;
 content:" \f092  ";
 }
 a[href*='https://github.com/orgs/OZI-Project/discussions']:hover:before {
-font-family:inherit;
+font-family:'FontAwesome';
 font-size: 1.6rem;
-content:inherit;
+content:" \f09b  ";
 }
 a[href^='https://docs.oziproject.dev/']:after {
   display: block;
