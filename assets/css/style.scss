@@ -9,9 +9,12 @@ font-family:'FontAwesome';
 content:" \f08e"
 }
 a[href^='https://docs.oziproject.dev/']::after {
-content: url(https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/readthedocs-logo-wordmark-vertical-compact-light.svg);
-height: 32px;
-width: 32px;
+  display: block;
+  content: ' ';
+  background-image: url('https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/readthedocs-logo-wordmark-vertical-compact-light.svg');
+  background-size: 28px 28px;
+  height: 28px;
+  width: 28px;
 }
 .downloads li a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
 font-family:'FontAwesome';
