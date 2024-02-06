@@ -13,9 +13,4 @@ A set of free (and open source) tools to make Python package publishing easier. 
   license. The GitHub&#174; Octocat&#174; logo and other trademarks are used under the terms of a <a href="https://github.com/logos">license</a>.
   The OZI Project is not affiliated with or endorsed by GitHub, Inc.
 </small>
-<!-- [![Button](https://img.shields.io/badge/OZI%20pipeline%20on%20GitLab-grey?style=for-the-badge&logo=gitlab)](https://gitlab.com/ozi-project)
-
-[![Button](https://img.shields.io/badge/Patreon-grey?style=for-the-badge&logo=patreon&color=grey&link=https%3A%2F%2Fwww.patreon.com%2FOZIProject)](https://www.patreon.com/OZIProject)
-
-[![Button](https://img.shields.io/badge/ko--fi-grey?style=for-the-badge&logo=kofi&link=https%3A%2F%2Fko-fi.com%2Foziproject)](https://ko-fi.com/oziproject)
---> 
+ 
