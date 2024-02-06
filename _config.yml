@@ -33,7 +33,7 @@ description: '
   <small>
     The GitHub&#174; Octocat&#174; logo and other trademarks are used under the terms of a <a href="https://github.com/logos">license</a>.
     The OZI Project is not affiliated with or endorsed by GitHub, Inc.
-  </small>
+  </small>'
 logo: ozi_social_logo.png
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
