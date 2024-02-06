@@ -10,7 +10,11 @@ content:" \f08e";
 }
 a[href*='https://github.com/orgs/OZI-Project/discussions']:before {
 font-family:'FontAwesome';
-content:" \f086";
+content:" \f086 ";
+}
+a[href*='oziproject.dev/media.html']:before {
+font-family:'FontAwesome';
+content:" \f87c ";
 }
 a[href^='https://docs.oziproject.dev/']:after {
   display: block;
