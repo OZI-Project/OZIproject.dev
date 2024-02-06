@@ -16,6 +16,7 @@ a[href^='https://docs.oziproject.dev/']:after {
   background-size: 160px 32px;
   height: 32px;
   width: 160px;
+  border-bottom:1px solid transparent;
 }
 a[href^='https://docs.oziproject.dev/']:hover:after {
   display: block;
