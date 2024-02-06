@@ -25,12 +25,12 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
 a[href^='https://www.patreon.com/OZIProject']:before {
 font-family:'FontAwesome';
 font-size: 1.7rem;
-content:" \f3d9  ";
+content:" \f4c0  ";
 }
 a[href^='https://www.patreon.com/OZIProject']:hover:before {
 font-family:'FontAwesome';
 font-size: 1.6rem;
-content:" \f3d9  ";
+content:" \f4c0  ";
 transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 transition-duration:.3s;
 transition-property:all;
