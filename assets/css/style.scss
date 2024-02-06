@@ -20,9 +20,9 @@ a[href^='https://docs.oziproject.dev/']:hover:after {
   display: block;
   content: ' ';
   background-image: url('https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/readthedocs-logo-wordmark-light.svg');
-  background-size: 160px 32px;
-  height: 30px;
-  width: 150px;
+  background-size: 150px 30px;
+  height: 32px;
+  width: 160px;
 }
 .downloads li a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
 font-family:'FontAwesome';
