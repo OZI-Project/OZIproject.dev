@@ -167,6 +167,7 @@ section img[alt^="Logo"] {
   color: #e1e7ef;
   text-decoration: none;
   font-size: 1.225rem;
+  border-bottom:1px solid transparent;
 }
 .menu a:hover{
     overflow: visible;
@@ -276,6 +277,7 @@ section img[alt^="Logo"] {
     color: #e1e7ef;
     text-decoration: none;
     font-size: 1.225rem;
+    border-bottom:1px solid transparent;
   }
   .menu a:visited{
     background-color: rgba(85, 85, 85, 1);
