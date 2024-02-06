@@ -10,7 +10,8 @@ content:" \f08e";
 }
 a[href*='https://github.com/orgs/OZI-Project/discussions']:before {
 font-family:'FontAwesome';
-content:" \f092 ";
+font-size: 1.7rem;
+content:" \f092  ";
 }
 a[href^='https://docs.oziproject.dev/']:after {
   display: block;
