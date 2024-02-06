@@ -8,6 +8,10 @@ small a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
 font-family:'FontAwesome';
 content:" \f08e";
 }
+a[href*='https://github.com/orgs/OZI-Project/discussions']:before {
+font-family:'FontAwesome';
+content:" \f086";
+}
 a[href^='https://docs.oziproject.dev/']:after {
   display: block;
   content: ' ';
