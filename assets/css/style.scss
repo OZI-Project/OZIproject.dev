@@ -13,6 +13,11 @@ font-family:'FontAwesome';
 font-size: 1.7rem;
 content:" \f092  ";
 }
+a[href*='https://github.com/orgs/OZI-Project/discussions']:before:hover {
+font-family:inherit;
+font-size: 1.6rem;
+content:inherit;
+}
 a[href^='https://docs.oziproject.dev/']:after {
   display: block;
   content: ' ';
