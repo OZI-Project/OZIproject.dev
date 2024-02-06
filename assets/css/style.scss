@@ -162,7 +162,7 @@ section img[alt^="Logo"] {
   transition-timing-function: cubic-bezier(.4,0,.2,1);
 }
 .menu a{
-  display: block ruby;
+  display: inherit;
   padding: 5px;
   color: #e1e7ef;
   text-decoration: none;
@@ -272,7 +272,7 @@ section img[alt^="Logo"] {
       float: left;
   }
   .menu a{
-    display: block ruby;
+    display: inherit;
     padding: 5px;
     color: #e1e7ef;
     text-decoration: none;
