@@ -25,6 +25,7 @@ a[href^='https://docs.oziproject.dev/']:hover:after {
   background-size: 155px 31px;
   height: 32px;
   width: 160px;
+  border-bottom:1px solid #e1e7ef;
 }
 .downloads li a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
 font-family:'FontAwesome';
