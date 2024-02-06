@@ -191,7 +191,8 @@ section img[alt^="Logo"] {
 .menu a{
   height: 32px;
   width: 160px;
-  display: inherit;
+  display: table-cell;
+  vertical-align: middle;
   padding: 5px;
   color: #e1e7ef;
   text-decoration: none;
@@ -306,7 +307,8 @@ section img[alt^="Logo"] {
       float: left;
   }
   .menu a{
-    display: inherit;
+    display: table-cell;
+    vertical-align: middle;
     padding: 5px;
     color: #e1e7ef;
     text-decoration: none;
