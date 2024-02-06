@@ -12,7 +12,7 @@ a[href^='https://docs.oziproject.dev/']:after {
   display: block;
   content: ' ';
   background-image: url('https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/readthedocs-logo-wordmark-light.svg');
-  background-size: auto 32px;
+  background-size: 160px 32px;
   height: 32px;
 }
 .downloads li a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
