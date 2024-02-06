@@ -30,6 +30,9 @@ body {
 small {
   font-family: "Noto Mono Serif HK";
 }
+footer p small {
+  display: none;
+}
 code, pre {
   color: #d0ffff !important;
   background-color: #0f1629;
