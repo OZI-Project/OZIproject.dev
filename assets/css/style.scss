@@ -3,12 +3,12 @@
 p > a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
 font-family:'FontAwesome';
 content:"";
-display: block;
+display: none;
 }
 a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
 font-family:'FontAwesome';
 content:" \f08e";
-display: block;
+display: none;
 }
 a[href^='https://docs.oziproject.dev/']:after {
   display: block;
