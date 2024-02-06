@@ -9,7 +9,7 @@ font-family:'FontAwesome';
 content:" \f08e"
 }
 a[href*='docs.oziproject.dev']:after {
-content: url(readthedocs-logo-vertical-compact-light.svg);
+content: url(readthedocs-logo-wordmark-vertical-compact-light.svg);
 }
 .downloads li a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
 font-family:'FontAwesome';
