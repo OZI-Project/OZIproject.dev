@@ -270,15 +270,19 @@ section img[alt^="Logo"] {
   .menu li{
       float: left;
   }
-  .menu a {
+  .menu a{
+    display: block ruby;
+    padding: 5px;
+    color: #e1e7ef;
     text-decoration: none;
+    font-size: 1.225rem;
   }
   .menu a:visited{
     background-color: rgba(85, 85, 85, 1);
   }
   .menu a:hover{
       overflow: visible;
-      font-size: .850rem;
+      font-size: 1.175rem;
       background-color: rgba(85, 85, 85, 1);
       text-decoration: underline;
   }
