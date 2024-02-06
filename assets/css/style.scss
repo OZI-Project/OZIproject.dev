@@ -230,7 +230,8 @@ section img[alt^="Logo"] {
   top:0;
 }
 .mobile {
-  display: inline-block;
+  display: flow-root list-item;
+  list-style: none;
 }
 .mobile h1 {
   float: right;
