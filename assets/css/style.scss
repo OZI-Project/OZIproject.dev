@@ -8,7 +8,7 @@ a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
 font-family:'FontAwesome';
 content:" \f08e"
 }
-a[href*='docs.oziproject.dev']:after {
+a[href^='https://docs.oziproject.dev/']:after {
 content: url(readthedocs-logo-wordmark-vertical-compact-light.svg);
 }
 .downloads li a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
