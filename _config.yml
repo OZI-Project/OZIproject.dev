@@ -16,14 +16,11 @@ description: '
         <li tabindex=0 class="menu-item"><a href="https://docs.oziproject.dev/"></a></li>
         <li tabindex=0 class="menu-item"><a href="https://github.com/orgs/OZI-Project/discussions">Community</a></li>
         <li tabindex=0 class="menu-item"><a href="https://www.patreon.com/OZIProject">Fund OZI</a></li>
+        <li tabindex=0 class="menu-item"><a href="https://pypi.org/project/OZI">Python Package</a></li>
       </ul>
     </nav>
   </div>
   <hr>
-  <p>
-  <a href="https://pypi.org/project/OZI/">
-    <img src="https://img.shields.io/pypi/v/OZI?style=flat-square&amp;label=Python%20Package%20Index%20&amp;logo=pypi" alt="Button">
-  </a>
   </p>'
 logo: ozi_social_logo.png
 remote_theme: pages-themes/minimal@v0.2.0
