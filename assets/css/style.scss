@@ -8,6 +8,21 @@ small a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
 font-family:'FontAwesome';
 content:" \f08e";
 }
+e4c7
+a[href*='https://pypi.org/project/OZI']:before {
+font-family:'FontAwesome';
+font-size: 1.7rem;
+content:" \f1b3  ";
+}
+a[href*='https://pypi.org/project/OZI']:hover:before {
+font-family:'FontAwesome';
+font-size: 1.6rem;
+content:" \f1b3  ";
+transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+transition-duration:.3s;
+transition-property:all;
+transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
+}
 a[href*='https://github.com/orgs/OZI-Project/discussions']:before {
 font-family:'FontAwesome';
 font-size: 1.7rem;
