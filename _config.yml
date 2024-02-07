@@ -19,12 +19,7 @@ description: '
         <li tabindex=0 class="menu-item"><a href="https://www.patreon.com/OZIProject">Fund OZI</a></li>
       </ul>
     </nav>
-  </div>
-  <p>
-    <a href="https://github.com/OZI-Project">
-      <img src="https://raw.githubusercontent.com/OZI-Project/.github/main/github-metrics-ozi-project.svg" alt="Button">
-    </a>
-  </p>'
+  </div>'
 logo: ozi_social_logo.png
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
