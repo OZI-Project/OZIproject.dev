@@ -1,7 +1,5 @@
 # Homepage
 
-[![Button](https://raw.githubusercontent.com/OZI-Project/.github/main/github-metrics-ozi-project.svg)](https://github.com/OZI-Project)
-
 ## OZI &mdash; Python Project Packaging for Meson
 
 A set of free (and open source) tools to make Python package publishing easier. This project is under active development but *unstable*. OZI is expected to be in Alpha release status by <s>January 2024</s> Q1 2024.
