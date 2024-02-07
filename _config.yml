@@ -28,7 +28,7 @@ description: '
   <br>
   <p>
   <a href="https://pypi.org/project/OZI/">
-    <img src="https://img.shields.io/pypi/v/OZI?style=for-the-badge&amp;label=package&amp;logo=pypi" alt="Button">
+    <img src="https://img.shields.io/pypi/v/OZI?style=flat-square&amp;label=PyPI%20Package&amp;logo=pypi" alt="Button">
   </a>
   </p>'
 logo: ozi_social_logo.png
