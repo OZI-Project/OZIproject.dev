@@ -20,12 +20,6 @@ description: '
     </nav>
   </div>
   <hr>
-  <small>
-    &dagger; <a href="https://mesonbuild.com/">Meson</a> is a registered trademark of 
-    Jussi Pakkanen. The OZI project is not affiliated with or endorsed by the Meson 
-    development team or Jussi Pakkanen.
-  </small>
-  <br>
   <p>
   <a href="https://pypi.org/project/OZI/">
     <img src="https://img.shields.io/pypi/v/OZI?style=flat-square&amp;label=PyPI%20Package&amp;logo=pypi" alt="Button">
