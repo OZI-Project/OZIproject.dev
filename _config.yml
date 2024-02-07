@@ -14,9 +14,9 @@ description: '
     <nav class="nav">
       <ul class="menu">
         <li tabindex=0 class="menu-item"><a href="https://docs.oziproject.dev/"></a></li>
-        <li tabindex=0 class="menu-item"><a href="https://github.com/orgs/OZI-Project/discussions">Community</a></li>
+        <li tabindex=0 class="menu-item"><a href="https://github.com/orgs/OZI-Project/discussions">Talk to Us</a></li>
+        <li tabindex=0 class="menu-item"><a href="https://pypi.org/project/OZI">Install OZI</a></li>
         <li tabindex=0 class="menu-item"><a href="https://www.patreon.com/OZIProject">Fund OZI</a></li>
-        <li tabindex=0 class="menu-item"><a href="https://pypi.org/project/OZI">Python Package</a></li>
       </ul>
     </nav>
   </div>
