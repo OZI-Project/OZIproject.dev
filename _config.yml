@@ -25,6 +25,7 @@ description: '
     Jussi Pakkanen. The OZI project is not affiliated with or endorsed by the Meson 
     development team or Jussi Pakkanen.
   </small>
+  <br>
   <p>
   <a href="https://pypi.org/project/OZI/">
     <img src="https://img.shields.io/pypi/v/OZI?style=for-the-badge&amp;label=package&amp;logo=pypi" alt="Button">
