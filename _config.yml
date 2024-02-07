@@ -8,7 +8,7 @@ description: '
     <small>Python Project Packaging for Meson &dagger;</small>
     <input class="side-menu" type="checkbox" id="side-menu"/>
     <label class="hamb" for="side-menu" tabindex=0" id="hamb-menu-btn">
-      <span class="hamb-line"></span>
+      <span class="hamb-li<pne"></span>
     </label>
     <script src="/assets/js/accessibility.js"></script>
     <nav class="nav">
@@ -22,8 +22,7 @@ description: '
   </div>
   <a href="https://github.com/OZI-Project" id="Button">
     <img src="https://raw.githubusercontent.com/OZI-Project/.github/main/github-metrics-ozi-project.svg">
-  </a>
-  </p>'
+  </a>'
 logo: ozi_social_logo.png
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
