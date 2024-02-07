@@ -20,6 +20,9 @@ description: '
       </ul>
     </nav>
   </div>
+  <a href="https://github.com/OZI-Project" id="Button">
+    <img src="https://raw.githubusercontent.com/OZI-Project/.github/main/github-metrics-ozi-project.svg">
+  </a>
   </p>'
 logo: ozi_social_logo.png
 remote_theme: pages-themes/minimal@v0.2.0
