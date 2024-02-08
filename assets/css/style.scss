@@ -124,9 +124,6 @@ body {
 small {
   font-family: "Noto Mono Serif HK";
 }
-footer p small {
-  display: none;
-}
 code, pre {
   color: #d0ffff !important;
   background-color: #0f1629;
@@ -255,7 +252,7 @@ section img[alt^="Logo"] {
 }
 .menu a{
   height: 32px;
-  width: 160px;
+  width: 260px;
   display: flex;
   align-items: center;
   padding: 5px;
