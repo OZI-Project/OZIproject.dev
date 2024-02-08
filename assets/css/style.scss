@@ -89,7 +89,8 @@ a[href^='https://www.patreon.com/OZIProject']:hover:before {
 }
 a[href^='https://docs.oziproject.dev/']:after {
   display: block;
-  content: ' ' / 'Documentation';
+  content: ' ';
+  alt: 'Documentation';
   background-image: url('https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/readthedocs-logo-wordmark-light.svg');
   background-repeat: no-repeat;
   background-size: 160px 32px;
@@ -98,7 +99,8 @@ a[href^='https://docs.oziproject.dev/']:after {
 }
 a[href^='https://docs.oziproject.dev/']:hover:after {
   display: block;
-  content: ' ' / 'Documentation';
+  content: ' ';
+  alt: 'Documentation';
   background-image: url('https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/readthedocs-logo-wordmark-light.svg');
   background-repeat: no-repeat;
   background-size: 155px 31px;
