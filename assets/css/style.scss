@@ -262,7 +262,6 @@ section img[alt^="Logo"] {
     overflow: visible;
     font-size: 1.175rem;
     background-color: rgba(85, 85, 85, 1);
-    text-decoration: underline;
     transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     transition-duration:.3s;
     transition-property:all;
@@ -381,7 +380,6 @@ section img[alt^="Logo"] {
       overflow: visible;
       font-size: 1.175rem;
       background-color: rgba(85, 85, 85, 1);
-      text-decoration: underline;
       transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
       transition-duration:.3s;
       transition-property:all;
