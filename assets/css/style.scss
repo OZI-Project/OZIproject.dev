@@ -22,6 +22,7 @@ a[href*='https://pypi.org/project/OZI']:before {
   height: 32px;
   width: 32px;
   border-bottom:1px solid transparent;
+  padding-right: .2em;
 }
 a[href*='https://pypi.org/project/OZI']:hover:before {
   display: block;
@@ -31,6 +32,7 @@ a[href*='https://pypi.org/project/OZI']:hover:before {
   background-size: 31px 31px;
   height: 32px;
   width: 32px;
+  padding-right: .2em;
   border-bottom:1px solid #e1e7ef;
   transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   transition-duration:.3s;
@@ -45,6 +47,7 @@ a[href*='https://github.com/orgs/OZI-Project/discussions']:before {
   background-size: 32px 32px;
   height: 32px;
   width: 32px;
+  padding-right: .2em;
   border-bottom:1px solid transparent;
 }
 a[href*='https://github.com/orgs/OZI-Project/discussions']:hover:before {
@@ -55,6 +58,7 @@ a[href*='https://github.com/orgs/OZI-Project/discussions']:hover:before {
   background-size: 31px 31px;
   height: 32px;
   width: 32px;
+  padding-right: .2em;
   border-bottom:1px solid #e1e7ef;
   transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   transition-duration:.3s;
@@ -69,6 +73,7 @@ a[href^='https://www.patreon.com/OZIProject']:before {
   background-size: 32px 32px;
   height: 32px;
   width: 32px;
+  padding-right: .2em;
   border-bottom:1px solid transparent;
 }
 a[href^='https://www.patreon.com/OZIProject']:hover:before {
@@ -79,6 +84,7 @@ a[href^='https://www.patreon.com/OZIProject']:hover:before {
   background-size: 31px 31px;
   height: 32px;
   width: 32px;
+  padding-right: .2em;
   border-bottom:1px solid #e1e7ef;
   transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   transition-duration:.3s;
