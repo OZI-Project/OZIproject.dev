@@ -4,11 +4,11 @@ p > a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
 content:"";
 }
 small a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
-  display: block;
+  display: inline-block;
   content: ' ';
   background-image: url('../images/external-link-icon.svg');
   background-repeat: no-repeat;
-  background-size: 14px 14px;
+  background-size: 10px 10px;
   height: 14px;
   width: 14px;
   filter: invert(1);
