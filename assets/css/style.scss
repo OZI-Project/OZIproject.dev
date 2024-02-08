@@ -10,6 +10,7 @@ small a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
   background-repeat: no-repeat;
   background-size: 14px 14px;
   border-bottom:1px solid transparent;
+  filter: invert(1);
 }
 a[href*='https://pypi.org/project/OZI']:before {
   display: block;
