@@ -9,7 +9,8 @@ small a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
   background-image: url('../images/external-link-icon.svg');
   background-repeat: no-repeat;
   background-size: 14px 14px;
-  border-bottom:1px solid transparent;
+  height: 14px;
+  width: 14px;
   filter: invert(1);
 }
 a[href*='https://pypi.org/project/OZI']:before {
