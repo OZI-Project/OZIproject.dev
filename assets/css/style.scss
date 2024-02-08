@@ -251,7 +251,7 @@ section img[alt^="Logo"] {
   height: 32px;
   width: 160px;
   display: flex;
-  vertical-align: middle;
+  align-items: center;
   padding: 5px;
   color: #e1e7ef;
   text-decoration: none;
@@ -367,7 +367,7 @@ section img[alt^="Logo"] {
   }
   .menu a{
     display: flex;
-    vertical-align: middle;
+    align-items: center;
     padding: 5px;
     color: #e1e7ef;
     text-decoration: none;
