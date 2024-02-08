@@ -1,17 +1,27 @@
 ---
 ---
 p > a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
-font-family:'FontAwesome';
 content:"";
 }
 small a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
-font-family:'FontAwesome';
-content:" \f08e";
+  display: block;
+  content: ' ';
+  background-image: url('../images/external-link-icon.svg');
+  background-repeat: no-repeat;
+  background-size: 160px 32px;
+  height: 32px;
+  width: 160px;
+  border-bottom:1px solid transparent;
 }
 a[href*='https://pypi.org/project/OZI']:before {
-font-family:'FontAwesome';
-font-size: 1.3rem;
-content:" \f1b3  ";
+  display: block;
+  content: ' ';
+  background-image: url('../images/boxes-icon.svg');
+  background-repeat: no-repeat;
+  background-size: 160px 32px;
+  height: 32px;
+  width: 160px;
+  border-bottom:1px solid transparent;
 }
 a[href*='https://pypi.org/project/OZI']:hover:before {
 font-family:'FontAwesome';
@@ -23,9 +33,14 @@ transition-property:all;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
 }
 a[href*='https://github.com/orgs/OZI-Project/discussions']:before {
-font-family:'FontAwesome';
-font-size: 1.7rem;
-content:" \f092  ";
+  display: block;
+  content: ' ';
+  background-image: url('../images/chat-message-icon.svg');
+  background-repeat: no-repeat;
+  background-size: 160px 32px;
+  height: 32px;
+  width: 160px;
+  border-bottom:1px solid transparent;
 }
 a[href*='https://github.com/orgs/OZI-Project/discussions']:hover:before {
 font-family:'FontAwesome';
@@ -37,9 +52,14 @@ transition-property:all;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
 }
 a[href^='https://www.patreon.com/OZIProject']:before {
-font-family:'FontAwesome';
-font-size: 1.4rem;
-content:" \f09d  ";
+  display: block;
+  content: ' ';
+  background-image: url('../images/online-secure-payment-icon');
+  background-repeat: no-repeat;
+  background-size: 160px 32px;
+  height: 32px;
+  width: 160px;
+  border-bottom:1px solid transparent;
 }
 a[href^='https://www.patreon.com/OZIProject']:hover:before {
 font-family:'FontAwesome';
