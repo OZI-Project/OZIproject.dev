@@ -427,6 +427,10 @@ section img[alt^="Logo"] {
   h1 a[href="https://www.oziproject.dev/"]:hover {
     color: #e1e7ef;
     text-decoration: underline;
+    transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transition-duration:.3s;
+    transition-property:all;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
   }
   p a > img[alt="Button"] {
     border-radius: 1px;
