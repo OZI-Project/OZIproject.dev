@@ -17,5 +17,5 @@ A set of free (and open source) tools to make Python package publishing easier. 
 <small>
   Read the Docs logos and other trademarks are used under the terms of the <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>
   license. The GitHub&#174; Octocat&#174; logo and other trademarks are used under the terms of a <a href="https://github.com/logos">license</a>.
-  The OZI Project is not affiliated with or endorsed by GitHub, Inc. The Python logo, Python Package Index logo, and other trademarks are used under the terms of a <a href="https://www.python.org/psf/trademarks/">license</a>, the OZI Project is not affiliated with or endorsed by the Python Software Foundation.
+  The OZI Project is not affiliated with or endorsed by GitHub, Inc. The Python logo, Python Package Index logo, and other trademarks are used under the terms of a <a href="https://www.python.org/psf/trademarks/">license</a>, the OZI Project is not affiliated with or endorsed by the Python Software Foundation. The sigstore codesigned seal and other trademarks are used under the terms of a <a href="https://www.linuxfoundation.org/legal/trademark-usage">license</a>, the OZI Project is not affilated with or endorsed by The Linux Foundation.
 </small>
