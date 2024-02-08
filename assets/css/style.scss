@@ -171,6 +171,10 @@ h4 {
   font-size: 1.5em !important;
   display: inline-block !important;
   color: #222;
+  transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transition-duration:.3s;
+  transition-property:all;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
 }
 .downloads a strong:hover {
   font-size: 1.4em !important;
