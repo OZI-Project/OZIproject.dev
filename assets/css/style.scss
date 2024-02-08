@@ -164,6 +164,13 @@ h4 {
 .downloads a {
   text-decoration: none !important;
 }
+.downloads a:hover {
+  font-size: 10px;
+  transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transition-duration:.3s;
+  transition-property:all;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
+}
 .downloads a strong {
   font-size: 16px !important;
   display: inline-block !important;
@@ -223,6 +230,10 @@ a[href^="/"]:hover,
 a[href^="/"]:focus {
   color: #e1e7ef;
   text-decoration: underline;
+  transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transition-duration:.3s;
+  transition-property:all;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
 }
 a[href^="https://docs.oziproject.dev/"] {
   color: #e1e7ef;
