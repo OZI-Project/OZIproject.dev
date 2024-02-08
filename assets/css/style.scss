@@ -161,14 +161,14 @@ h4 {
   text-decoration: none !important;
 }
 .downloads a:hover {
-  font-size: 1em;
+  font-size: .9em;
   transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   transition-duration:.3s;
   transition-property:all;
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
 }
 .downloads a strong {
-  font-size: 1.5em !important;
+  font-size: 1.4em !important;
   display: inline-block !important;
   color: #222;
   transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -177,7 +177,7 @@ h4 {
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
 }
 .downloads a strong:hover {
-  font-size: 1.4em !important;
+  font-size: 1.3em !important;
   display: block;
   color: #222;
   transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -190,9 +190,9 @@ h4 {
   content: ' ';
   background-image: url('../images/download-install-line-icon.svg');
   background-repeat: no-repeat;
-  background-size: 1.2em 1.2em;
-  height: 1.2em;
-  width: 1.2em;
+  background-size: 1em;
+  height: 1em;
+  width: 1em;
   padding-right: .1em;
 }
 .downloads li:last-child a strong:before {
@@ -200,9 +200,9 @@ h4 {
   content: ' ';
   background-image: url('../images/github-mark.svg');
   background-repeat: no-repeat;
-  background-size: 1.5em 1.5em;
-  height: 1.5em;
-  width: 1.5em;
+  background-size: 1em 1em;
+  height: 1em;
+  width: 1em;
   padding-right: .1em;
 }
 .downloads a {
