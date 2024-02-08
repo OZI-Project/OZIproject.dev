@@ -244,7 +244,7 @@ section img[alt^="Logo"] {
 .menu a{
   height: 32px;
   width: 160px;
-  display: table-cell;
+  display: flex;
   vertical-align: middle;
   padding: 5px;
   color: #e1e7ef;
@@ -360,7 +360,7 @@ section img[alt^="Logo"] {
       float: left;
   }
   .menu a{
-    display: table-cell;
+    display: flex;
     vertical-align: middle;
     padding: 5px;
     color: #e1e7ef;
