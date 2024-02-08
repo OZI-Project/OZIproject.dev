@@ -169,12 +169,24 @@ h4 {
   color: #222;
 }
 .downloads li:not(:last-child) a:before {
-font-family:'FontAwesome';
-content:" \f019"
+  display: inline-block;
+  content: ' ';
+  background-image: url('../images/download-install-line-icon.svg');
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  height: 15px;
+  width: 15px;
+  padding-right: .1em;
 }
 .downloads li:last-child a strong:before {
-font-family:'FontAwesome';
-content:"\f09b  "
+  display: inline-block;
+  content: ' ';
+  background-image: url('../images/github-mark.svg');
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  height: 15px;
+  width: 15px;
+  padding-right: .1em;
 }
 .downloads a {
   line-height: 1;
