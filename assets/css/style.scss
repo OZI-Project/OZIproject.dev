@@ -115,6 +115,11 @@ a[href^='https://docs.oziproject.dev/']:hover:after {
 font-family:'FontAwesome';
 content:""
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 body {
   font: 14px/1.5 "Noto Sans Display", "Atkinson Hyperlegible", Helvetica, Arial, sans-serif !important;
   padding-left: 2rem;
