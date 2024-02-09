@@ -8,8 +8,7 @@ A set of free (and open source) tools to make Python package publishing easier. 
 
 <img src="https://raw.githubusercontent.com/sigstore/community/main/artwork/badge/sigstore_codesigned_salmon.png" class="center" width=140>
 
-<div class="dagger">&dagger;</div>
-<small>
+<div class="dagger">&dagger;</div><small>
   <a href="https://mesonbuild.com/">Meson</a> is a registered trademark of 
   Jussi Pakkanen. The OZI project is not affiliated with or endorsed by the Meson 
   development team or Jussi Pakkanen.<br>
