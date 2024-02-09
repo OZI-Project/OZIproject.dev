@@ -130,8 +130,11 @@ body {
 }
 .dagger-note {
   font-family: "Noto Mono Serif HK";
-  font-size: 11px;
 }
+small {
+  font-family: "Noto Mono Serif HK";
+}
+
 code, pre {
   color: #d0ffff !important;
   background-color: #0f1629;
