@@ -20,9 +20,9 @@ a[href*='https://pypi.org/project/OZI']:before {
   content: ' ';
   background-image: url('../images/boxes-icon.svg');
   background-repeat: no-repeat;
-  background-size: 32px 32px;
-  height: 32px;
-  width: 32px;
+  background-size: 1.4em;
+  height: 1.4em;
+  width: 1.4em;
   padding-right: .2em;
 }
 a[href*='https://pypi.org/project/OZI']:hover:before {
@@ -30,9 +30,9 @@ a[href*='https://pypi.org/project/OZI']:hover:before {
   content: ' ';
   background-image: url('../images/boxes-icon.svg');
   background-repeat: no-repeat;
-  background-size: 30px 30px;
-  height: 30px;
-  width: 30px;
+  background-size: 1.3em;
+  height: 1.3em;
+  width: 1.3em;
   padding-right: .2em;
   transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   transition-duration:.3s;
@@ -44,9 +44,9 @@ a[href*='https://github.com/orgs/OZI-Project/discussions']:before {
   content: ' ';
   background-image: url('../images/chat-message-icon.svg');
   background-repeat: no-repeat;
-  background-size: 32px 32px;
-  height: 32px;
-  width: 32px;
+  background-size: 1.4em;
+  height: 1.4em;
+  width: 1.4em;
   padding-right: .2em;
 }
 a[href*='https://github.com/orgs/OZI-Project/discussions']:hover:before {
@@ -54,9 +54,9 @@ a[href*='https://github.com/orgs/OZI-Project/discussions']:hover:before {
   content: ' ';
   background-image: url('../images/chat-message-icon.svg');
   background-repeat: no-repeat;
-  background-size: 30px 30px;
-  height: 30px;
-  width: 30px;
+  background-size: 1.3em;
+  height: 1.3em;
+  width: 1.3em;
   padding-right: .2em;
   transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   transition-duration:.3s;
@@ -68,9 +68,9 @@ a[href^='https://www.patreon.com/OZIProject']:before {
   content: ' ';
   background-image: url('../images/online-secure-payment-icon.svg');
   background-repeat: no-repeat;
-  background-size: 32px 32px;
-  height: 32px;
-  width: 32px;
+  background-size: 1.4em;
+  height: 1.4em;
+  width: 1.4em;
   padding-right: .2em;
 }
 a[href^='https://www.patreon.com/OZIProject']:hover:before {
@@ -78,9 +78,9 @@ a[href^='https://www.patreon.com/OZIProject']:hover:before {
   content: ' ';
   background-image: url('../images/online-secure-payment-icon.svg');
   background-repeat: no-repeat;
-  background-size: 30px 30px;
-  height: 30px;
-  width: 30px;
+  background-size: 1.3em;
+  height: 1.3em;
+  width: 1.3em;
   padding-right: .2em;
   transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   transition-duration:.3s;
@@ -271,12 +271,12 @@ section img[alt^="Logo"] {
   padding: 5px;
   color: #e1e7ef;
   text-decoration: none;
-  font-size: 1.225rem;
+  font-size: 1.4em;
   border-bottom:1px solid transparent;
 }
 .menu a:hover{
     overflow: visible;
-    font-size: 1.175rem;
+    font-size: 1.3em;
     background-color: rgba(85, 85, 85, 1);
     transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     transition-duration:.3s;
@@ -386,7 +386,7 @@ section img[alt^="Logo"] {
     padding: 5px;
     color: #e1e7ef;
     text-decoration: none;
-    font-size: 1.225rem;
+    font-size: 1.4em;
     border-bottom:1px solid transparent;
   }
   .menu a:visited{
@@ -394,7 +394,7 @@ section img[alt^="Logo"] {
   }
   .menu a:hover{
       overflow: visible;
-      font-size: 1.175rem;
+      font-size: 1.3em;
       background-color: rgba(85, 85, 85, 1);
       transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
       transition-duration:.3s;
