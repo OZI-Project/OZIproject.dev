@@ -275,12 +275,12 @@ section img[alt^="Logo"] {
   padding: 5px;
   color: #e1e7ef;
   text-decoration: none;
-  font-size: 1.4em;
+  font-size: 1.225em;
   border-bottom:1px solid transparent;
 }
 .menu a:hover{
     overflow: visible;
-    font-size: 1.375em;
+    font-size: 1.15em;
     background-color: rgba(85, 85, 85, 1);
     transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     transition-duration:.3s;
@@ -390,7 +390,7 @@ section img[alt^="Logo"] {
     padding: 5px;
     color: #e1e7ef;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.225em;
     border-bottom:1px solid transparent;
   }
   .menu a:visited{
@@ -398,7 +398,7 @@ section img[alt^="Logo"] {
   }
   .menu a:hover{
       overflow: visible;
-      font-size: 1.375em;
+      font-size: 1.15em;
       background-color: rgba(85, 85, 85, 1);
       transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
       transition-duration:.3s;
