@@ -30,9 +30,9 @@ a[href*='https://pypi.org/project/OZI']:hover:before {
   content: ' ';
   background-image: url('../images/boxes-icon.svg');
   background-repeat: no-repeat;
-  background-size: 1.3em;
-  height: 1.3em;
-  width: 1.3em;
+  background-size: 1.375em;
+  height: 1.375em;
+  width: 1.375em;
   padding-right: .2em;
   transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   transition-duration:.3s;
@@ -54,9 +54,9 @@ a[href*='https://github.com/orgs/OZI-Project/discussions']:hover:before {
   content: ' ';
   background-image: url('../images/chat-message-icon.svg');
   background-repeat: no-repeat;
-  background-size: 1.3em;
-  height: 1.3em;
-  width: 1.3em;
+  background-size: 1.375em;
+  height: 1.375em;
+  width: 1.375em;
   padding-right: .2em;
   transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   transition-duration:.3s;
@@ -78,9 +78,9 @@ a[href^='https://www.patreon.com/OZIProject']:hover:before {
   content: ' ';
   background-image: url('../images/online-secure-payment-icon.svg');
   background-repeat: no-repeat;
-  background-size: 1.3em;
-  height: 1.3em;
-  width: 1.3em;
+  background-size: 1.375em;
+  height: 1.375em;
+  width: 1.375em;
   padding-right: .2em;
   transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   transition-duration:.3s;
@@ -276,7 +276,7 @@ section img[alt^="Logo"] {
 }
 .menu a:hover{
     overflow: visible;
-    font-size: 1.3em;
+    font-size: 1.375em;
     background-color: rgba(85, 85, 85, 1);
     transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     transition-duration:.3s;
@@ -394,7 +394,7 @@ section img[alt^="Logo"] {
   }
   .menu a:hover{
       overflow: visible;
-      font-size: 1.3em;
+      font-size: 1.375em;
       background-color: rgba(85, 85, 85, 1);
       transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
       transition-duration:.3s;
