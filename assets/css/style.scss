@@ -125,14 +125,6 @@ body {
   caret-color: transparent;
   color: #d0ffff !important;
 }
-body div.wrapper section ul {
-  -moz-column-count: 4;
-  -moz-column-gap: 20px;
-  -webkit-column-count: 4;
-  -webkit-column-gap: 20px;
-  column-count: 4;
-  column-gap: 20px;
-}
 .dagger {
   font-family: "Noto Mono Serif HK";
   font-size: 15px;
@@ -302,8 +294,8 @@ section img[alt^="Logo"] {
 }
 .hamb{
   cursor: pointer;
-  float: initial;
-  padding: 30px 20px;
+  float: inline-start;
+  padding: 20px 20px;
   margin: 1rem;
 }/* Style label tag */
 .hamb-line {
@@ -364,6 +356,14 @@ section img[alt^="Logo"] {
   float: right;
 }
 @media (min-width: 1050px) {
+  body div.wrapper section ul {
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+  }
   body > .wrapper {
     width: 60rem;
   }
