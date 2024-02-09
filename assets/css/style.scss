@@ -175,11 +175,12 @@ h4 {
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
 }
 .downloads a strong {
-  font-size: 1.4em;
+  font-size: 1.4em !important;
   display: inline-block !important;
   color: #222;
 }
 .downloads a strong:hover {
+  font-size: 1.3em !important;
   display: block;
   color: #222;
 }
