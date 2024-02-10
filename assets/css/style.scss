@@ -110,9 +110,9 @@ a {
       alt: 'Documentation';
       background-image: url('https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/readthedocs-logo-wordmark-light.svg');
       background-repeat: no-repeat;
-      background-size: 160px 32px;
-      height: 32px;
-      width: 160px;
+      background-size: 2em 10em;
+      height: 2em;
+      width: 10em;
     }
 
     &:hover:after {
@@ -121,9 +121,9 @@ a {
       alt: 'Documentation';
       background-image: url('https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/readthedocs-logo-wordmark-light.svg');
       background-repeat: no-repeat;
-      background-size: 155px 31px;
-      height: 32px;
-      width: 160px;
+      background-size: 9.9em 1.9em;
+      height: 2em;
+      width: 10em;
       transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
       transition-duration: .3s;
       transition-property: all;
