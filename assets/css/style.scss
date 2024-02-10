@@ -344,7 +344,7 @@ div.wrapper header div.mobile nav.nav ul.menu {
   text-decoration: none;
   font-size: 1.225em;
   border-bottom: 1px solid transparent;
-  font-weight: 1000;
+  font-weight: 1000 !important;
 
   &:hover {
     overflow: visible;
