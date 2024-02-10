@@ -237,6 +237,8 @@ ul.downloads {
   }
 
   li {
+    height: 4em !important;
+
     &:not(:last-child) a:before {
       display: inline-block;
       content: ' ';
