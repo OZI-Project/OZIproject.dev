@@ -273,6 +273,12 @@ section img[alt^="Logo"] {
   line-height: 1.25rem;
   overflow: hidden;
 }
+div.wrapper header div.mobile nav.nav ul.menu {
+	padding-left: 10px;
+	margin-bottom: 0px;
+	border-bottom-width: 10px;
+	border-bottom-style: solid;
+}
 .menu a{
   height: 32px;
   width: 260px;
