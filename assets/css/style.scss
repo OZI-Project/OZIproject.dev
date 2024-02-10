@@ -214,8 +214,8 @@ h3, h4 {
 
 .downloads {
   a {
-    padding-top: 1em;
-    height: 4em;
+    padding-top: 1em !important;
+    height: 4em !important;
     
     &:hover {
       font-size: .6rem !important;
