@@ -1,8 +1,9 @@
 ---
 ---
 p > a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
-content:"";
+  content: "";
 }
+
 small a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
   display: inline-block;
   content: ' ';
@@ -15,246 +16,298 @@ small a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
   padding-bottom: .2em;
   filter: invert(1);
 }
-a[href*='https://pypi.org/project/OZI']:before {
-  display: block;
-  content: ' ';
-  background-image: url('../images/boxes-icon.svg');
-  background-repeat: no-repeat;
-  background-size: 1.4em;
-  height: 1.4em;
-  width: 1.4em;
-  padding-right: .3em;
+
+a {
+  &[href*='https://pypi.org/project/OZI'] {
+    &:before {
+      display: block;
+      content: ' ';
+      background-image: url('../images/boxes-icon.svg');
+      background-repeat: no-repeat;
+      background-size: 1.4em;
+      height: 1.4em;
+      width: 1.4em;
+      padding-right: .3em;
+    }
+
+    &:hover:before {
+      display: block;
+      content: ' ';
+      background-image: url('../images/boxes-icon.svg');
+      background-repeat: no-repeat;
+      background-size: 1.375em;
+      height: 1.375em;
+      width: 1.375em;
+      padding-right: .3em;
+      transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+      transition-duration: .3s;
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+
+  &[href*='https://github.com/orgs/OZI-Project/discussions'] {
+    &:before {
+      display: block;
+      content: ' ';
+      background-image: url('../images/chat-message-icon.svg');
+      background-repeat: no-repeat;
+      background-size: 1.4em;
+      height: 1.4em;
+      width: 1.4em;
+      padding-right: .3em;
+    }
+
+    &:hover:before {
+      display: block;
+      content: ' ';
+      background-image: url('../images/chat-message-icon.svg');
+      background-repeat: no-repeat;
+      background-size: 1.375em;
+      height: 1.375em;
+      width: 1.375em;
+      padding-right: .3em;
+      transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+      transition-duration: .3s;
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+
+  &[href^='https://www.patreon.com/OZIProject'] {
+    &:before {
+      display: block;
+      content: ' ';
+      background-image: url('../images/online-secure-payment-icon.svg');
+      background-repeat: no-repeat;
+      background-size: 1.4em;
+      height: 1.4em;
+      width: 1.4em;
+      padding-right: .3em;
+    }
+
+    &:hover:before {
+      display: block;
+      content: ' ';
+      background-image: url('../images/online-secure-payment-icon.svg');
+      background-repeat: no-repeat;
+      background-size: 1.375em;
+      height: 1.375em;
+      width: 1.375em;
+      padding-right: .3em;
+      transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+      transition-duration: .3s;
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+
+  &[href^='https://docs.oziproject.dev/'] {
+    &:after {
+      display: block;
+      content: ' ';
+      alt: 'Documentation';
+      background-image: url('https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/readthedocs-logo-wordmark-light.svg');
+      background-repeat: no-repeat;
+      background-size: 160px 32px;
+      height: 32px;
+      width: 160px;
+    }
+
+    &:hover:after {
+      display: block;
+      content: ' ';
+      alt: 'Documentation';
+      background-image: url('https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/readthedocs-logo-wordmark-light.svg');
+      background-repeat: no-repeat;
+      background-size: 155px 31px;
+      height: 32px;
+      width: 160px;
+      transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+      transition-duration: .3s;
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
 }
-a[href*='https://pypi.org/project/OZI']:hover:before {
-  display: block;
-  content: ' ';
-  background-image: url('../images/boxes-icon.svg');
-  background-repeat: no-repeat;
-  background-size: 1.375em;
-  height: 1.375em;
-  width: 1.375em;
-  padding-right: .3em;
-  transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  transition-duration:.3s;
-  transition-property:all;
-  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
-}
-a[href*='https://github.com/orgs/OZI-Project/discussions']:before {
-  display: block;
-  content: ' ';
-  background-image: url('../images/chat-message-icon.svg');
-  background-repeat: no-repeat;
-  background-size: 1.4em;
-  height: 1.4em;
-  width: 1.4em;
-  padding-right: .3em;
-}
-a[href*='https://github.com/orgs/OZI-Project/discussions']:hover:before {
-  display: block;
-  content: ' ';
-  background-image: url('../images/chat-message-icon.svg');
-  background-repeat: no-repeat;
-  background-size: 1.375em;
-  height: 1.375em;
-  width: 1.375em;
-  padding-right: .3em;
-  transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  transition-duration:.3s;
-  transition-property:all;
-  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
-}
-a[href^='https://www.patreon.com/OZIProject']:before {
-  display: block;
-  content: ' ';
-  background-image: url('../images/online-secure-payment-icon.svg');
-  background-repeat: no-repeat;
-  background-size: 1.4em;
-  height: 1.4em;
-  width: 1.4em;
-  padding-right: .3em;
-}
-a[href^='https://www.patreon.com/OZIProject']:hover:before {
-  display: block;
-  content: ' ';
-  background-image: url('../images/online-secure-payment-icon.svg');
-  background-repeat: no-repeat;
-  background-size: 1.375em;
-  height: 1.375em;
-  width: 1.375em;
-  padding-right: .3em;
-  transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  transition-duration:.3s;
-  transition-property:all;
-  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-}
-a[href^='https://docs.oziproject.dev/']:after {
-  display: block;
-  content: ' ';
-  alt: 'Documentation';
-  background-image: url('https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/readthedocs-logo-wordmark-light.svg');
-  background-repeat: no-repeat;
-  background-size: 160px 32px;
-  height: 32px;
-  width: 160px;
-}
-a[href^='https://docs.oziproject.dev/']:hover:after {
-  display: block;
-  content: ' ';
-  alt: 'Documentation';
-  background-image: url('https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/readthedocs-logo-wordmark-light.svg');
-  background-repeat: no-repeat;
-  background-size: 155px 31px;
-  height: 32px;
-  width: 160px;
-  transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  transition-duration:.3s;
-  transition-property:all;
-  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
-}
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 8em;
 }
+
 body {
   font: 14px/1.15 "Atkinson Hyperlegible", Helvetica, Arial, sans-serif !important;
   padding-left: 2rem;
   padding-right: 2rem;
-  background-color:#030711 !important;
+  background-color: #030711 !important;
   caret-color: transparent;
   color: #d0ffff !important;
 }
+
 section p:not(:last-child) {
   margin-bottom: 0;
 }
+
 .dagger {
   font-family: "Noto Mono Serif HK";
   font-size: 15px;
 }
+
 .dagger-note {
   font-family: "Noto Mono Serif HK";
   display: inline-flex;
 }
+
 small {
   font-family: "Noto Mono Serif HK";
   display: inline-block;
 }
 
-code, pre {
+code {
   color: #d0ffff !important;
   background-color: #0f1629;
   border-radius: .25rem;
 }
+
 pre {
+  color: #d0ffff !important;
+  background-color: #0f1629;
+  border-radius: .25rem;
   background: #0f1629 !important;
   border-radius: .25rem !important;
 }
+
 .highlight {
   background-color: #0f1629 !important;
 }
+
 h1 {
-  color:#e1e7ef !important;
+  color: #e1e7ef !important;
 }
-header>h1 {
+
+header > h1, h1 > a[href="https://www.oziproject.dev/"] {
   display: none;
 }
-h1>a[href="https://www.oziproject.dev/"] {
-  display: none;
-}
+
 h2 {
-  color:#e1e7ef !important;
+  color: #e1e7ef !important;
   margin-top: 20px !important;
 }
-h3 {
-  color:#e1e7ef !important;
+
+h3, h4 {
+  color: #e1e7ef !important;
 }
-h4 {
-  color:#e1e7ef !important;
+
+.downloads {
+  a {
+    &:hover {
+      font-size: .6rem !important;
+      transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+      transition-duration: .3s;
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    strong {
+      font-size: 1.5em !important;
+      display: inline-block !important;
+      color: #222;
+    }
+  }
+
+  li {
+    &:not(:last-child) a:before {
+      display: inline-block;
+      content: ' ';
+      background-image: url('../images/download-install-line-icon.svg');
+      background-repeat: no-repeat;
+      background-size: 1.2em;
+      height: 1.2em;
+      width: 1.2em;
+      padding-right: .1em;
+    }
+
+    &:last-child a strong:before {
+      display: inline-block;
+      content: ' ';
+      background-image: url('../images/github-mark.svg');
+      background-repeat: no-repeat;
+      background-size: 1em 1em;
+      height: 1em;
+      width: 1em;
+      padding-right: .1em;
+    }
+  }
+
+  a {
+    line-height: 1;
+    font-size: 11px;
+    color: black !important;
+    display: block;
+    text-align: center;
+    padding-top: 6px;
+    height: 34px;
+    text-decoration: none !important;
+  }
 }
-.downloads a:hover {
-  font-size:.6rem !important;
-  transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  transition-duration:.3s;
-  transition-property:all;
-  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
-}
-.downloads a strong {
-  font-size: 1.5em !important;
-  display: inline-block !important;
-  color: #222;
-}
-.downloads li:not(:last-child) a:before {
-  display: inline-block;
-  content: ' ';
-  background-image: url('../images/download-install-line-icon.svg');
-  background-repeat: no-repeat;
-  background-size: 1.2em;
-  height: 1.2em;
-  width: 1.2em;
-  padding-right: .1em;
-}
-.downloads li:last-child a strong:before {
-  display: inline-block;
-  content: ' ';
-  background-image: url('../images/github-mark.svg');
-  background-repeat: no-repeat;
-  background-size: 1em 1em;
-  height: 1em;
-  width: 1em;
-  padding-right: .1em;
-}
-.downloads a {
-  line-height: 1;
-  font-size: 11px;
-  color: black !important;
-  display: block;
-  text-align: center;
-  padding-top: 6px;
-  height: 34px;
-  text-decoration: none !important;
-}
+
 .wrapper a {
   color: #e1e7ef;
   text-decoration: underline;
+
+  &:hover {
+    color: #d0ffff;
+    text-decoration: none;
+  }
 }
-.wrapper a:hover {
-  color: #d0ffff;
-  text-decoration: none;
+
+a {
+  &:hover {
+    color: #069;
+    font-weight: normal !important;
+  }
+
+  &:focus {
+    color: #069;
+    font-weight: normal !important;
+    outline: thin dotted;
+  }
+
+  &[href^="/"] {
+    color: #e1e7ef;
+
+    &:hover, &:focus {
+      color: #e1e7ef;
+      text-decoration: underline;
+      transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+      transition-duration: .3s;
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+
+  &[href^="https://docs.oziproject.dev/"] {
+    color: #e1e7ef;
+
+    &:hover {
+      color: #e1e7ef;
+      text-decoration: underline;
+    }
+  }
 }
-a:hover,
-a:focus {
-color:#069;
-font-weight:normal !important;
-}
-a:focus { outline:thin dotted; }
-a[href^="/"] { color: #e1e7ef; }
-a[href^="/"]:hover,
-a[href^="/"]:focus {
-  color: #e1e7ef;
-  text-decoration: underline;
-  transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  transition-duration:.3s;
-  transition-property:all;
-  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
-}
-a[href^="https://docs.oziproject.dev/"] {
-  color: #e1e7ef;
-}
-a[href^="https://docs.oziproject.dev/"]:hover {
-  color: #e1e7ef;
-  text-decoration: underline;
-}
-p.view {
+
+p.view, header img[alt^="Logo"] {
   display: none;
 }
-header img[alt^="Logo"] {
-  display: none;
-}
+
 section img[alt^="Logo"] {
   filter: invert(0.8);
 }
-.nav{
+
+.nav {
   width: 100%;
   height: 100%;
   position: sticky;
@@ -262,22 +315,25 @@ section img[alt^="Logo"] {
   overflow: hidden;
   max-height: 0;
   transition: max-height .5s ease-out;
+
+  > ul.menu {
+    list-style: none;
+    position: inherit;
+    display: grid;
+    font-size: .875rem;
+    grid-auto-flow: row;
+    grid-auto-rows: max-content;
+    line-height: 1.25rem;
+    overflow: hidden;
+  }
 }
-.nav > ul.menu {
-  list-style: none;
-  position: inherit;
-  display: grid;
-  font-size: .875rem;
-  grid-auto-flow: row;
-  grid-auto-rows: max-content;
-  line-height: 1.25rem;
-  overflow: hidden;
-}
+
 div.wrapper header div.mobile nav.nav ul.menu {
   padding-left: 10px;
   margin-bottom: 0px;
 }
-.menu a{
+
+.menu a {
   height: 32px;
   width: 260px;
   display: flex;
@@ -286,179 +342,221 @@ div.wrapper header div.mobile nav.nav ul.menu {
   color: #e1e7ef;
   text-decoration: none;
   font-size: 1.225em;
-  border-bottom:1px solid transparent;
-}
-.menu a:hover{
+  border-bottom: 1px solid transparent;
+
+  &:hover {
     overflow: visible;
     font-size: 1.2em;
     background-color: rgba(85, 85, 85, 1);
-    transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-    transition-duration:.3s;
-    transition-property:all;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
+    transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transition-duration: .3s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
-.hamb{
+
+.hamb {
   cursor: pointer;
   float: inline-start;
   padding: 10px 10px;
   margin: .2rem;
-}/* Style label tag */
+}
+
+/* Style label tag */
+
 .hamb-line {
   background: #e1e7ef;
   display: block;
   height: 2px;
   position: relative;
   width: 24px;
-} /* Style span tag */
-.hamb-line::before,
-.hamb-line::after{
-  background: #e1e7ef;
-  content: '';
-  display: block;
-  height: 100%;
-  position: absolute;
-  transition: all .2s ease-out;
-  width: 100%;
+
+  &::before, &::after {
+    background: #e1e7ef;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+
+  &::before {
+    top: 5px;
+  }
+
+  &::after {
+    top: -5px;
+  }
 }
-.hamb-line::before{
-  top: 5px;
-}
-.hamb-line::after{
-  top: -5px;
-}
+
+/* Style span tag */
+
 .side-menu {
   display: none;
-} /* Hide checkbox */
-.side-menu:checked ~ nav {
-  max-height: 100%;
+
+  &:checked ~ {
+    nav {
+      max-height: 100%;
+    }
+
+    .hamb .hamb-line {
+      background: transparent;
+
+      &::before {
+        transform: rotate(-45deg);
+        top: 0;
+      }
+
+      &::after {
+        transform: rotate(45deg);
+        top: 0;
+      }
+    }
+  }
 }
-.side-menu:checked ~ .hamb .hamb-line {
-  background: transparent;
-}
-.side-menu:checked ~ .hamb .hamb-line::before {
-  transform: rotate(-45deg);
-  top:0;
-}
-.side-menu:checked ~ .hamb .hamb-line::after {
-  transform: rotate(45deg);
-  top:0;
-}
+
+/* Hide checkbox */
+
 .mobile {
   display: flow-root list-item;
   list-style: none;
+
+  h1 {
+    float: right;
+    padding: 7px 0 0 0;
+  }
+
+  a img {
+    float: right;
+    filter: invert(0.8);
+    padding: 8px 20px;
+  }
+
+  small {
+    display: inline;
+    float: right;
+  }
 }
-.mobile h1 {
-  float: right;
-  padding: 7px 0 0 0;
-}
-.mobile a img {
-  float: right;
-  filter: invert(0.8);
-  padding: 8px 20px;
-}
-.mobile small {
-  display: inline;
-  float: right;
-}
+
 @media (min-width: 1050px) {
-  body div.wrapper section ul {
-    -moz-column-count: 4;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 4;
-    -webkit-column-gap: 20px;
-    column-count: 4;
-    column-gap: 20px;
+  body {
+    div.wrapper section ul {
+      -moz-column-count: 4;
+      -moz-column-gap: 20px;
+      -webkit-column-count: 4;
+      -webkit-column-gap: 20px;
+      column-count: 4;
+      column-gap: 20px;
+    }
+
+    > .wrapper {
+      width: 60rem;
+    }
   }
-  body > .wrapper {
-    width: 60rem;
-  }
+
   .wrapper section {
     width: 600px;
   }
-  .mobile h1 {
-    display: none;
-  }
-  .mobile a img {
-    display: none;
-  }
-  .mobile small {
-    display: none;
-  }
-  .nav{
-      max-height: none;
-      top: 0;
-      position: relative;
-      float: right;
-      width: -moz-fit-content;
-      width: fit-content;
-      background-color: transparent;
-  }
-  
-  .menu li{
-      float: left;
-  }
-  .menu a{
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    color: #e1e7ef;
-    text-decoration: none;
-    font-size: 1.225em;
-    border-bottom:1px solid transparent;
-  }
-  .menu a:visited{
-    background-color: rgba(85, 85, 85, 1);
-  }
-  .menu a:hover{
-      overflow: visible;
-      font-size: 1.2em;
-      background-color: rgba(85, 85, 85, 1);
-      transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-      transition-duration:.3s;
-      transition-property:all;
-      transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
-  }
-  .hamb{
+
+  .mobile {
+    h1, a img, small {
       display: none;
+    }
   }
-  header img[alt~="Logo"] {
-    display: block;
-    filter: invert(0.8) !important;
+
+  .nav {
+    max-height: none;
+    top: 0;
+    position: relative;
+    float: right;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: transparent;
   }
-  header>h1 {
-    display: block;
+
+  .menu {
+    li {
+      float: left;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      color: #e1e7ef;
+      text-decoration: none;
+      font-size: 1.225em;
+      border-bottom: 1px solid transparent;
+
+      &:visited {
+        background-color: rgba(85, 85, 85, 1);
+      }
+
+      &:hover {
+        overflow: visible;
+        font-size: 1.2em;
+        background-color: rgba(85, 85, 85, 1);
+        transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+        transition-duration: .3s;
+        transition-property: all;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    }
   }
+
+  .hamb {
+    display: none;
+  }
+
+  header {
+    img[alt~="Logo"] {
+      display: block;
+      filter: invert(0.8) !important;
+    }
+
+    > h1 {
+      display: block;
+    }
+  }
+
   h1 a[href="https://www.oziproject.dev/"] {
     display: none;
-    color:#e1e7ef !important;
+    color: #e1e7ef !important;
     text-decoration: none;
+
+    &:hover {
+      color: #e1e7ef;
+      text-decoration: underline;
+      transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+      transition-duration: .3s;
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
-  h1 a[href="https://www.oziproject.dev/"]:hover {
-    color: #e1e7ef;
-    text-decoration: underline;
-    transform:translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-    transition-duration:.3s;
-    transition-property:all;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)
-  }
-  p a > img[alt="Button"] {
-    border-radius: 1px;
-    box-shadow: 0px 0px 0px .4em rgba(85, 85, 85, 1);
-    padding: 0 0 !important;
-    margin: .4em .4em 0 !important;
-    background-color: rgba(85, 85, 85, 1);
-  }
-  p:hover a > img[alt="Button"]{
-    box-shadow: 0px 0px 0px .5em rgba(82, 82, 82, 1);
-    transition: .1s linear;
-  }
-  p:hover::after a > img[alt="Button"]{
-    box-shadow: 0px 0px 0px .4em rgba(82, 82, 82, 1);
-    transition: .4s linear;
-    transform-origin: bottom;
+
+  p {
+    a > img[alt="Button"] {
+      border-radius: 1px;
+      box-shadow: 0px 0px 0px 0.4em rgba(85, 85, 85, 1);
+      padding: 0 0 !important;
+      margin: .4em .4em 0 !important;
+      background-color: rgba(85, 85, 85, 1);
+    }
+
+    &:hover {
+      a > img[alt="Button"] {
+        box-shadow: 0px 0px 0px 0.5em rgba(82, 82, 82, 1);
+        transition: .1s linear;
+      }
+
+      &::after a > img[alt="Button"] {
+        box-shadow: 0px 0px 0px 0.4em rgba(82, 82, 82, 1);
+        transition: .4s linear;
+        transform-origin: bottom;
+      }
+    }
   }
 }
 
-
 @import "{{ site.theme }}";
-
