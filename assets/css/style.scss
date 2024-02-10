@@ -345,7 +345,8 @@ div.wrapper header div.mobile nav.nav ul.menu {
 }
 
 .menu a {
-  height: 32px;
+  height: 2.5em;
+  max-height: 5em;
   width: 260px;
   display: flex;
   align-items: center;
