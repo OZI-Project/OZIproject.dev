@@ -344,7 +344,7 @@ div.wrapper header div.mobile nav.nav ul.menu {
   color: #e1e7ef;
   text-decoration: none;
   font-size: 1.225em;
-  border-bottom: 1px solid transparent;
+  border-bottom: 0;
   font-weight: 1000 !important;
 
   &:hover {
@@ -491,7 +491,7 @@ div.wrapper header div.mobile nav.nav ul.menu {
       color: #e1e7ef;
       text-decoration: none;
       font-size: 1.225em;
-      border-bottom: 1px solid transparent;
+      border-bottom: 0;
 
       &:visited {
         background-color: rgba(85, 85, 85, 1);
