@@ -125,7 +125,7 @@ body {
   caret-color: transparent;
   color: #d0ffff !important;
 }
-section:not(:last-child) p {
+section p:not(:last-child) {
   margin-bottom: 0;
 }
 .dagger {
