@@ -125,6 +125,9 @@ body {
   caret-color: transparent;
   color: #d0ffff !important;
 }
+section:not(:last-child) p {
+  margin-bottom: 0;
+}
 .dagger {
   font-family: "Noto Mono Serif HK";
   font-size: 15px;
