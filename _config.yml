@@ -5,7 +5,6 @@ description: '
       <img src="ozi_logo_v2.png" width="28" alt="Small OZI Icon for mobile users.">
     </a>
     <h1 id="primary-navigation">OZIproject.dev</h1>
-    <small>Python Project Packaging for Meson &dagger;</small>
     <input class="side-menu" type="checkbox" id="side-menu"/>
     <label class="hamb" for="side-menu" tabindex=0" id="hamb-menu-btn">
       <span class="hamb-line"></span>
