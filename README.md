@@ -30,6 +30,8 @@ A set of free (and open source) tools to make Python package publishing easier. 
   The GitHub&#174; Octocat&#174; logo and other trademarks are used under the terms of a <a href="https://github.com/logos">license</a>, The OZI Project is not affiliated with or endorsed by GitHub, Inc.
 </small>
 <small>
+  The Patreon "P" logo and other trademarks are used under the terms of a <a href="https://www.patreon.com/brand">license</a>, The OZI Project is not endorsed by Patreon, Inc.
+<small>
   The Python logo, Python Package Index logo, and other trademarks are used under the terms of a <a href="https://www.python.org/psf/trademarks/">license</a>, the OZI Project is not affiliated with or endorsed by the Python Software Foundation.
 </small>
 <small>
