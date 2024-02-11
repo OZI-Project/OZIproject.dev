@@ -220,9 +220,10 @@ ul.downloads {
   a {
     padding-top: 1em !important;
     height: 4em !important;
+    font-size: .9em !important;
     
     &:hover {
-      font-size: .6rem !important;
+      font-size: .8em !important;
       transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
       transition-duration: .3s;
       transition-property: all;
