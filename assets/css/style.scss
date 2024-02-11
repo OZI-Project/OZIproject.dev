@@ -500,8 +500,11 @@ div.wrapper header div.mobile nav.nav ul.menu {
   }
 
   .mobile {
-    h1, a img, small {
+    h1, small {
       display: none;
+    }
+    a img {
+      display: block;
     }
   }
 
