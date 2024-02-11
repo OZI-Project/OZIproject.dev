@@ -4,7 +4,7 @@ description: '
     <a href="https://www.oziproject.dev/" aria-labelledby="primary-navigation">
       <img src="ozi_logo_v2.png" width="24" alt="Small OZI Icon for mobile users.">
     </a>
-    <h1 id="primary-navigation">OZIproject.dev</h1>
+    <h1 id="primary-navigation">OZI Project</h1>
     <input class="side-menu" type="checkbox" id="side-menu"/>
     <label class="hamb" for="side-menu" tabindex=0" id="hamb-menu-btn">
       <span class="hamb-line"></span>
