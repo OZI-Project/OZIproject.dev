@@ -3,6 +3,8 @@
 
 $menu-icon-kern: .66em;
 $menu-icon-margin: .2em;
+$disclosure-font: "Noto Mono Serif HK";
+$preferred-font: "Atkinson Hyperlegible";
 
 p > a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
   content: "";
@@ -150,7 +152,7 @@ a {
 }
 
 body {
-  font: 14px/1.15 "Atkinson Hyperlegible", Helvetica, Arial, sans-serif !important;
+  font: 14px/1.15 $preferred-font, Helvetica, Arial, sans-serif !important;
   padding-left: 2rem;
   padding-right: 2rem;
   background-color: #030711 !important;
@@ -167,17 +169,21 @@ div.wrapper section p small:not(:last-child) {
 }
 
 .dagger {
-  font-family: "Noto Mono Serif HK";
+  font-family: $disclosure-font;
   font-size: 15px;
 }
 
 .dagger-note {
-  font-family: "Noto Mono Serif HK";
+  font-family: $disclosure-font;
   display: inline-flex;
 }
 
+.dagger-disclose {
+  font-family: $disclosure-font;
+}
+
 small {
-  font-family: "Noto Mono Serif HK";
+  font-family: $disclosure-font;
   display: inline-block;
 }
 
