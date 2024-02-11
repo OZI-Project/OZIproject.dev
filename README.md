@@ -1,6 +1,6 @@
 # Homepage
 
-## OZI &mdash; Python Project Packaging for Meson
+## OZI &mdash; Python Project Packaging <span class="dagger-disclose">for Meson<sup>†</sup></span>
 
 A set of free (and open source) tools to make Python package publishing easier. This project is under active development but *unstable*. OZI is expected to be in Alpha release status by <s>January 2024</s> Q1 2024.
 
