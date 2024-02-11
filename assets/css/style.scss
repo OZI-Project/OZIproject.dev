@@ -162,7 +162,7 @@ section p:not(:last-child) {
   margin-bottom: 0;
 }
 
-div.wrapper section p small {
+div.wrapper section p small:not(:last-child) {
   margin-bottom: 5px;
 }
 
