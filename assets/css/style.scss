@@ -162,6 +162,10 @@ section p:not(:last-child) {
   margin-bottom: 0;
 }
 
+div.wrapper section p small {
+  margin-bottom: 5px;
+}
+
 .dagger {
   font-family: "Noto Mono Serif HK";
   font-size: 15px;
