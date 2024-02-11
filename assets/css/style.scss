@@ -216,10 +216,11 @@ ul.downloads {
   height: 4em !important;
 }
 @media screen and (min-zoom: 130%) and (max-zoom: 150%) {
-  .downloads {
-    li {
-      height: 6em !important;
-    }
+    .downloads {
+      li {
+        height: 6em !important;
+      }
+   }
 }
 .downloads {
   a {
