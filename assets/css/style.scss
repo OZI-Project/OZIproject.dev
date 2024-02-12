@@ -604,4 +604,4 @@ div.wrapper header div.mobile nav.nav ul.menu {
   }
 }
 
-@use "{{ site.theme }}";
+@import "{{ site.theme }}";
