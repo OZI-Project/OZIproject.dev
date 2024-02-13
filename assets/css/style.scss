@@ -6,6 +6,13 @@ $menu-icon-margin: .2em;
 $disclosure-font: "Noto Serif HK";
 $preferred-font: "Atkinson Hyperlegible";
 
+@mixin hover-shrink-3d() {
+  transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 p > a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
   content: "";
 }
@@ -47,10 +54,7 @@ a {
       width: 1.375em;
       padding-right: $menu-icon-kern;
       margin-left: $menu-icon-margin;
-      transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-      transition-duration: .3s;
-      transition-property: all;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      @include hover-shrink-3d();
     }
   }
 
@@ -77,10 +81,7 @@ a {
       width: 1.375em;
       padding-right: $menu-icon-kern;
       margin-left: $menu-icon-margin;
-      transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-      transition-duration: .3s;
-      transition-property: all;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      @include hover-shrink-3d();
     }
   }
 
@@ -107,10 +108,7 @@ a {
       width: 1.375em;
       padding-right: $menu-icon-kern;
       margin-left: $menu-icon-margin;
-      transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-      transition-duration: .3s;
-      transition-property: all;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      @include hover-shrink-3d();
     }
   }
 
@@ -135,10 +133,7 @@ a {
       background-size: 9.9em;
       height: 2em;
       width: 10em;
-      transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-      transition-duration: .3s;
-      transition-property: all;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      @include hover-shrink-3d();
     }
   }
 }
@@ -237,10 +232,7 @@ ul.downloads {
     
     &:hover {
       font-size: .8em !important;
-      transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-      transition-duration: .3s;
-      transition-property: all;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      @include hover-shrink-3d();
     }
 
     strong {
@@ -315,10 +307,7 @@ a {
     &:hover, &:focus {
       color: #e1e7ef;
       text-decoration: underline;
-      transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-      transition-duration: .3s;
-      transition-property: all;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      @include hover-shrink-3d();
     }
   }
 
@@ -383,10 +372,7 @@ div.wrapper header div.mobile nav.nav ul.menu {
     overflow: visible;
     font-size: 1.2em;
     background-color: rgba(85, 85, 85, 1);
-    transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-    transition-duration: .3s;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include hover-shrink-3d();
   }
 }
 
@@ -547,10 +533,7 @@ div.wrapper header div.mobile nav.nav ul.menu {
         overflow: visible;
         font-size: 1.2em;
         background-color: rgba(85, 85, 85, 1);
-        transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-        transition-duration: .3s;
-        transition-property: all;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        @include hover-shrink-3d();
       }
     }
   }
@@ -578,10 +561,7 @@ div.wrapper header div.mobile nav.nav ul.menu {
     &:hover {
       color: #e1e7ef;
       text-decoration: underline;
-      transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-      transition-duration: .3s;
-      transition-property: all;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      @include hover-shrink-3d();
     }
   }
 
