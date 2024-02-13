@@ -1,10 +1,26 @@
 ---
 ---
 
+
 $menu-icon-kern: .66em;
 $menu-icon-margin: .2em;
 $disclosure-font: "Noto Serif HK";
 $preferred-font: "Atkinson Hyperlegible";
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("../brand/fonts/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Noto Serif HK";
+  src: url("../brand/fonts/notoserifhk/NotoSerifHK[wght].ttf");
+}
+
+@font-face {
+  font-family: "Martian Mono";
+  src: url("../brand/fonts/martianmono/MartianMono[wdth,wght].ttf")
+}
 
 @mixin hover-shrink-3d() {
   transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
