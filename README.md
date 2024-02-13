@@ -38,3 +38,4 @@ A set of free (and open source) tools to make Python package publishing easier. 
 <small>
   The sigstore codesigned seal and other trademarks are used under the terms of a <a href="https://www.linuxfoundation.org/legal/trademark-usage">license</a>, the OZI Project is not affilated with or endorsed by The Linux Foundation.
 </small>
+[<img src="no-ai-icon-01.svg" width=72px class="center">](https://no-ai-icon.com/statement/?url=oziproject.dev)
