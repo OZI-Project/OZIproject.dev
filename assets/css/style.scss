@@ -170,10 +170,6 @@ pre {
   background-color: #0f1629 !important;
 }
 
-h1 {
-  color: #e1e7ef !important;
-}
-
 header > h1, h1 > a[href="https://www.oziproject.dev/"] {
   display: none;
 }
@@ -194,16 +190,6 @@ div.wrapper header a img.icon-info {
   div.wrapper header a img.icon-info {
     position: unset;
   }
-}
-
-h2 {
-  color: #e1e7ef !important;
-  margin-top: 20px !important;
-  font-size: 25px !important;
-}
-
-h3, h4 {
-  color: #e1e7ef !important;
 }
 
 ul.downloads {
@@ -769,11 +755,6 @@ body {
   caret-color: transparent;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #222;
-  margin: 0 0 20px;
-}
-
 p, ul, ol, table, pre, dl {
   margin: 0 0 20px;
 }
@@ -784,14 +765,17 @@ h1, h2, h3 {
 
 h1 {
   font-size: 28px;
+  color: #e1e7ef;
 }
 
 h2 {
-  color: #393939;
+  color: #e1e7ef;
+  margin-top: 20px;
+  font-size: 25px;
 }
 
 h3, h4, h5, h6 {
-  color: #494949;
+  color: #e1e7ef;
 }
 
 a {
