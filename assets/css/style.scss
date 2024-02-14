@@ -539,6 +539,9 @@ div.wrapper header div.mobile nav.nav ul.menu {
   }
 
   p {
+  
+    width: clamp(45ch, 50%, 75ch);
+
     a > img[alt="Button"] {
       border-radius: 1px;
       box-shadow: 0px 0px 0px 0.4em rgba(85, 85, 85, 1);
