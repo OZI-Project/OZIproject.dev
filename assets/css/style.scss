@@ -169,6 +169,9 @@ div.wrapper header a img.icon-info {
     right: 45.6vw;
     top: 26px;
   }
+  div.wrapper section h1,h2 {
+      text-align: center;
+  }
 }
 
 @media print, screen and (max-width: 720px), screen and (orientation: portrait) {
@@ -443,7 +446,6 @@ div.wrapper header div.mobile nav.nav ul.menu {
   .wrapper section h1 {
     padding-top: 0;
     margin-top: 0;
-    text-align: center;
   }
   
   .wrapper section {
