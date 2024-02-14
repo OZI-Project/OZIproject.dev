@@ -407,6 +407,7 @@ div.wrapper header div.mobile nav.nav ul.menu {
 .mobile {
   display: flow-root list-item;
   list-style: none;
+  max-height: 11rem;
 
   h1 {
     float: left;
