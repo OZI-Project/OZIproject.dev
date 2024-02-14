@@ -84,7 +84,6 @@ a {
 
   &[href^='https://www.patreon.com/OZIProject'] {
    @include menu-icon(url('../images/online-secure-payment-icon.svg'), 1.4em);
-    }
   }
 
   &[href^='https://docs.oziproject.dev/'] {
