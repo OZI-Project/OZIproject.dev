@@ -221,6 +221,14 @@ div.wrapper header a img.icon-info {
   padding-top: 20px;
 }
 
+@media print, screen and (max-width: 960px) {
+  div.wrapper header a img.icon-info {
+    position: absolute;
+    right: 350px;
+    top: 52px;
+  }
+}
+
 h2 {
   color: #e1e7ef !important;
   margin-top: 20px !important;
