@@ -29,6 +29,33 @@ $preferred-font: "Atkinson Hyperlegible";
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@mixin menu-icon($image, $size, $scale:1.0) {
+  &:before {
+    display: block;
+    content: ' ';
+    background-image: $image);
+    background-repeat: no-repeat;
+    background-size: $size * $scale;
+    height: $size;
+    width: $size;
+    padding-right: $menu-icon-kern;
+    margin-left: $menu-icon-margin;
+  }
+  
+  &:hover:before {
+    display: block;
+    content: ' ';
+    background-image: $image;
+    background-repeat: no-repeat;
+    background-size: $size * 0.982;
+    height: $size * 0.982;
+    width: $size * 0.982;
+    padding-right: $menu-icon-kern;
+    margin-left: $menu-icon-margin;
+    @include hover-shrink-3d();
+  }
+}
+
 p > a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
   content: "";
 }
@@ -48,30 +75,7 @@ small a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
 
 a {
   &[href*='https://pypi.org/project/OZI'] {
-    &:before {
-      display: block;
-      content: ' ';
-      background-image: url('../images/boxes-icon.svg');
-      background-repeat: no-repeat;
-      background-size: 1.39em 1.39em;
-      height: 1.4em;
-      width: 1.4em;
-      padding-right: $menu-icon-kern;
-      margin-left: $menu-icon-margin;
-    }
-
-    &:hover:before {
-      display: block;
-      content: ' ';
-      background-image: url('../images/boxes-icon.svg');
-      background-repeat: no-repeat;
-      background-size: 1.375em;
-      height: 1.375em;
-      width: 1.375em;
-      padding-right: $menu-icon-kern;
-      margin-left: $menu-icon-margin;
-      @include hover-shrink-3d();
-    }
+    @include menu-icon(url('../images/boxes-icon.svg'), 1.4em, 0.993)
   }
 
   &[href*='https://github.com/orgs/OZI-Project/discussions'] {
