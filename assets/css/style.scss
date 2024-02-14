@@ -217,6 +217,10 @@ header > h1, h1 > a[href="https://www.oziproject.dev/"] {
   display: none;
 }
 
+div.wrapper header a img {
+  padding-top: 20px;
+}
+
 h2 {
   color: #e1e7ef !important;
   margin-top: 20px !important;
