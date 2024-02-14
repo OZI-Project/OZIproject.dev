@@ -446,7 +446,7 @@ div.wrapper header div.mobile nav.nav ul.menu {
   }
 }
 
-@media (min-width: 1050px) {
+@media print, screen and (min-width: 1050px) {
   body {
     div.wrapper section ul {
       -moz-column-count: 4;
