@@ -229,6 +229,10 @@ div.wrapper header a img.icon-info {
   }
 }
 
+@media print, screen and (max-width: 720px) {
+  position: unset;
+}
+
 h2 {
   color: #e1e7ef !important;
   margin-top: 20px !important;
