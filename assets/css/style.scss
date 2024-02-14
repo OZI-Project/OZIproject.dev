@@ -230,7 +230,9 @@ div.wrapper header a img.icon-info {
 }
 
 @media print, screen and (max-width: 720px) {
-  position: unset;
+  div.wrapper header a img.icon-info {
+    position: unset;
+  }
 }
 
 h2 {
