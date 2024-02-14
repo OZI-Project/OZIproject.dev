@@ -226,14 +226,12 @@ div.wrapper header a img.icon-info {
     position: absolute;
     right: 45.6vw;
     top: 26px;
-    @include hover-shrink-3d();
   }
 }
 
 @media print, screen and (max-width: 720px) {
   div.wrapper header a img.icon-info {
     position: unset;
-    @include hover-shrink-3d();
   }
 }
 
