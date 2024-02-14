@@ -33,7 +33,7 @@ $preferred-font: "Atkinson Hyperlegible";
   &:before {
     display: block;
     content: ' ';
-    background-image: $image);
+    background-image: $image;
     background-repeat: no-repeat;
     background-size: $size * $scale;
     height: $size;
