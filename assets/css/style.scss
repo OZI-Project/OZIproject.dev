@@ -151,21 +151,6 @@ small {
   display: inline-block;
 }
 
-code {
-  font-family: "Martian Mono", monospace !important;
-  color: #d0ffff !important;
-  background-color: #0f1629;
-  border-radius: .25rem;
-}
-
-pre {
-  color: #d0ffff !important;
-  background-color: #0f1629;
-  border-radius: .25rem;
-  background: #0f1629 !important;
-  border-radius: .25rem !important;
-}
-
 .highlight {
   background-color: #0f1629 !important;
 }
@@ -749,6 +734,10 @@ div.wrapper header div.mobile nav.nav ul.menu {
   background-color: #f8f8f8;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 10px;
   font: 14px/1.15 $preferred-font, sans-serif;
@@ -817,17 +806,20 @@ blockquote {
 
 code {
   font-family: "Martian Mono", monospace;
-  color: #333;
+  color: #d0ffff;
+  background-color: #0f1629;
+  border-radius: .25rem;
 }
 
 pre {
   font-family: "Martian Mono", monospace;
-  color: #333;
   padding: 8px 15px;
-  background: #f8f8f8;
-  border-radius: 5px;
   border: 1px solid #e5e5e5;
   overflow-x: auto;
+  color: #d0ffff;
+  background-color: #0f1629;
+  border-radius: .25rem;
+  background: #0f1629;
 }
 
 table {
