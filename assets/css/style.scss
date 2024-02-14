@@ -9,17 +9,20 @@ $preferred-font: "Atkinson Hyperlegible";
 
 @font-face {
   font-family: "Atkinson Hyperlegible";
-  src: url("../brand/fonts/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf");
+  src: local("Atkinson Hyperlegible"),
+    url("../brand/fonts/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf");
 }
 
 @font-face {
   font-family: "Noto Serif HK";
-  src: url("../brand/fonts/notoserifhk/NotoSerifHK[wght].ttf");
+  src: local("Noto Serif HK"),
+    url("../brand/fonts/notoserifhk/NotoSerifHK[wght].ttf");
 }
 
 @font-face {
   font-family: "Martian Mono";
-  src: url("../brand/fonts/martianmono/MartianMono[wdth,wght].ttf")
+  src: local("Martian Mono"),
+    url("../brand/fonts/martianmono/MartianMono[wdth,wght].ttf");
 }
 
 @mixin hover-shrink-3d() {
