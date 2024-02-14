@@ -178,7 +178,7 @@ div.wrapper header a img.icon-info {
   padding-top: 20px;
 }
 
-@media print, screen and (max-width: 1050px) or (orientation: landscape) {
+@media print, screen and ((max-width: 1050px) or (orientation: landscape)) {
   div.wrapper header a img.icon-info {
     position: absolute;
     right: 45.6vw;
@@ -186,7 +186,7 @@ div.wrapper header a img.icon-info {
   }
 }
 
-@media print, screen and (max-width: 720px) and (orientation: portrait) {
+@media print, screen and ((max-width: 720px) and (orientation: portrait)) {
   div.wrapper header a img.icon-info {
     position: unset;
   }
@@ -1014,7 +1014,7 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 480px) or (orientation: portrait) {
+@media print, screen and ((max-width: 480px) or (orientation: portrait)) {
   body {
     padding: 15px;
   }
