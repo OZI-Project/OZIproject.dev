@@ -441,7 +441,11 @@ div.wrapper header div.mobile nav.nav ul.menu {
       width: 60rem;
     }
   }
-
+  
+  .mobile {
+    max-height: unset;
+  }
+  
   footer {
     bottom: 23px !important;
     p {
