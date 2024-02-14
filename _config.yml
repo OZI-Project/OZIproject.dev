@@ -19,7 +19,7 @@ description: '
       </ul>
     </nav>
   </div>
-  <a href="https://no-ai-icon.com/statement/?url=oziproject.dev"><img src="assets/brand/no-ai-icon-01.svg" width=72px></a>' 
+  <a href="https://no-ai-icon.com/statement/?url=oziproject.dev"><img src="assets/brand/no-ai-icon-01.svg" class="icon-info" width=72px></a>' 
 logo: assets/brand/images/ozi_social_logo.png
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
