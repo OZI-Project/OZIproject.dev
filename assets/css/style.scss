@@ -75,60 +75,15 @@ small a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
 
 a {
   &[href*='https://pypi.org/project/OZI'] {
-    @include menu-icon(url('../images/boxes-icon.svg'), 1.4em, 0.993)
+    @include menu-icon(url('../images/boxes-icon.svg'), 1.4em, 0.993);
   }
 
   &[href*='https://github.com/orgs/OZI-Project/discussions'] {
-    &:before {
-      display: block;
-      content: ' ';
-      background-image: url('../images/chat-message-icon.svg');
-      background-repeat: no-repeat;
-      background-size: 1.4em;
-      height: 1.4em;
-      width: 1.4em;
-      padding-right: $menu-icon-kern;
-      margin-left: $menu-icon-margin;
-    }
-
-    &:hover:before {
-      display: block;
-      content: ' ';
-      background-image: url('../images/chat-message-icon.svg');
-      background-repeat: no-repeat;
-      background-size: 1.375em;
-      height: 1.375em;
-      width: 1.375em;
-      padding-right: $menu-icon-kern;
-      margin-left: $menu-icon-margin;
-      @include hover-shrink-3d();
-    }
+    @include menu-icon(url('../images/chat-message-icon.svg'), 1.4em);
   }
 
   &[href^='https://www.patreon.com/OZIProject'] {
-    &:before {
-      display: block;
-      content: ' ';
-      background-image: url('../images/online-secure-payment-icon.svg');
-      background-repeat: no-repeat;
-      background-size: 1.4em;
-      height: 1.4em;
-      width: 1.4em;
-      padding-right: $menu-icon-kern;
-      margin-left: $menu-icon-margin;
-    }
-
-    &:hover:before {
-      display: block;
-      content: ' ';
-      background-image: url('../images/online-secure-payment-icon.svg');
-      background-repeat: no-repeat;
-      background-size: 1.375em;
-      height: 1.375em;
-      width: 1.375em;
-      padding-right: $menu-icon-kern;
-      margin-left: $menu-icon-margin;
-      @include hover-shrink-3d();
+   @include menu-icon(url('../images/online-secure-payment-icon.svg'), 1.4em);
     }
   }
 
