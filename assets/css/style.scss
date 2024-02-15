@@ -59,6 +59,10 @@ $preferred-font: "Atkinson Hyperlegible";
   }
 }
 
+footer p small {
+  display: none;
+}
+
 p > a:not([href*='oziproject.dev']):not([href^='#']):not([href^='/']):after {
   content: "";
 }
