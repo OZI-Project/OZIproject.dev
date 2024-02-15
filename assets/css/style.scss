@@ -966,6 +966,10 @@ footer {
     margin: 0;
   }
 
+  p {
+    width: clamp(45ch, 75ch, 93ch)
+  }
+
   header, section, footer {
     float: none;
     position: static;
@@ -1001,6 +1005,10 @@ footer {
     word-wrap: break-word;
   }
 
+  p {
+    width: clamp(45ch, 50%, 75ch);
+  }
+
   header {
     padding: 0;
 
@@ -1017,6 +1025,10 @@ footer {
 @media print, screen and (max-width: 480px), (orientation: portrait) {
   body {
     padding: 15px;
+  }
+
+  p {
+    width: auto;
   }
 
   .downloads {
