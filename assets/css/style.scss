@@ -59,6 +59,10 @@ $preferred-font: "Atkinson Hyperlegible";
   }
 }
 
+.wrapper > header:nth-child(1) > p:nth-child(3) {
+  display: none;
+}
+
 footer p small {
   display: none;
 }
