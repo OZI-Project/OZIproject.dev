@@ -28,7 +28,7 @@ OZI is expected to be in Alpha release status by <s>January 2024</s> Q1 2024.
       data-reactions-enabled="1"
       data-emit-metadata="0"
       data-input-position="bottom"
-      data-theme="https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/_site/assets/giscus.css"
+      data-theme="dark_high_contrast"
       data-lang="en"
       crossorigin="anonymous"
       async>
