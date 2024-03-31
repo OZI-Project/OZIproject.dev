@@ -19,19 +19,20 @@ OZI is expected to be in Alpha release status by <s>January 2024</s> Q1 2024.
 
 
 <script src="https://giscus.app/client.js"
-      data-repo="OZI-Project/.github"
-      data-repo-id="R_kgDOLAb2hQ"
-      data-category="Announcements"
-      data-category-id="DIC_kwDOLAb2hc4Cca6C"
-      data-mapping="og:title"
-      data-strict="0"
-      data-reactions-enabled="0"
-      data-emit-metadata="0"
-      data-input-position="bottom"
-      data-theme="dark_high_contrast"
-      data-lang="en"
-      crossorigin="anonymous"
-      async>
+        data-repo="OZI-Project/.github"
+        data-repo-id="R_kgDOLAb2hQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLAb2hc4Cca6C"
+        data-mapping="specific"
+        data-term="Latest News"
+        data-strict="0"
+        data-reactions-enabled="0"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark_high_contrast"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
 </script>
 <img src="https://raw.githubusercontent.com/sigstore/community/main/artwork/badge/sigstore_codesigned_salmon.png" class="center">
 <div class="dagger-note">
