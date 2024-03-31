@@ -19,7 +19,22 @@ description: '
       </ul>
     </nav>
   </div>
-  <a href="https://no-ai-icon.com/statement/?url=oziproject.dev"><img src="assets/brand/no-ai-icon-01.svg" class="icon-info" width=72px></a>' 
+  <a href="https://no-ai-icon.com/statement/?url=oziproject.dev"><img src="assets/brand/no-ai-icon-01.svg" class="icon-info" width=72px></a>
+  <script src="https://giscus.app/client.js"
+        data-repo="OZI-Project/.github"
+        data-repo-id="R_kgDOLAb2hQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLAb2hc4Cca6C"
+        data-mapping="og:title"
+        data-strict="0"
+        data-reactions-enabled="0"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark_high_contrast"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+  </script>'
 logo: assets/brand/images/ozi_social_logo.png
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
