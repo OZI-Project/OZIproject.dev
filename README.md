@@ -1,5 +1,21 @@
 # Homepage
 
+<script src="https://giscus.app/client.js"
+        data-repo="OZI-Project/.github"
+        data-repo-id="R_kgDOLAb2hQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLAb2hc4Cca6C"
+        data-mapping="og:title"
+        data-strict="0"
+        data-reactions-enabled="0"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark_high_contrast"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
 ## OZI &mdash; Python Project Packaging <span class="dagger-disclose">for Meson<sup>†</sup></span>
 
 A set of free (and open source) tools to make Python package publishing easier.
