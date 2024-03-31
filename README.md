@@ -17,7 +17,7 @@ OZI is expected to be in Alpha release status by <s>January 2024</s> Q1 2024.
 
 * Lander Besabe
 
-
+<img src="https://raw.githubusercontent.com/sigstore/community/main/artwork/badge/sigstore_codesigned_salmon.png" class="center">
 <script src="https://giscus.app/client.js"
       data-repo="OZI-Project/.github"
       data-repo-id="R_kgDOLAb2hQ"
@@ -33,7 +33,6 @@ OZI is expected to be in Alpha release status by <s>January 2024</s> Q1 2024.
       crossorigin="anonymous"
       async>
 </script>
-<img src="https://raw.githubusercontent.com/sigstore/community/main/artwork/badge/sigstore_codesigned_salmon.png" class="center">
 <div class="dagger-note">
 <div class="dagger">&dagger;</div>
   <small>
