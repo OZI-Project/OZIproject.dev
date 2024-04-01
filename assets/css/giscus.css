@@ -124,6 +124,10 @@ main .pagination-loader-container {
     font-family: "Atkinson Hyperlegible";
 }
 
+em.text-sm {
+    font-family: "Noto Serif HK";
+}
+
 main .gsc-loading-image {
     background-image: url("https://github.githubassets.com/images/mona-loading-dark.gif");
 }
