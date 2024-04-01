@@ -57,4 +57,3 @@ OZI is expected to be in Alpha release status by <s>January 2024</s> Q1 2024.
 <small>
   The sigstore codesigned seal and other trademarks are used under the terms of a <a href="https://www.linuxfoundation.org/legal/trademark-usage">license</a>, the OZI Project is not affilated with or endorsed by The Linux Foundation.
 </small>
-
