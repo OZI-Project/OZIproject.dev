@@ -109,6 +109,7 @@ main .pagination-loader-container {
 }
 
 .gsc-reactions-popover p {
+    font-size: .9em;
     font-family: "Atkinson Hyperlegible";
 }
 
