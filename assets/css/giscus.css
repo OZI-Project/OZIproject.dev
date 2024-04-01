@@ -108,11 +108,6 @@ main .pagination-loader-container {
     font-family: "Martian Mono";
 }
 
-.gsc-reactions-popover p {
-    font-size: .9em;
-    font-family: "Atkinson Hyperlegible";
-}
-
 .gsc-comment-box-buttons {
     font-family: "Atkinson Hyperlegible";
 }
@@ -122,6 +117,10 @@ main .pagination-loader-container {
 }
 
 .gsc-comment-box-preview {
+    font-family: "Atkinson Hyperlegible";
+}
+
+.gsc-comment-box-write {
     font-family: "Atkinson Hyperlegible";
 }
 
