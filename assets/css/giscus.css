@@ -125,10 +125,6 @@ main .pagination-loader-container {
     font-family: "Atkinson Hyperlegible";
 }
 
-.gsc-comment-box-write textarea.gsc-comment-box-textarea:not(.gsc-is-fixed-width) {
-    font-family: "Atkinson Hyperlegible";
-}
-
 .gsc-comment-box-tabs {
     font-family: "Atkinson Hyperlegible";
 }
