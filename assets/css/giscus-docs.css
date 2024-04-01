@@ -97,10 +97,27 @@ main .pagination-loader-container {
 .gsc-reactions-count {
     font-weight: 600;
     text-align: left;
+    font-family: "Atkinson Hyperlegible";
+}
+
+.gsc-comments-count {
+    font-family: "Atkinson Hyperlegible";
 }
 
 .gsc-main {
     padding: 2rem;
+}
+
+.gsc-comment-box-buttons {
+    font-family: "Atkinson Hyperlegible";
+}
+
+.gsc-comment-box-write {
+    font-family: "Atkinson Hyperlegible";
+}
+
+.gsc-comment-box-tabs {
+    font-family: "Atkinson Hyperlegible";
 }
 
 main .gsc-loading-image {
