@@ -12,7 +12,7 @@ description: '
     <script src="/assets/js/accessibility.js"></script>
     <nav class="nav">
       <ul class="menu">
-        <li tabindex=0 class="menu-item"><a href="https://docs.oziproject.dev/" alt="Documentation"></a></li>
+        <li tabindex=0 class="menu-item"><a href="https://docs.oziproject.dev/en/stable/" alt="Documentation"></a></li>
         <li tabindex=0 class="menu-item"><a href="https://pypi.org/project/OZI">View on PyPI</a></li>
         <li tabindex=0 class="menu-item"><a href="https://github.com/orgs/OZI-Project/discussions">Join the Discussion</a></li>
         <li tabindex=0 class="menu-item"><a href="https://www.patreon.com/OZIProject">Fund Development</a></li>
