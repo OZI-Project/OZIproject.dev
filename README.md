@@ -18,7 +18,7 @@ OZI is expected to be in Alpha release status by mid-April 2024.
 * Lander Besabe
 
 ## Projects Packaged with ![OZI Badge](https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi-badge.svg)
-<img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/blastpipe-logo.svg" width=100px>
+<img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/blastpipe-logo.png" width=92px>
 
 <script src="https://giscus.app/client.js"
       data-repo="OZI-Project/.github"
