@@ -19,7 +19,7 @@ OZI is expected to be in a Beta release status by Aug 2024.
 
 ## Projects Packaged with ![OZI Badge](https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi-badge.svg)
 
-<a href="https://pypi.org/project/blastpipe"><img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/blastpipe-logo.png" width=92px></a>
+<a href="https://pypi.org/project/blastpipe"><img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/blastpipe-logo.png" width=62px></a>
 
 <script src="https://giscus.app/client.js"
       data-repo="OZI-Project/.github"
