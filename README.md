@@ -1,8 +1,6 @@
 # Homepage
 
-## OZI &mdash; Python Project Packaging <span class="dagger-disclose">for Meson<sup>†</sup></span>
-
-A set of free (and open source) tools to make Python package publishing easier.
+![Logo](assets/brand/images/ozi_social_preview.png)
 
 This project is under active development.
 
