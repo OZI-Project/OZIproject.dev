@@ -295,12 +295,14 @@ a {
   }
 }
 
-p.view, header img[alt^="Logo"] {
-  display: none;
-}
-
-section img[alt^="Logo"] {
-  filter: invert(1);
+@media screen {
+  p.view, header img[alt^="Logo"] {
+    display: none;
+  }
+  
+  section img[alt^="Logo"] {
+    filter: invert(1);
+  }
 }
 
 .nav {
