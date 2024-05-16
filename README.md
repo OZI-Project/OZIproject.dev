@@ -1,10 +1,8 @@
 # Homepage
 
-![Logo](assets/brand/images/ozi_social_preview.png)
+<img src="assets/brand/images/ozi_social_preview.png" width="570px">
 
-This project is under active development.
-
-OZI is expected to be in a Beta release status by Aug 2024.
+OZI is under active development and expected to be in Beta release status by Aug 2024.
 
 <br>
 
