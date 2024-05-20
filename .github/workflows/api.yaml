@@ -36,3 +36,9 @@ jobs:
                 git config --global user.email 'OZI-Project@users.noreply.github.com'
                 git commit -am "API endpoint updated"
                 git push
+
+            - name: Info
+              run: |
+                echo "API_JSON=$(curl -u USER:TOKEN https://oziproject.dev/api.json)" >> $GITHUB_ENV
+                python-version=$( fromJson(env.API_JSON) | jq '.prerelease' )
+                echo "python-version=$python-version" >> "$GITHUB_OUTPUT"
