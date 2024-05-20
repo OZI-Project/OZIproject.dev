@@ -39,5 +39,5 @@ jobs:
 
             - name: Info
               run: |
-                echo "API_JSON=$(jq -c '.prerelease' < curl -u USER:TOKEN https://oziproject.dev/api.json)" >> $GITHUB_ENV
+                echo "API_JSON=$(curl -u USER:TOKEN https://oziproject.dev/api.json)" >> $GITHUB_ENV
                 echo '${{ fromJson(env.API_JSON) }}'
