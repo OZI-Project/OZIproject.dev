@@ -39,4 +39,4 @@ jobs:
 
             - name: Info
               run: |
-                echo "API_JSON=fromJson($( curl -L https://oziproject.dev/api.json | jq -c '.prerelease' ))" >> $GITHUB_ENV
+                echo "fromJson($( curl -L https://oziproject.dev/api.json | jq -c '.prerelease' ))"
