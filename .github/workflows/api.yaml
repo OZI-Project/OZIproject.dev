@@ -39,5 +39,4 @@ jobs:
 
             - name: Info
               run: |
-                PYTHON_VERSION=$( fromJson(curl -u USER:TOKEN https://oziproject.dev/api.json) | jq '.prerelease' )
-                echo "python-version=$PYTHON_VERSION" >> "$GITHUB_OUTPUT"
+                curl -u USER:TOKEN https://oziproject.dev/api.json) | jq '.prerelease'
