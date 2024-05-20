@@ -39,4 +39,4 @@ jobs:
 
             - name: Info
               run: |
-                echo "fromJson($( curl -L https://oziproject.dev/api.json | jq -c '.prerelease' ))"
+                echo "python-version=fromJson( $( curl -L https://oziproject.dev/api.json | jq -c '.spec.python.support.prerelease' ) )" 
