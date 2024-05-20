@@ -32,7 +32,7 @@ jobs:
             - name: Commit api.json changes
               continue-on-error: true
               run: |
-                git config --global user.name 'Your Name'
-                git config --global user.email 'your-username@users.noreply.github.com'
-                git commit -am "Automated report"
+                git config --global user.name 'OZI-Project'
+                git config --global user.email 'OZI-Project@users.noreply.github.com'
+                git commit -am "API endpoint updated"
                 git push
