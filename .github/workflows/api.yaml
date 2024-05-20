@@ -39,5 +39,4 @@ jobs:
 
             - name: Info
               run: |
-                echo "API_JSON=$(curl -L https://oziproject.dev/api.json)" >> $GITHUB_ENV
-                echo '${{ fromJson(env.API_JSON) }}'
+                echo "API_JSON=fromJson($(curl -L https://oziproject.dev/api.json))" >> $GITHUB_ENV
