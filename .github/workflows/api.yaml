@@ -39,4 +39,4 @@ jobs:
 
             - name: Info
               run: |
-                curl -u USER:TOKEN https://oziproject.dev/api.json) | jq '.prerelease'
+                curl -u USER:TOKEN https://oziproject.dev/api.json | jq '.prerelease'
