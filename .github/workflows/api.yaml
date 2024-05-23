@@ -27,7 +27,7 @@ jobs:
               run: |
                 python -m pip install --upgrade pip
                 python -m pip install OZI
-                ozi -i > api.json
+                ozi -i | jq --compact-output > api.json
 
             - name: Commit api.json changes
               continue-on-error: true
@@ -36,7 +36,3 @@ jobs:
                 git config --global user.email 'OZI-Project@users.noreply.github.com'
                 git commit -am "API endpoint updated"
                 git push
-
-            - name: Info
-              run: |
-                echo "python-version=fromJson( $( curl -L https://oziproject.dev/api.json | jq -c '.spec.python.support.prerelease' ) )" 
