@@ -98,10 +98,12 @@ main .pagination-loader-container {
     font-weight: 600;
     text-align: left;
     font-family: "Atkinson Hyperlegible";
+    color: var(--color-fg-subtle);
 }
 
 .gsc-comments-count {
     font-family: "Atkinson Hyperlegible";
+    color: var(--color-fg-subtle);
 }
 
 .gsc-main {
