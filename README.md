@@ -16,6 +16,8 @@ OZI is under active development and expected to be in Beta release status by Aug
 
 <a href="https://pypi.org/project/blastpipe"><img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/blastpipe-logo.png" width=62px></a>
 
+* <a href="https://pypi.org/project/TAP-Producer">TAP-Producer</a>
+
 <script src="https://giscus.app/client.js"
       data-repo="OZI-Project/.github"
       data-repo-id="R_kgDOLAb2hQ"
