@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi_social_preview.png" alt="Logo" width="680px">
 
-OZI is under active development and expected to be in Beta release status by Aug 2024.
+OZI is a Python packaging tool under active development that runs as a meson subproject inside your source tree.
 
 <br>
 
