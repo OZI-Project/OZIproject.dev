@@ -20,15 +20,15 @@ OZI is a Python packaging tool under active development that runs as a meson sub
 | [![Rye](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/mitsuhiko/rye/main/artwork/badge.json)](https://rye-up.com)         | Alpha<sup>1</sup>             | ❌            | ❌                 | ✅                                    | ❌            | ❌                                          | ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/astral-sh/rye?label=%20)         |
 | [![PyScaffold](https://img.shields.io/badge/-PyScaffold?style=social&logo=pyscaffold&logoColor=005CA0&label=PyScaffold)](https://pyscaffold.org/) | Production/Stable  | ✅            | ❌                 | ❌                                    | ✅            | ❌                                          | ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/pyscaffold/pyscaffold?label=%20) |
 
-This was current as of August 2024 feel free to email help@oziproject.dev if you see something wrong.
+<small>This was current as of August 2024 feel free to email help@oziproject.dev if you see something wrong.</small>
 <br>
-* <sup>1</sup> Assumption based on years in use and semantic version.
-* <sup>2</sup> Based on hatchling metadata
-* <sup>3</sup> Based on pdm-backend metadata
-* <sup>4</sup> OZI still uses ``pipx`` to provision *application* virtual environments, packages without entrypoints and plugins are installed with ``uv`` falling back to ``pip`` and ``pip-compile``.
-* <sup>5</sup> OZI requires ozi-templates which includes ~800kB of templates.
-* <sup>6</sup> See [Rye toolchains](https://rye-up.com/guide/toolchains/)
-* <sup>7</sup> Rye uses Python builds from [indygreg](https://github.com/indygreg/python-build-standalone)
+* <sup>1</sup> <small>Assumption based on years in use and semantic version.</small>
+* <sup>2</sup> <small>Based on hatchling metadata</small>
+* <sup>3</sup> <small>Based on pdm-backend metadata</small>
+* <sup>4</sup> <small>OZI still uses ``pipx`` to provision *application* virtual environments, packages without entrypoints and plugins are installed with ``uv`` falling back to ``pip`` and ``pip-compile``.</small>
+* <sup>5</sup> <small>OZI requires ozi-templates which includes ~800kB of templates.</small>
+* <sup>6</sup> <small>See [Rye toolchains](https://rye-up.com/guide/toolchains/)</small>
+* <sup>7</sup> <small>Rye uses Python builds from [indygreg](https://github.com/indygreg/python-build-standalone)</small>
 
 ## <img src="https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/PATREON_PLUS_OZI_SYMBOL_1_BLACK.svg" alt="Logo" height=19px> Funding Members
 
