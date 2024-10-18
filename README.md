@@ -27,8 +27,8 @@ This was current as of August 2024 feel free to email help@oziproject.dev if you
 * <sup>3</sup> Based on pdm-backend metadata
 * <sup>4</sup> OZI still uses ``pipx`` to provision *application* virtual environments, packages without entrypoints and plugins are installed with ``uv`` falling back to ``pip`` and ``pip-compile``.
 * <sup>5</sup> OZI requires ozi-templates which includes ~800kB of templates.
-* <sup>6</sup> See info at https://rye-up.com/guide/toolchains/
-* <sup>7</sup> Rye uses Python builds from https://github.com/indygreg/python-build-standalone
+* <sup>6</sup> See [Rye toolchains](https://rye-up.com/guide/toolchains/)
+* <sup>7</sup> Rye uses Python builds from [indygreg](https://github.com/indygreg/python-build-standalone)
 
 ## <img src="https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/PATREON_PLUS_OZI_SYMBOL_1_BLACK.svg" alt="Logo" height=19px> Funding Members
 
