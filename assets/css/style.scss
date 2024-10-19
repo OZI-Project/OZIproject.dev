@@ -62,14 +62,13 @@ $preferred-font: "Atkinson Hyperlegible";
 .wrapper > header:nth-child(1) > p:nth-child(3) {
   display: none;
 }
-th {
-  color: revert;
+
+th, td {
+  color: revert !important;
+  text-align: center !important;
+  border-bottom: 0px !important;
 }
 
-td {
-  text-align: center;
-  border-bottom: 0px;
-}
 footer p small {
   display: none;
 }
