@@ -37,6 +37,7 @@ OZI is a Python packaging tool under active development that runs as a meson sub
 <a href="https://pypi.org/project/blastpipe"><img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/blastpipe-logo.png" width=62px></a>
 
 * <a href="https://pypi.org/project/TAP-Producer">TAP-Producer</a>
+* <a href="https://pypi.org/project/TAP-Consumer">TAP-Consumer</a>
 
 <script src="https://giscus.app/client.js"
       data-repo="OZI-Project/.github"
