@@ -67,6 +67,10 @@ ul {
   list-style: none;
 }
 
+.compare-table > ul {
+  list-style: decimal;
+}
+
 img {
   max-width: unset !important;
 }
