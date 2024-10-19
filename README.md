@@ -29,7 +29,7 @@ OZI is a Python packaging tool under active development that runs as a meson sub
     <td>✅&nbsp;(1)</td>
     <td>✅</td>
     <td>✅</td>
-    <td><img src="https://img.shields.io/github/languages/code-size/OZI-Project/OZI?label=%20" alt="GitHub code size in bytes">&nbsp;2</td>
+    <td><img src="https://img.shields.io/github/languages/code-size/OZI-Project/OZI?label=%20" alt="GitHub code size in bytes">&nbsp;(2)</td>
   </tr>
   <tr>
     <td><a href="https://pypi.org/project/flit/"><a href="https://pypi.org/project/flit/"><img src="https://img.shields.io/badge/-Flit-grey?logo=pypi" alt="Static Badge"></a></a></td>
