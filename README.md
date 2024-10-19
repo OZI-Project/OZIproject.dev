@@ -12,6 +12,7 @@ OZI is a Python packaging tool under active development that runs as a meson sub
 
 <div class="compare-table">
 
+
 | Project                                                                                                                                           | Status             | PyPI Package | Meson Integration | Fast Dependency Resolution w/ ``uv`` | CI Templates | Cython & C Extensions without ``setup.py`` | Repo Size                                                                                                       |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|--------------|-------------------|--------------------------------------|--------------|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | [![OZI Badge](https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi-badge.svg)](https://oziproject.dev/)                            | Beta               | ✅            | ✅                 | ✅<sup>4</sup>                                   | ✅            | ✅                                          | ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/OZI-Project/OZI?label=%20)<sup>5</sup>      |
@@ -29,6 +30,7 @@ OZI is a Python packaging tool under active development that runs as a meson sub
 * <small>Based on pdm-backend metadata</small>
 * <small>Uses ``pipx`` to provision *application* environments, packages without entrypoints are installed with ``uv`` falling back to ``pip`` and ``pip-compile``.</small>
 * <small>ozi-templates includes ~800kB of templates.</small>
+
 
 </div>
 
