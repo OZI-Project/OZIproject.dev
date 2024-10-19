@@ -99,7 +99,7 @@ OZI is a Python packaging tool under active development that runs as a meson sub
 
 * Lander Besabe
 
-## Projects Packaged with ![OZI Badge](https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi-badge.svg)
+## Projects Packaged with OZI
 
 <a href="https://pypi.org/project/blastpipe"><img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/blastpipe-logo.png" width=62px></a>
 
