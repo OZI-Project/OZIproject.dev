@@ -83,6 +83,11 @@ th, td {
   color: revert !important;
   text-align: start !important;
   border-bottom: 0px !important;
+  max-width: min-content !important;
+}
+
+.package-info p {
+  text-align: center;
 }
 
 footer p small {
