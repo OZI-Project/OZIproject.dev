@@ -28,14 +28,14 @@ OZI is a Python packaging tool under active development that runs as a meson sub
     <td>Beta</td>
     <td>✅</td>
     <td>✅</td>
-    <td>✅4</td>
+    <td>✅&nbsp;4</td>
     <td>✅</td>
     <td>✅</td>
     <td><img src="https://img.shields.io/github/languages/code-size/OZI-Project/OZI?label=%20" alt="GitHub code size in bytes">5</td>
   </tr>
   <tr>
     <td><a href="https://pypi.org/project/flit/"><a href="https://pypi.org/project/flit/"><img src="https://img.shields.io/badge/-Flit-grey?logo=pypi" alt="Static Badge"></a></a></td>
-    <td>Mature1</td>
+    <td>Mature&nbsp;1</td>
     <td>✅</td>
     <td>❌</td>
     <td>❌</td>
@@ -45,7 +45,7 @@ OZI is a Python packaging tool under active development that runs as a meson sub
   </tr>
   <tr>
     <td><a href="https://pypi.org/project/hatch/"><a href="https://pypi.org/project/hatch/"><img src="https://img.shields.io/badge/-Hatch-grey?logo=pypi" alt="Static Badge"></a></a></td>
-    <td>Production/Stable2</td>
+    <td>Production/Stable&nbsp;2</td>
     <td>✅</td>
     <td>❌</td>
     <td>❌</td>
@@ -55,7 +55,7 @@ OZI is a Python packaging tool under active development that runs as a meson sub
   </tr>
   <tr>
     <td><a href="https://pypi.org/project/poetry/"><a href="https://pypi.org/project/poetry/"><img src="https://img.shields.io/badge/-Poetry-grey?logo=poetry" alt="Static Badge"></a></a></td>
-    <td>Mature1</td>
+    <td>Mature&nbsp;1</td>
     <td>✅</td>
     <td>❌</td>
     <td>❌</td>
@@ -65,7 +65,7 @@ OZI is a Python packaging tool under active development that runs as a meson sub
   </tr>
   <tr>
     <td><a href="https://pypi.org/project/pdm/"><a href="https://pypi.org/project/pdm/"><img src="https://img.shields.io/badge/-PDM-grey?logo=pdm" alt="Static Badge"></a></a></td>
-    <td>Production/Stable3</td>
+    <td>Production/Stable&nbsp;3</td>
     <td>✅</td>
     <td>❌</td>
     <td>❌</td>
@@ -75,7 +75,7 @@ OZI is a Python packaging tool under active development that runs as a meson sub
   </tr>
   <tr>
     <td><a href="https://rye-up.com"><a href="https://rye-up.com"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/mitsuhiko/rye/main/artwork/badge.json" alt="Rye"></a></a></td>
-    <td>Alpha1</td>
+    <td>Alpha&nbsp;1</td>
     <td>❌</td>
     <td>❌</td>
     <td>✅</td>
