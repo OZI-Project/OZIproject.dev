@@ -97,13 +97,13 @@ OZI is a Python packaging tool under active development that runs as a meson sub
 
 <small>This was current as of August 2024 feel free to email help@oziproject.dev if you see something wrong.</small>
 <br>
-* <small>Assumption based on years in use and semantic version.</small>
-* <small>Based on hatchling metadata</small>
-* <small>Based on pdm-backend metadata</small>
-* <small>Uses ``pipx`` to provision *application* environments, packages without entrypoints are installed with ``uv`` falling back to ``pip`` and ``pip-compile``.</small>
-* <small>ozi-templates includes ~800kB of templates.</small>
-
-
+<ul>
+<li><small>Assumption based on years in use and semantic version.</small></li>
+<li><small>Based on hatchling metadata</small></li>
+<li><small>Based on pdm-backend metadata</small></li>
+<li><small>Uses <code>pipx</code> to provision <em>application</em> environments, packages without entrypoints are installed with <code>uv</code> falling back to <code>pip</code> and <code>pip-compile</code>.</small></li>
+<li><small>ozi-templates includes ~800kB of templates.</small></li>
+</ul>
 </div>
 
 ## <img src="https://raw.githubusercontent.com/OZI-Project/OZIproject.dev/main/PATREON_PLUS_OZI_SYMBOL_1_BLACK.svg" alt="Logo" height=19px> Funding Members
