@@ -11,17 +11,89 @@ OZI is a Python packaging tool under active development that runs as a meson sub
 ## Comparison of Python Packaging Tools
 
 <div class="compare-table">
-
-
-| Project                                                                                                                                           | Status             | PyPI Package | Meson Integration | Fast Dependency Resolution w/ ``uv`` | CI Templates | Cython & C Extensions without ``setup.py`` | Repo Size                                                                                                       |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|--------------|-------------------|--------------------------------------|--------------|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| [![OZI Badge](https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi-badge.svg)](https://oziproject.dev/)                            | Beta               | ✅            | ✅                 | ✅<sup>4</sup>                                   | ✅            | ✅                                          | ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/OZI-Project/OZI?label=%20)<sup>5</sup>      |
-| [![Static Badge](https://img.shields.io/badge/-Flit-grey?logo=pypi)](https://pypi.org/project/flit/)                                              | Mature<sup>1</sup> | ✅            | ❌                 | ❌                                    | ❌            | ❌                                          | ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/pypa/flit?label=%20)             |
-| [![Static Badge](https://img.shields.io/badge/-Hatch-grey?logo=pypi)](https://pypi.org/project/hatch/)                                            | Production/Stable<sup>2</sup> | ✅            | ❌                 | ❌                                    | ✅            | ❌                                          | ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/pypa/hatch?label=%20)            |
-| [![Static Badge](https://img.shields.io/badge/-Poetry-grey?logo=poetry)](https://pypi.org/project/poetry/)                                        | Mature<sup>1</sup>            | ✅            | ❌                 | ❌                                    | ❌            | ❌                                          | ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/python-poetry/poetry?label=%20)  |
-| [![Static Badge](https://img.shields.io/badge/-PDM-grey?logo=pdm)](https://pypi.org/project/pdm/)                                                 | Production/Stable<sup>3</sup> | ✅            | ❌                 | ❌                                    | ❌            | ❌                                          | ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/pdm-project/pdm?label=%20)       |
-| [![Rye](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/mitsuhiko/rye/main/artwork/badge.json)](https://rye-up.com)         | Alpha<sup>1</sup>             | ❌            | ❌                 | ✅                                    | ❌            | ❌                                          | ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/astral-sh/rye?label=%20)         |
-| [![PyScaffold](https://img.shields.io/badge/-PyScaffold?style=social&logo=pyscaffold&logoColor=005CA0&label=PyScaffold)](https://pyscaffold.org/) | Production/Stable  | ✅            | ❌                 | ❌                                    | ✅            | ❌                                          | ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/pyscaffold/pyscaffold?label=%20) |
+<table><thead>
+  <tr>
+    <th>Project</th>
+    <th>Status</th>
+    <th>PyPI Package</th>
+    <th>Meson Integration</th>
+    <th>Fast Dependency Resolution w/ <code>uv</code></th>
+    <th>CI Templates</th>
+    <th>Cython &amp; C Extensions without <code>setup.py</code></th>
+    <th>Repo Size</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td><a href="https://oziproject.dev/"><a href="https://oziproject.dev/"><img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi-badge.svg" alt="OZI Badge"></a></a></td>
+    <td>Beta</td>
+    <td>✅</td>
+    <td>✅</td>
+    <td>✅4</td>
+    <td>✅</td>
+    <td>✅</td>
+    <td><img src="https://img.shields.io/github/languages/code-size/OZI-Project/OZI?label=%20" alt="GitHub code size in bytes">5</td>
+  </tr>
+  <tr>
+    <td><a href="https://pypi.org/project/flit/"><a href="https://pypi.org/project/flit/"><img src="https://img.shields.io/badge/-Flit-grey?logo=pypi" alt="Static Badge"></a></a></td>
+    <td>Mature1</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td><img src="https://img.shields.io/github/languages/code-size/pypa/flit?label=%20" alt="GitHub code size in bytes"></td>
+  </tr>
+  <tr>
+    <td><a href="https://pypi.org/project/hatch/"><a href="https://pypi.org/project/hatch/"><img src="https://img.shields.io/badge/-Hatch-grey?logo=pypi" alt="Static Badge"></a></a></td>
+    <td>Production/Stable2</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td><img src="https://img.shields.io/github/languages/code-size/pypa/hatch?label=%20" alt="GitHub code size in bytes"></td>
+  </tr>
+  <tr>
+    <td><a href="https://pypi.org/project/poetry/"><a href="https://pypi.org/project/poetry/"><img src="https://img.shields.io/badge/-Poetry-grey?logo=poetry" alt="Static Badge"></a></a></td>
+    <td>Mature1</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td><img src="https://img.shields.io/github/languages/code-size/python-poetry/poetry?label=%20" alt="GitHub code size in bytes"></td>
+  </tr>
+  <tr>
+    <td><a href="https://pypi.org/project/pdm/"><a href="https://pypi.org/project/pdm/"><img src="https://img.shields.io/badge/-PDM-grey?logo=pdm" alt="Static Badge"></a></a></td>
+    <td>Production/Stable3</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td><img src="https://img.shields.io/github/languages/code-size/pdm-project/pdm?label=%20" alt="GitHub code size in bytes"></td>
+  </tr>
+  <tr>
+    <td><a href="https://rye-up.com"><a href="https://rye-up.com"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/mitsuhiko/rye/main/artwork/badge.json" alt="Rye"></a></a></td>
+    <td>Alpha1</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td><img src="https://img.shields.io/github/languages/code-size/astral-sh/rye?label=%20" alt="GitHub code size in bytes"></td>
+  </tr>
+  <tr>
+    <td><a href="https://pyscaffold.org/"><a href="https://pyscaffold.org/"><img src="https://img.shields.io/badge/-PyScaffold?style=social&amp;logo=pyscaffold&amp;logoColor=005CA0&amp;label=PyScaffold" alt="PyScaffold"></a></a></td>
+    <td>Production/Stable</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td>❌</td>
+    <td>✅</td>
+    <td>❌</td>
+    <td><img src="https://img.shields.io/github/languages/code-size/pyscaffold/pyscaffold?label=%20" alt="GitHub code size in bytes"></td>
+  </tr>
+</tbody></table>
 
 <small>This was current as of August 2024 feel free to email help@oziproject.dev if you see something wrong.</small>
 <br>
