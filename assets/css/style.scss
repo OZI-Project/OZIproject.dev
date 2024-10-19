@@ -63,6 +63,10 @@ $preferred-font: "Atkinson Hyperlegible";
   display: none;
 }
 
+img {
+  max-width: unset !important;
+}
+
 th, td {
   color: revert !important;
   text-align: center !important;
