@@ -1,4 +1,4 @@
-# Homepage
+# OZI
 
 <img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi_social_preview.png" alt="Logo" width="680px">
 
