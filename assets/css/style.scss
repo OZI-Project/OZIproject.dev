@@ -60,8 +60,8 @@ $preferred-font: "Atkinson Hyperlegible";
 }
 
 .carousel {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 ul.slides {
@@ -100,12 +100,6 @@ ul.slides input {
     top: 0;
     opacity: 0;
     transition: all .7s ease-in-out;
-}   
-
-.slide-image img {
-    width: auto;
-    min-width: 100%;
-    height: 100%;
 }
 
 .carousel-controls {
