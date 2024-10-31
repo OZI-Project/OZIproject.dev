@@ -7,9 +7,9 @@
       <li class="slide-container">
         <div class="slide-image">
           <img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi_social_preview.png" alt="Logo" width="680px">
-
+<p>
 OZI is a Python packaging tool under active development that runs as a meson subproject inside your source tree.
-
+</p>
 <br>
 
 <div class="package-info">
