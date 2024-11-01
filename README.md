@@ -33,83 +33,66 @@ OZI is a Python packaging tool under active development that runs as a meson sub
           <table><thead>
             <tr>
               <th>Project</th>
-              <th>PyPI Package</th>
               <th>Meson Integration</th>
               <th>Fast Dependency Resolution w/ <code>uv</code></th>
               <th>CI Templates</th>
               <th>Cython &amp; C Extensions without <code>setup.py</code></th>
-              <th>Repo Size</th>
             </tr></thead>
           <tbody>
             <tr>
               <td><a href="https://oziproject.dev/"><a href="https://oziproject.dev/"><img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi-badge.svg" alt="OZI Badge"></a></a></td>
               <td>✅</td>
-              <td>✅</td>
               <td>✅&nbsp;(1)</td>
               <td>✅</td>
               <td>✅</td>
-              <td><img src="https://img.shields.io/github/languages/code-size/OZI-Project/OZI?label=%20" alt="GitHub code size in bytes">&nbsp;(2)</td>
             </tr>
             <tr>
               <td><a href="https://pypi.org/project/flit/"><a href="https://pypi.org/project/flit/"><img src="https://img.shields.io/badge/-Flit-grey?logo=pypi" alt="Static Badge"></a></a></td>
-              <td>✅</td>
               <td>❌</td>
               <td>❌</td>
               <td>❌</td>
               <td>❌</td>
-              <td><img src="https://img.shields.io/github/languages/code-size/pypa/flit?label=%20" alt="GitHub code size in bytes"></td>
             </tr>
             <tr>
               <td><a href="https://pypi.org/project/hatch/"><a href="https://pypi.org/project/hatch/"><img src="https://img.shields.io/badge/-Hatch-grey?logo=pypi" alt="Static Badge"></a></a></td>
-              <td>✅</td>
               <td>❌</td>
               <td>❌</td>
               <td>✅</td>
               <td>❌</td>
-              <td><img src="https://img.shields.io/github/languages/code-size/pypa/hatch?label=%20" alt="GitHub code size in bytes"></td>
             </tr>
             <tr>
               <td><a href="https://pypi.org/project/poetry/"><a href="https://pypi.org/project/poetry/"><img src="https://img.shields.io/badge/-Poetry-grey?logo=poetry" alt="Static Badge"></a></a></td>
-              <td>✅</td>
               <td>❌</td>
               <td>❌</td>
               <td>❌</td>
               <td>❌</td>
-              <td><img src="https://img.shields.io/github/languages/code-size/python-poetry/poetry?label=%20" alt="GitHub code size in bytes"></td>
             </tr>
             <tr>
               <td><a href="https://pypi.org/project/pdm/"><a href="https://pypi.org/project/pdm/"><img src="https://img.shields.io/badge/-PDM-grey?logo=pdm" alt="Static Badge"></a></a></td>
-              <td>✅</td>
               <td>❌</td>
               <td>❌</td>
               <td>❌</td>
               <td>❌</td>
-              <td><img src="https://img.shields.io/github/languages/code-size/pdm-project/pdm?label=%20" alt="GitHub code size in bytes"></td>
             </tr>
             <tr>
               <td><a href="https://rye-up.com"><a href="https://rye-up.com"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/mitsuhiko/rye/main/artwork/badge.json" alt="Rye"></a></a></td>
               <td>❌</td>
-              <td>❌</td>
               <td>✅</td>
               <td>❌</td>
               <td>❌</td>
-              <td><img src="https://img.shields.io/github/languages/code-size/astral-sh/rye?label=%20" alt="GitHub code size in bytes"></td>
             </tr>
             <tr>
               <td><a href="https://pyscaffold.org/"><a href="https://pyscaffold.org/"><img src="https://img.shields.io/badge/-PyScaffold?style=social&amp;logo=pyscaffold&amp;logoColor=005CA0&amp;label=PyScaffold" alt="PyScaffold"></a></a></td>
-              <td>✅</td>
               <td>❌</td>
               <td>❌</td>
               <td>✅</td>
               <td>❌</td>
-              <td><img src="https://img.shields.io/github/languages/code-size/pyscaffold/pyscaffold?label=%20" alt="GitHub code size in bytes"></td>
             </tr>
           </tbody></table>
           <small>This was current as of August 2024 feel free to email help@oziproject.dev if you see something wrong.</small>
           <br>
           <ul>
           <li><small>Uses <code>pipx</code> to provision <em>application</em> environments, packages without entrypoints are installed with <code>uv</code> falling back to <code>pip</code> and <code>pip-compile</code>.</small></li>
-          <li><small><code>ozi-templates</code> includes ~800kB of templates.</small></li>
           </ul>
           </div>
         </div>
