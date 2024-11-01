@@ -98,11 +98,6 @@ td {
   text-wrap: nowrap !important;
 }
 
-.package-info p {
-  text-align: center;
-  text-wrap: nowrap;
-}
-
 footer p small {
   display: none;
 }
@@ -498,7 +493,10 @@ div.wrapper header div.mobile nav.nav ul.menu {
       width: 60rem;
     }
   }
-
+	.package-info p {
+	  text-align: center;
+	  text-wrap: nowrap;
+	}
 	.carousel {
 	    margin-left: 0;
 	    margin-right: 0;
