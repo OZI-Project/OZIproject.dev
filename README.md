@@ -138,22 +138,6 @@ OZI is a Python packaging tool under active development that runs as a meson sub
     </ul>
   </div>
 </div>
-
-<script src="https://giscus.app/client.js"
-      data-repo="OZI-Project/.github"
-      data-repo-id="R_kgDOLAb2hQ"
-      data-category="Announcements"
-      data-category-id="DIC_kwDOLAb2hc4Cca6C"
-      data-mapping="og:title"
-      data-strict="0"
-      data-reactions-enabled="1"
-      data-emit-metadata="0"
-      data-input-position="bottom"
-      data-theme="https://www.oziproject.dev/assets/css/giscus.css"
-      data-lang="en"
-      crossorigin="anonymous"
-      async>
-</script>
 <div class="dagger-note">
 <div class="dagger">&dagger;</div>
   <small>
