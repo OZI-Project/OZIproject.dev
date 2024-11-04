@@ -481,21 +481,7 @@ div.wrapper header div.mobile nav.nav ul.menu {
   }
 }
 
-@media print, screen and (min-width: 1050px) {
-  body {
-    div.wrapper section ul {
-      -moz-column-count: 3;
-      -moz-column-gap: 20px;
-      -webkit-column-count: 3;
-      -webkit-column-gap: 20px;
-      column-count: 3;
-      column-gap: 20px;
-    }
-
-    > .wrapper {
-      width: 60rem;
-    }
-  }
+@media screen and (min-width: 1050px) {
 	.package-info p {
 	  text-align: center;
 	  text-wrap: nowrap;
@@ -623,6 +609,23 @@ div.wrapper header div.mobile nav.nav ul.menu {
 	
 	
 	input:checked + .slide-container .nav label { display: block; }
+}
+
+@media print, screen and (min-width: 1050px) {
+  body {
+    div.wrapper section ul {
+      -moz-column-count: 3;
+      -moz-column-gap: 20px;
+      -webkit-column-count: 3;
+      -webkit-column-gap: 20px;
+      column-count: 3;
+      column-gap: 20px;
+    }
+
+    > .wrapper {
+      width: 60rem;
+    }
+  }
 
   .mobile {
     max-height: unset;
