@@ -234,23 +234,6 @@ div.wrapper header a img.icon-info {
   div.wrapper header a img.icon-info {
     position: unset;
   }
-
-	ul.slides {
-			padding-left: 0px;
-	}
-	
-	ul.slides input {
-	    display:none
-	}
-	
-	.carousel-controls label {
-	    display:none;
-	}
-	
-	.wrapper > header:nth-child(1) > p:nth-child(3) {
-	  display: none;
-	}
-
 }
 
 ul.downloads {
@@ -364,6 +347,21 @@ a {
   .nav {
     display: none;
   }
+	ul.slides {
+			padding-left: 0px;
+	}
+	
+	ul.slides input {
+	    display:none
+	}
+	
+	.carousel-controls label {
+	    display:none;
+	}
+	
+	.wrapper > header:nth-child(1) > p:nth-child(3) {
+	  display: none;
+	}
 }
 
 .nav {
