@@ -231,6 +231,9 @@ div.wrapper header a img.icon-info {
   div.wrapper section img[alt^="Logo"] {
     display: none;
   }
+  div.wrapper section div.mobile img[alt^="Logo"] {
+    display: block;
+  }
 }
 
 @media print, screen and (max-width: 720px), screen and (orientation: portrait) {
