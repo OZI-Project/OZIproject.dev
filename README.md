@@ -19,7 +19,6 @@ OZI is a Python packaging tool under active development that runs as a meson sub
           <table><thead>
             <tr>
               <th>Project</th>
-              <th>Meson Integration</th>
               <th>Fast Dependency Resolution w/ <code>uv</code></th>
               <th>CI Templates</th>
               <th>Cython &amp; C Extensions without <code>setup.py</code></th>
@@ -27,7 +26,6 @@ OZI is a Python packaging tool under active development that runs as a meson sub
           <tbody>
             <tr>
               <td><a href="https://oziproject.dev/"><a href="https://oziproject.dev/"><img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi-badge.svg" alt="OZI Badge"></a></a></td>
-              <td>✅</td>
               <td>✅&nbsp;(1)</td>
               <td>✅</td>
               <td>✅</td>
@@ -37,11 +35,9 @@ OZI is a Python packaging tool under active development that runs as a meson sub
               <td>❌</td>
               <td>❌</td>
               <td>❌</td>
-              <td>❌</td>
             </tr>
             <tr>
               <td><a href="https://pypi.org/project/hatch/"><a href="https://pypi.org/project/hatch/"><img src="https://img.shields.io/badge/-Hatch-grey?logo=pypi" alt="Static Badge"></a></a></td>
-              <td>❌</td>
               <td>❌</td>
               <td>✅</td>
               <td>❌</td>
@@ -51,25 +47,21 @@ OZI is a Python packaging tool under active development that runs as a meson sub
               <td>❌</td>
               <td>❌</td>
               <td>❌</td>
-              <td>❌</td>
             </tr>
             <tr>
               <td><a href="https://pypi.org/project/pdm/"><a href="https://pypi.org/project/pdm/"><img src="https://img.shields.io/badge/-PDM-grey?logo=pdm" alt="Static Badge"></a></a></td>
               <td>❌</td>
               <td>❌</td>
               <td>❌</td>
-              <td>❌</td>
             </tr>
             <tr>
               <td><a href="https://rye-up.com"><a href="https://rye-up.com"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/mitsuhiko/rye/main/artwork/badge.json" alt="Rye"></a></a></td>
-              <td>❌</td>
               <td>✅</td>
               <td>❌</td>
               <td>❌</td>
             </tr>
             <tr>
               <td><a href="https://pyscaffold.org/"><a href="https://pyscaffold.org/"><img src="https://img.shields.io/badge/-PyScaffold?style=social&amp;logo=pyscaffold&amp;logoColor=005CA0&amp;label=PyScaffold" alt="PyScaffold"></a></a></td>
-              <td>❌</td>
               <td>❌</td>
               <td>✅</td>
               <td>❌</td>
