@@ -228,6 +228,9 @@ div.wrapper header a img.icon-info {
   div.wrapper footer {
     text-align: center;
   }
+  div.wrapper section img[alt^="Logo"] {
+    display: none;
+  }
 }
 
 @media print, screen and (max-width: 720px), screen and (orientation: portrait) {
@@ -513,7 +516,9 @@ div.wrapper header div.mobile nav.nav ul.menu {
       column-count: 3;
       column-gap: 20px;
     }
-
+    div.wrapper section div.mobile img {
+      display: none;
+    }  
     > .wrapper {
       width: 60rem;
     }
