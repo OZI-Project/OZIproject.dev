@@ -233,6 +233,7 @@ div.wrapper header a img.icon-info {
   }
   div.wrapper section div.mobile img[alt^="Logo"] {
     display: block;
+    max-height: inherit;
   }
 }
 
