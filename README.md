@@ -4,6 +4,7 @@
   <div class="carousel">
         <div class="slide-image">
           <img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi_social_preview.png" alt="Logo" width="680px">
+          <div class="mobile"><img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi_social_preview_mobile.png" alt="Logo" width="320px"></div>
 <p>
 OZI is a Python packaging tool under active development that runs as a meson subproject inside your source tree.
 </p>
