@@ -230,6 +230,6 @@ main .gsc-loading-image {
     }
   
     main .gsc-loading-image {
-      background-image: url("https://github.githubassets.com/images/mona-loading-dark.gif");
+        background-image: url("https://raw.githubusercontent.com/OZI-Project/brand/refs/heads/main/images/ozi-build-loading.gif");
     }
 }
