@@ -9,18 +9,21 @@ $preferred-font: "Atkinson Hyperlegible";
 
 @font-face {
   font-family: "Atkinson Hyperlegible";
+  font-display: swap;
   src: local("Atkinson Hyperlegible"),
     url("../brand/fonts/atkinsonhyperlegible/AtkinsonHyperlegible-Regular.ttf");
 }
 
 @font-face {
   font-family: "Noto Serif HK";
+  font-display: swap;
   src: local("Noto Serif HK"),
     url("../brand/fonts/notoserifhk/NotoSerifHK[wght].ttf");
 }
 
 @font-face {
   font-family: "Martian Mono";
+  font-display: swap;
   src: local("Martian Mono"),
     url("../brand/fonts/martianmono/MartianMono[wdth,wght].ttf");
 }
