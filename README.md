@@ -26,7 +26,7 @@ OZI is a Python packaging tool under active development that runs as a meson sub
           <tbody>
             <tr>
               <td><a href="https://oziproject.dev/"><a href="https://oziproject.dev/"><img src="https://raw.githubusercontent.com/OZI-Project/brand/main/images/ozi-badge.svg" alt="OZI Badge"></a></a></td>
-              <td>✅&nbsp;(1)</td>
+              <td>✅</td>
               <td>✅</td>
               <td>✅</td>
             </tr>
