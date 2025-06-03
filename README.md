@@ -67,11 +67,8 @@ OZI is a Python packaging tool under active development that runs as a meson sub
               <td>❌</td>
             </tr>
           </tbody></table>
-          <small>This was current as of August 2024 feel free to email help@oziproject.dev if you see something wrong.</small>
+          <small>This was current as of August 2024 feel free to email admin@oziproject.dev if you see something wrong.</small>
           <br>
-          <ul>
-          <li><small>Uses <code>pipx</code> to provision <em>application</em> environments, packages without entrypoints are installed with <code>uv</code> falling back to <code>pip</code> and <code>pip-compile</code>.</small></li>
-          </ul>
           </div>
         </div>
         <div class="slide-image">
