@@ -32,7 +32,7 @@ jobs:
                 echo "value=$(ozi -i | jq --compact-output)" >> $GITHUB_OUTPUT
               id: api
 
-            - run: echo $API >> api.json
+            - run: echo $API > api.json
               if: steps.api.outputs.value != ''
               env:
                   API: ${{ steps.api.outputs.value }}
