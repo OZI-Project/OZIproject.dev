@@ -4,3 +4,12 @@ updates:
     directory: /
     schedule:
       interval: daily
+
+  - package-ecosystem: pip
+    directory: .api/
+    schedule:
+      interval: daily
+    groups:
+      OZI:
+        patterns: 
+          - ozi*
