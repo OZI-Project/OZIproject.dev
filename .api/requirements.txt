@@ -313,17 +313,17 @@ niquests==3.14.1 \
     # via
     #   ozi-core
     #   ozi-templates
-ozi==2.0.20 \
-    --hash=sha256:066ef1be3f2a3002c063d4c196f5eaf98c11fd9178ac87506d9dfd1a32b79e9d \
-    --hash=sha256:21b1d3540e0e8b2f4728f206e81d1439beca3ae11fa2a694070c9857d8134f25 \
-    --hash=sha256:b359a2aca829addef79f4f4dacfc34782eedbd6a9481e3fb76ebbe59c5551f21 \
-    --hash=sha256:d224d231af6372b7d8fd1770b579a7066d39d15daf73adad03fab8e5030d0ab9
+ozi==2.0.21 \
+    --hash=sha256:0a156dcaa35dcbe52eec9ac4db2fed2f428e297bfcc32265477bfe50b82d2448 \
+    --hash=sha256:26ce5c594f1378dbdf4c1e14dcb97780635968c70ecb57e3729c2d40b9bccfb0 \
+    --hash=sha256:8a5567e541f43497231f3cea5c677fab5e64a0823672fe66cabc4732a73146a8 \
+    --hash=sha256:dc12a592bd6f46e15f0ad171ea8dbde4a47d969953732aaf51a95e205bb5c81a
     # via -r requirements.in
-ozi-core==1.21.7 \
-    --hash=sha256:14ccc5fc9a68db585df7d5ceb30e83b00e5d4362cb161307b03abd30e7e6407a \
-    --hash=sha256:2dc39deb595d3162ceb297a2162fdc9d0efe702c27d4dd1e46c4afc76be10921 \
-    --hash=sha256:91e85362a85dfffb6a1d2b15fc728bae24fd419ab096e8d6b3138bfa2e0df7de \
-    --hash=sha256:f04d273d2c18651c5a4796031b7fc7d0fa979cec812124bd66ac40e7b514068a
+ozi-core==1.21.8 \
+    --hash=sha256:494ca3170b458d4439283c833848fe685534dc3d8b12e13f42d381503c772ffa \
+    --hash=sha256:845ebff456c1985983eff805a1b9600c4bfd4029535c0d0819d2bd708fe087ca \
+    --hash=sha256:b2daa639889991424837b5f6bb7677539487355d83e982134b5dd6be8a563777 \
+    --hash=sha256:f6901ea0629c0fea62a73eb1e53534e4fac5f97ce7fa2d3c85a0e2c9fcd19118
     # via ozi
 ozi-spec==1.0.6 \
     --hash=sha256:2e433f8aeb39ef9fa03fa358002465add496996752de352f55f61c4f72576eb3 \
